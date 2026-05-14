@@ -1,1 +1,47 @@
-/* css styles */
+/* Make the whole site feel cleaner */
+body {
+  font-size: 17px;
+  line-height: 1.7;
+}
+
+/* Improve headings */
+h1, h2, h3 {
+  font-weight: 700;
+}
+
+/* Make homepage intro more elegant */
+.quarto-about-jolla {
+  margin-top: 2rem;
+  margin-bottom: 2rem;
+}
+
+/* Make links look cleaner */
+a {
+  text-decoration: none;
+}
+
+/* Add soft rounded style to callout boxes */
+.callout {
+  border-radius: 12px;
+}
+
+/* Make navbar cleaner */
+.navbar-title {
+  font-weight: 700;
+  letter-spacing: 0.3px;
+}
+
+/* Better image styling */
+img {
+  border-radius: 12px;
+}
+
+/* Limit page width for readability */
+.page-columns .content {
+  max-width: 950px;
+}
+
+/* Make CV/research lists easier to read */
+li {
+  margin-bottom: 0.35rem;
+}

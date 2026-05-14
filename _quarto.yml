@@ -4,7 +4,12 @@ project:
 
 website:
   title: "Li Yuan"
+  site-url: "https://liyuan199701.github.io/liyuan.github.io/"
+  page-footer:
+    center: "© 2026 Li Yuan | PhD Candidate in Statistical Science, Southern Methodist University"
   navbar:
+    background: primary
+    search: true
     left:
       - href: index.qmd
         text: Home
@@ -22,10 +27,13 @@ website:
       - icon: linkedin
         href: https://www.linkedin.com/in/leon-king-436309192/
       - icon: envelope
-        href: mailto:593697882qq@gmail.com
+        href: mailto:yuanli@smu.edu
 
 format:
   html:
-    theme: cosmo
+    theme:
+      light: flatly
+      dark: darkly
     css: styles.css
     toc: true
+    page-layout: full
