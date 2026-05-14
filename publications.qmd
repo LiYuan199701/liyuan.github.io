@@ -1,0 +1,17 @@
+---
+title: "Publications"
+---
+
+# Publications and Working Papers
+
+## Working Papers
+
+**Li Yuan.** *Nonlinear Time Series Modeling Using Bernstein Polynomials and Bayesian Inference.* Manuscript in preparation.
+
+## Conference Presentations
+
+Add your poster presentations, conference talks, and research presentations here.
+
+## Research Projects
+
+Add links to selected research projects, code repositories, or reproducible examples here.

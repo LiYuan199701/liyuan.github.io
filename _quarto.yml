@@ -1,0 +1,31 @@
+project:
+  type: website
+  output-dir: docs
+
+website:
+  title: "Li Yuan"
+  navbar:
+    left:
+      - href: index.qmd
+        text: Home
+      - href: research.qmd
+        text: Research
+      - href: publications.qmd
+        text: Publications
+      - href: teaching.qmd
+        text: Teaching
+      - href: cv.qmd
+        text: CV
+    right:
+      - icon: github
+        href: https://github.com/LiYuan199701
+      - icon: linkedin
+        href: https://www.linkedin.com/in/leon-king-436309192/
+      - icon: envelope
+        href: mailto:593697882qq@gmail.com
+
+format:
+  html:
+    theme: cosmo
+    css: styles.css
+    toc: true

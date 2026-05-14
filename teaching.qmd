@@ -1,0 +1,26 @@
+---
+title: "Teaching"
+---
+
+# Teaching
+
+I am interested in teaching statistics, probability, data science, and statistical computing.
+
+## Teaching Interests
+
+- Introductory Statistics
+- Probability
+- Mathematical Statistics
+- Regression Analysis
+- Time Series Analysis
+- Bayesian Statistics
+- Statistical Computing with R and Python
+- Data Science and Machine Learning
+
+## Teaching Experience
+
+Add your teaching assistant, grader, lab instructor, guest lecture, or mentoring experience here.
+
+## Teaching Philosophy
+
+My teaching goal is to help students understand statistical thinking, not only formulas. I aim to connect mathematical concepts with real data examples, computational practice, and clear interpretation.

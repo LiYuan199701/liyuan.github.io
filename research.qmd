@@ -1,0 +1,37 @@
+---
+title: "Research"
+---
+
+# Research
+
+My research focuses on Bayesian nonlinear time-series modeling, statistical learning, and computational methods for forecasting and uncertainty quantification.
+
+## Dissertation Research
+
+My dissertation research develops Bernstein Bayesian nonlinear autoregressive time-series models for flexible nonlinear forecasting and Bayesian inference in natural language processing.
+
+The main goal is to construct interpretable and flexible Bayesian models that can capture nonlinear temporal dependence while providing uncertainty quantification for future observations.
+
+## Research Themes
+
+### Bayesian Nonlinear Time-Series Modeling
+
+I study flexible Bayesian approaches for modeling nonlinear autoregressive structures in time-series data.
+
+### Bernstein Polynomial Methods
+
+I use Bernstein polynomial basis functions to approximate nonlinear relationships in autoregressive models.
+
+### Forecasting and Uncertainty Quantification
+
+I evaluate forecasting performance using prediction accuracy, uncertainty intervals, and residual diagnostics.
+
+### Statistical Computing
+
+My work involves computational implementation in Python and R, including simulation studies, posterior predictive inference, and model comparison.
+
+## Selected Projects
+
+### Nonlinear Time Series Modeling Using Bernstein Polynomials and Bayesian Inference
+
+This project develops a Bayesian nonlinear autoregressive model using Bernstein polynomial representations and compares its forecasting performance with classical time-series models such as ARIMA and SARIMA.

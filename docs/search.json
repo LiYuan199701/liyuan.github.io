@@ -1,0 +1,149 @@
+[
+  {
+    "objectID": "cv.html",
+    "href": "cv.html",
+    "title": "CV",
+    "section": "",
+    "text": "You can download my CV here:\nDownload CV\n\n\nPhD in Statistical Science\nSouthern Methodist University\nExpected graduation: May 2027\nMS in Data Science\nVanderbilt University\n\n\n\nBayesian statistics, nonlinear time series, forecasting, uncertainty quantification, statistical learning, and computational statistics.\n\n\n\n\nProgramming: Python, R\nStatistical modeling: Bayesian modeling, time-series analysis, regression, machine learning\nTools: Git, GitHub, VS Code, Quarto, LaTeX, Jupyter Notebook"
+  },
+  {
+    "objectID": "cv.html#education",
+    "href": "cv.html#education",
+    "title": "CV",
+    "section": "",
+    "text": "PhD in Statistical Science\nSouthern Methodist University\nExpected graduation: May 2027\nMS in Data Science\nVanderbilt University"
+  },
+  {
+    "objectID": "cv.html#research-interests",
+    "href": "cv.html#research-interests",
+    "title": "CV",
+    "section": "",
+    "text": "Bayesian statistics, nonlinear time series, forecasting, uncertainty quantification, statistical learning, and computational statistics."
+  },
+  {
+    "objectID": "cv.html#technical-skills",
+    "href": "cv.html#technical-skills",
+    "title": "CV",
+    "section": "",
+    "text": "Programming: Python, R\nStatistical modeling: Bayesian modeling, time-series analysis, regression, machine learning\nTools: Git, GitHub, VS Code, Quarto, LaTeX, Jupyter Notebook"
+  },
+  {
+    "objectID": "publications.html",
+    "href": "publications.html",
+    "title": "Publications",
+    "section": "",
+    "text": "Li Yuan. Nonlinear Time Series Modeling Using Bernstein Polynomials and Bayesian Inference. Manuscript in preparation.\n\n\n\nAdd your poster presentations, conference talks, and research presentations here.\n\n\n\nAdd links to selected research projects, code repositories, or reproducible examples here."
+  },
+  {
+    "objectID": "publications.html#working-papers",
+    "href": "publications.html#working-papers",
+    "title": "Publications",
+    "section": "",
+    "text": "Li Yuan. Nonlinear Time Series Modeling Using Bernstein Polynomials and Bayesian Inference. Manuscript in preparation."
+  },
+  {
+    "objectID": "publications.html#conference-presentations",
+    "href": "publications.html#conference-presentations",
+    "title": "Publications",
+    "section": "",
+    "text": "Add your poster presentations, conference talks, and research presentations here."
+  },
+  {
+    "objectID": "publications.html#research-projects",
+    "href": "publications.html#research-projects",
+    "title": "Publications",
+    "section": "",
+    "text": "Add links to selected research projects, code repositories, or reproducible examples here."
+  },
+  {
+    "objectID": "research.html",
+    "href": "research.html",
+    "title": "Research",
+    "section": "",
+    "text": "My research focuses on Bayesian nonlinear time-series modeling, statistical learning, and computational methods for forecasting and uncertainty quantification.\n\n\nMy dissertation research develops Bernstein Bayesian nonlinear autoregressive time-series models for flexible nonlinear forecasting and Bayesian inference in natural language processing.\nThe main goal is to construct interpretable and flexible Bayesian models that can capture nonlinear temporal dependence while providing uncertainty quantification for future observations.\n\n\n\n\n\nI study flexible Bayesian approaches for modeling nonlinear autoregressive structures in time-series data.\n\n\n\nI use Bernstein polynomial basis functions to approximate nonlinear relationships in autoregressive models.\n\n\n\nI evaluate forecasting performance using prediction accuracy, uncertainty intervals, and residual diagnostics.\n\n\n\nMy work involves computational implementation in Python and R, including simulation studies, posterior predictive inference, and model comparison.\n\n\n\n\n\n\nThis project develops a Bayesian nonlinear autoregressive model using Bernstein polynomial representations and compares its forecasting performance with classical time-series models such as ARIMA and SARIMA."
+  },
+  {
+    "objectID": "research.html#dissertation-research",
+    "href": "research.html#dissertation-research",
+    "title": "Research",
+    "section": "",
+    "text": "My dissertation research develops Bernstein Bayesian nonlinear autoregressive time-series models for flexible nonlinear forecasting and Bayesian inference in natural language processing.\nThe main goal is to construct interpretable and flexible Bayesian models that can capture nonlinear temporal dependence while providing uncertainty quantification for future observations."
+  },
+  {
+    "objectID": "research.html#research-themes",
+    "href": "research.html#research-themes",
+    "title": "Research",
+    "section": "",
+    "text": "I study flexible Bayesian approaches for modeling nonlinear autoregressive structures in time-series data.\n\n\n\nI use Bernstein polynomial basis functions to approximate nonlinear relationships in autoregressive models.\n\n\n\nI evaluate forecasting performance using prediction accuracy, uncertainty intervals, and residual diagnostics.\n\n\n\nMy work involves computational implementation in Python and R, including simulation studies, posterior predictive inference, and model comparison."
+  },
+  {
+    "objectID": "research.html#selected-projects",
+    "href": "research.html#selected-projects",
+    "title": "Research",
+    "section": "",
+    "text": "This project develops a Bayesian nonlinear autoregressive model using Bernstein polynomial representations and compares its forecasting performance with classical time-series models such as ARIMA and SARIMA."
+  },
+  {
+    "objectID": "teaching.html",
+    "href": "teaching.html",
+    "title": "Teaching",
+    "section": "",
+    "text": "I am interested in teaching statistics, probability, data science, and statistical computing.\n\n\n\nIntroductory Statistics\nProbability\nMathematical Statistics\nRegression Analysis\nTime Series Analysis\nBayesian Statistics\nStatistical Computing with R and Python\nData Science and Machine Learning\n\n\n\n\nAdd your teaching assistant, grader, lab instructor, guest lecture, or mentoring experience here.\n\n\n\nMy teaching goal is to help students understand statistical thinking, not only formulas. I aim to connect mathematical concepts with real data examples, computational practice, and clear interpretation."
+  },
+  {
+    "objectID": "teaching.html#teaching-interests",
+    "href": "teaching.html#teaching-interests",
+    "title": "Teaching",
+    "section": "",
+    "text": "Introductory Statistics\nProbability\nMathematical Statistics\nRegression Analysis\nTime Series Analysis\nBayesian Statistics\nStatistical Computing with R and Python\nData Science and Machine Learning"
+  },
+  {
+    "objectID": "teaching.html#teaching-experience",
+    "href": "teaching.html#teaching-experience",
+    "title": "Teaching",
+    "section": "",
+    "text": "Add your teaching assistant, grader, lab instructor, guest lecture, or mentoring experience here."
+  },
+  {
+    "objectID": "teaching.html#teaching-philosophy",
+    "href": "teaching.html#teaching-philosophy",
+    "title": "Teaching",
+    "section": "",
+    "text": "My teaching goal is to help students understand statistical thinking, not only formulas. I aim to connect mathematical concepts with real data examples, computational practice, and clear interpretation."
+  },
+  {
+    "objectID": "index.html",
+    "href": "index.html",
+    "title": "Li Yuan (leon-king)",
+    "section": "",
+    "text": "PhD Candidate in Statistical Science\nSouthern Methodist University\nI am a PhD candidate in Statistical Science at Southern Methodist University. My research focuses on Bayesian nonlinear time-series modeling, statistical learning, forecasting, uncertainty quantification and natural language processing.\nI am currently preparing for academic and research-oriented positions, including postdoctoral fellowships, research scientist roles, and teaching-focused faculty positions in statistics, biostatistics, data science, and related fields.\n\n\n\nBayesian statistics\nNonlinear time series\nNatural language processing\nUncertainty quantification\nStatistical learning\nComputational statistics\nData science\n\n\n\n\nMy current research develops flexible Bayesian nonlinear autoregressive models using Bernstein polynomial representations for nonlinear time-series forecasting and uncertainty quantification.\n\n\n\nEmail: yuanli@smu.edu\nGitHub: https://github.com/LiYuan199701\nLinkedIn: https://www.linkedin.com/in/leon-king-436309192/"
+  },
+  {
+    "objectID": "index.html#research-interests",
+    "href": "index.html#research-interests",
+    "title": "Li Yuan (leon-king)",
+    "section": "",
+    "text": "Bayesian statistics\nNonlinear time series\nNatural language processing\nUncertainty quantification\nStatistical learning\nComputational statistics\nData science"
+  },
+  {
+    "objectID": "index.html#current-research",
+    "href": "index.html#current-research",
+    "title": "Li Yuan (leon-king)",
+    "section": "",
+    "text": "My current research develops flexible Bayesian nonlinear autoregressive models using Bernstein polynomial representations for nonlinear time-series forecasting and uncertainty quantification."
+  },
+  {
+    "objectID": "index.html#contact",
+    "href": "index.html#contact",
+    "title": "Li Yuan (leon-king)",
+    "section": "",
+    "text": "Email: yuanli@smu.edu\nGitHub: https://github.com/LiYuan199701\nLinkedIn: https://www.linkedin.com/in/leon-king-436309192/"
+  },
+  {
+    "objectID": "about.html",
+    "href": "about.html",
+    "title": "About",
+    "section": "",
+    "text": "About this site"
+  }
+]
