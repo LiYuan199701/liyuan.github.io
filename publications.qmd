@@ -6,12 +6,15 @@ title: "Publications"
 
 ## Working Papers
 
-**Li Yuan.** *Nonlinear Time Series Modeling Using Bernstein Polynomials and Bayesian Inference.* Manuscript in preparation.
+**Li Yuan.** *Nonlinear Time Series Modeling Using Bernstein Polynomials and Bayesian Inference.* Manuscript in preparation for *Transactions on Machine Learning Research (TMLR)*.
 
-## Conference Presentations
+**Li Yuan.** *Critical Illness Outcomes of Hospitalized Pregnant Women
+Following a Texas Abortion Ban* Manuscript in preparation for *American Journal of Respiratory and Critical Care Medicine*.
 
-Add your poster presentations, conference talks, and research presentations here.
+**Li Yuan** *Novel Point-of-Care Diagnostic Risk Model and Clinical Calculator for Biliary Atresia*
+Manuscript in preparation.
 
-## Research Projects
+## Publications
 
-Add links to selected research projects, code repositories, or reproducible examples here.
+**Li Yuan.** *Rate-Perturbing Single Amino Acid Mutation for Hydrolases: A Statistical Profiling.* *The Journal of Physical Chemistry B*.  
+[View paper](https://pubs.acs.org/doi/10.1021/acs.jpcb.1c05901)

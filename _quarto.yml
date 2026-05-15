@@ -19,6 +19,8 @@ website:
         text: Publications
       - href: teaching.qmd
         text: Teaching
+      - href: experience.qmd
+        text: Experience
       - href: cv.qmd
         text: CV
     right:

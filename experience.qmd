@@ -1,0 +1,143 @@
+---
+title: "Experience"
+---
+
+## Research and Academic Experience
+
+### Graduate Research Assistant  
+**Department of Statistics and Data Science, Southern Methodist University**  
+**September 2024 – Present**  
+**Dallas, Texas, United States**
+
+I conduct research on Bayesian variational inference methods, nonlinear time-series modeling, and large language modeling for sentiment analysis. My work focuses on developing flexible statistical and computational methods for modeling complex data, evaluating predictive performance, and improving uncertainty quantification.
+
+### Graduate Research Assistant  
+**UT Southwestern Medical Center**  
+**October 2024 – March 2025**  
+**Dallas, Texas, United States · Remote**
+
+I designed a statistical model using logistic regression to predict biliary atresia based on MMP7 and other variables. I conducted model evaluation using cross-validation methods to assess accuracy and reliability, and developed an R Shiny application for healthcare professionals to support real-time disease prediction.
+
+### Graduate Research Assistant  
+**Department of Statistics and Data Science, Southern Methodist University**  
+**January 2024 – December 2024**  
+**Dallas, Texas, United States**
+
+I worked on statistical analysis of the impact of Texas Senate Bill 8 on the health of pregnant women in Texas. The project involved causal inference methods, including exact matching and difference-in-differences approaches, to evaluate policy-related health outcomes.
+
+### Graduate Research Assistant  
+**Department of Statistics and Data Science, Southern Methodist University**  
+**August 2023 – January 2024**  
+**Dallas, Texas, United States**
+
+I worked on topological data analysis for lung and brain cancer research. This experience strengthened my ability to apply statistical and computational methods to biomedical research questions and interdisciplinary collaborations.
+
+### Graduate Research Assistant  
+**Data Science Institute, Vanderbilt University**  
+**August 2021 – December 2021**  
+**Nashville, Tennessee, United States**
+
+I worked on research involving natural language processing and Python programming. This experience strengthened my foundation in computational data science, text analysis, and applied machine learning.
+
+### Graduate Intern  
+**Vanderbilt University School of Medicine**  
+**June 2021 – October 2021**  
+**Nashville, Tennessee, United States · Remote**
+
+I supported biomedical data analysis projects using R programming and statistical methods. My work involved data cleaning, exploratory analysis, and statistical modeling for healthcare-related research questions.
+
+### Research Fellow  
+**University of Chicago**  
+**August 2021 – September 2021**  
+**Nashville, Tennessee, United States · Remote**
+
+I participated in research involving R programming, statistical analysis, and applied data science. This experience helped me strengthen my ability to work on research problems across institutional collaborations.
+
+### Graduate Research Assistant  
+**Vanderbilt University Law School**  
+**March 2021 – September 2021**  
+**Nashville, Tennessee, United States · Hybrid**
+
+I worked on statistical data analysis using R programming. This role involved supporting legal and policy-related research through quantitative analysis and data interpretation.
+
+### Graduate Research Assistant  
+**Vanderbilt University**  
+**September 2020 – September 2021**  
+**Nashville, Tennessee, United States · Hybrid**
+
+I supported research projects involving web development and Python programming. This experience helped me develop practical skills in computational research, programming, and data-oriented software development.
+
+## Teaching Experience
+
+### Graduate Teaching Assistant  
+**STAT 2331: Introduction to Statistical Methods**  
+**Department of Statistics and Data Science, Southern Methodist University**  
+**August 2025 – December 2025**  
+**Dallas, Texas, United States**
+
+I served as a Graduate Teaching Assistant for STAT 2331, a non-calculus-based introduction to statistical methods. The course introduced students to statistical reasoning, descriptive statistics, probability concepts, simple linear regression, inference, and the use of statistics in decision-making.
+
+My responsibilities included supporting students with course concepts, assisting with homework and statistical software questions, helping clarify course materials, and contributing to grading and instructional support.
+
+### Graduate Teaching Assistant  
+**STAT 3300: Applied Statistics: Regression**  
+**Department of Statistics and Data Science, Southern Methodist University**  
+**August 2022 – May 2023**  
+**Dallas, Texas, United States**
+
+I served as a Graduate Teaching Assistant for STAT 3300, an applied statistics course focused on regression methods and statistical modeling. The course introduced students to simple and multiple linear regression, model interpretation, diagnostic checking, inference for regression coefficients, prediction, and applications of regression models to real data.
+
+My responsibilities included supporting students with regression concepts, assisting with homework and R programming questions, helping students interpret regression output, and contributing to grading and instructional support.
+
+## Industry and Consulting Experience
+
+### Project Consultant  
+**Revision Skincare**  
+**April 2025 – June 2025**  
+**Dallas, Texas, United States · Hybrid**
+
+I conducted comprehensive data analysis on skin hyperpigmentation treatment effectiveness for 11 subjects, helping evaluate treatment outcomes. I applied advanced statistical methods to assess facial skin whitening results, ensuring data-driven insights for product development. I also collaborated with cross-functional teams to optimize treatment protocols and contribute to innovative skincare solutions.
+
+### Data Scientist Intern  
+**Amazon**  
+**June 2023 – September 2023**  
+**Boston, Massachusetts, United States**
+
+I worked as a Data Scientist Intern on the Amazon Alexa team. I built a time-series model for detecting abnormalities in user experience, applying statistical modeling and data science methods to real-world product data.
+
+## Additional Training and Professional Development
+
+### Student Pilot  
+**Delta Qualiflight Aviation Academy**  
+**May 2024 – Present**  
+**Fort Worth, Texas, United States**
+
+I am training toward a private pilot license and have developed skills in aviation, navigation, air traffic control communication, and aviation decision-making. I successfully completed my first solo flight on April 9 at Delta Qualiflight Aviation Academy, marking an important milestone in my aviation training.
+
+### Graduate Student  
+**Stanford Continuing Studies**  
+**June 2021 – March 2022**  
+**Remote**
+
+I completed coursework and training related to natural language processing and reinforcement learning.
+
+### Graduate Student  
+**Duke University**  
+**May 2021 – June 2021**  
+**Remote**
+
+I completed academic training related to Bayesian statistics and R programming.
+
+### Graduate Student  
+**Yale University**  
+**May 2020 – June 2020**  
+**Remote**
+
+I completed academic training related to Python programming and multivariate calculus.
+
+### Graduate Student  
+**University of California, Berkeley**  
+**August 2019 – May 2020**  
+**Berkeley, California, United States**
+
+I completed graduate-level academic preparation and training in quantitative and computational subjects.

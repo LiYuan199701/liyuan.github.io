@@ -1,13 +1,25 @@
 ---
-title: "Li Yuan (leon-king)"
+title: "Li Yuan (Leon King)"
+about:
+  template: trestles
+  image: images/headshot.png
+  image-shape: rounded
+  links:
+    - icon: envelope
+      text: Email
+      href: mailto:yuanli@smu.edu
+    - icon: github
+      text: GitHub
+      href: https://github.com/LiYuan199701
+    - icon: linkedin
+      text: LinkedIn
+      href: https://www.linkedin.com/in/leon-king-436309192/
 ---
 
-# Li Yuan
-
 **PhD Candidate in Statistical Science**  
-**Southern Methodist University**
+at **Southern Methodist University**
 
-I am a PhD candidate in Statistical Science at Southern Methodist University. My research focuses on Bayesian nonlinear time-series modeling, statistical learning, forecasting, uncertainty quantification and natural language processing.
+I am a PhD candidate in Statistical Science at Southern Methodist University. My research focuses on Bayesian nonlinear time-series modeling, statistical learning, uncertainty quantification and natural language processing.
 
 I am currently preparing for academic and research-oriented positions, including postdoctoral fellowships, research scientist roles, and teaching-focused faculty positions in statistics, biostatistics, data science, and related fields.
 
@@ -23,7 +35,7 @@ I am currently preparing for academic and research-oriented positions, including
 
 ## Current Research
 
-My current research develops flexible Bayesian nonlinear autoregressive models using Bernstein polynomial representations for nonlinear time-series forecasting and uncertainty quantification.
+My current research develops flexible Bayesian nonlinear autoregressive models using Bernstein polynomial representations for nonlinear time-series forecasting and uncertainty quantification, and applies Bayesian Inference to natural language processing tasks such as sentiment analysis and text classification.
 
 ## Contact
 

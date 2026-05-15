@@ -32,28 +32,84 @@
     "href": "publications.html",
     "title": "Publications",
     "section": "",
-    "text": "Li Yuan. Nonlinear Time Series Modeling Using Bernstein Polynomials and Bayesian Inference. Manuscript in preparation.\n\n\n\nAdd your poster presentations, conference talks, and research presentations here.\n\n\n\nAdd links to selected research projects, code repositories, or reproducible examples here."
+    "text": "Li Yuan. Nonlinear Time Series Modeling Using Bernstein Polynomials and Bayesian Inference. Manuscript in preparation for Transactions on Machine Learning Research (TMLR).\nLi Yuan. Critical Illness Outcomes of Hospitalized Pregnant Women Following a Texas Abortion Ban Manuscript in preparation for American Journal of Respiratory and Critical Care Medicine.\nLi Yuan Novel Point-of-Care Diagnostic Risk Model and Clinical Calculator for Biliary Atresia Manuscript in preparation.\n\n\n\nLi Yuan. Rate-Perturbing Single Amino Acid Mutation for Hydrolases: A Statistical Profiling. The Journal of Physical Chemistry B.\nView paper"
   },
   {
     "objectID": "publications.html#working-papers",
     "href": "publications.html#working-papers",
     "title": "Publications",
     "section": "",
-    "text": "Li Yuan. Nonlinear Time Series Modeling Using Bernstein Polynomials and Bayesian Inference. Manuscript in preparation."
+    "text": "Li Yuan. Nonlinear Time Series Modeling Using Bernstein Polynomials and Bayesian Inference. Manuscript in preparation for Transactions on Machine Learning Research (TMLR).\nLi Yuan. Critical Illness Outcomes of Hospitalized Pregnant Women Following a Texas Abortion Ban Manuscript in preparation for American Journal of Respiratory and Critical Care Medicine.\nLi Yuan Novel Point-of-Care Diagnostic Risk Model and Clinical Calculator for Biliary Atresia Manuscript in preparation."
   },
   {
-    "objectID": "publications.html#conference-presentations",
-    "href": "publications.html#conference-presentations",
+    "objectID": "publications.html#publications",
+    "href": "publications.html#publications",
     "title": "Publications",
     "section": "",
-    "text": "Add your poster presentations, conference talks, and research presentations here."
+    "text": "Li Yuan. Rate-Perturbing Single Amino Acid Mutation for Hydrolases: A Statistical Profiling. The Journal of Physical Chemistry B.\nView paper"
   },
   {
-    "objectID": "publications.html#research-projects",
-    "href": "publications.html#research-projects",
-    "title": "Publications",
+    "objectID": "index.html",
+    "href": "index.html",
+    "title": "Li Yuan (Leon King)",
     "section": "",
-    "text": "Add links to selected research projects, code repositories, or reproducible examples here."
+    "text": "PhD Candidate in Statistical Science\nat Southern Methodist University\nI am a PhD candidate in Statistical Science at Southern Methodist University. My research focuses on Bayesian nonlinear time-series modeling, statistical learning, uncertainty quantification and natural language processing.\nI am currently preparing for academic and research-oriented positions, including postdoctoral fellowships, research scientist roles, and teaching-focused faculty positions in statistics, biostatistics, data science, and related fields."
+  },
+  {
+    "objectID": "index.html#research-interests",
+    "href": "index.html#research-interests",
+    "title": "Li Yuan (Leon King)",
+    "section": "Research Interests",
+    "text": "Research Interests\n\nBayesian statistics\nNonlinear time series\nNatural language processing\nUncertainty quantification\nStatistical learning\nComputational statistics\nData science"
+  },
+  {
+    "objectID": "index.html#current-research",
+    "href": "index.html#current-research",
+    "title": "Li Yuan (Leon King)",
+    "section": "Current Research",
+    "text": "Current Research\nMy current research develops flexible Bayesian nonlinear autoregressive models using Bernstein polynomial representations for nonlinear time-series forecasting and uncertainty quantification, and applies Bayesian Inference to natural language processing tasks such as sentiment analysis and text classification."
+  },
+  {
+    "objectID": "index.html#contact",
+    "href": "index.html#contact",
+    "title": "Li Yuan (Leon King)",
+    "section": "Contact",
+    "text": "Contact\nEmail: yuanli@smu.edu\nGitHub: https://github.com/LiYuan199701\nLinkedIn: https://www.linkedin.com/in/leon-king-436309192/\nDownload CV Research Email Me"
+  },
+  {
+    "objectID": "teaching.html",
+    "href": "teaching.html",
+    "title": "Teaching",
+    "section": "",
+    "text": "I am interested in teaching statistics, probability, data science, and statistical computing. My goal as an instructor is to help students develop statistical thinking, computational skills, and the ability to connect quantitative methods with real-world problems."
+  },
+  {
+    "objectID": "teaching.html#teaching-interests",
+    "href": "teaching.html#teaching-interests",
+    "title": "Teaching",
+    "section": "Teaching Interests",
+    "text": "Teaching Interests\n\nIntroductory Statistics\nProbability\nMathematical Statistics\nRegression Analysis\nTime Series Analysis\nBayesian Statistics\nStatistical Computing with R and Python\nData Science and Machine Learning"
+  },
+  {
+    "objectID": "teaching.html#teaching-experience",
+    "href": "teaching.html#teaching-experience",
+    "title": "Teaching",
+    "section": "Teaching Experience",
+    "text": "Teaching Experience\n\nGraduate Teaching Assistant\nSTAT 2331: Introduction to Statistical Methods\nDepartment of Statistics and Data Science, Southern Methodist University\nAugust 2025 – December 2025\nI served as a Graduate Teaching Assistant for STAT 2331, a non-calculus-based introduction to statistical methods. The course introduced students to statistical reasoning, descriptive statistics, probability concepts, simple linear regression, inference, and the use of statistics in decision-making.\nMy responsibilities included supporting students’ understanding of statistical concepts, helping clarify homework and course materials, assisting with grading, and guiding students in applying statistical methods to practical examples. Through this teaching experience, I developed a stronger appreciation for explaining technical ideas in clear and accessible language.\n\n\nGraduate Teaching Assistant\nSTAT 3300: Applied Statistics: Regression\nDepartment of Statistics and Data Science, Southern Methodist University\nAugust 2022 – May 2023\nI served as a Graduate Teaching Assistant for STAT 3300, an applied statistics course focused on regression methods and statistical modeling. The course introduced students to topics such as simple and multiple linear regression, model interpretation, diagnostic checking, inference for regression coefficients, prediction, and applications of regression models to real data.\nMy responsibilities included supporting students with course concepts, assisting with homework and statistical software questions, helping students understand regression output, and contributing to grading and instructional support. This experience strengthened my ability to explain statistical modeling ideas clearly, especially the connection between mathematical formulas, computational output, and practical interpretation."
+  },
+  {
+    "objectID": "teaching.html#mentoring-and-student-support",
+    "href": "teaching.html#mentoring-and-student-support",
+    "title": "Teaching",
+    "section": "Mentoring and Student Support",
+    "text": "Mentoring and Student Support\nAs a graduate student in statistics, I enjoy helping students build confidence in quantitative reasoning. I aim to make statistics less intimidating by explaining ideas step by step, using visual intuition, and connecting formulas with real data examples.\nI am especially interested in helping students learn how to use statistical software such as R and Python to explore data, fit models, interpret results, and communicate findings clearly."
+  },
+  {
+    "objectID": "teaching.html#teaching-philosophy",
+    "href": "teaching.html#teaching-philosophy",
+    "title": "Teaching",
+    "section": "Teaching Philosophy",
+    "text": "Teaching Philosophy\nMy teaching goal is to help students understand statistical thinking, not only memorize formulas. I believe effective statistics teaching should combine mathematical foundations, computational practice, and real-world interpretation.\nIn the classroom, I aim to:\n\nExplain statistical concepts clearly and intuitively.\nConnect theory with real data applications.\nEncourage students to ask questions and think critically.\nUse computation to deepen understanding.\nHelp students interpret statistical results in practical contexts.\n\nI want students to leave my courses not only knowing how to calculate statistical quantities, but also understanding what those quantities mean, when to use them, and how to communicate their conclusions responsibly."
   },
   {
     "objectID": "research.html",
@@ -84,60 +140,39 @@
     "text": "This project develops a Bayesian nonlinear autoregressive model using Bernstein polynomial representations and compares its forecasting performance with classical time-series models such as ARIMA and SARIMA."
   },
   {
-    "objectID": "teaching.html",
-    "href": "teaching.html",
-    "title": "Teaching",
+    "objectID": "experience.html",
+    "href": "experience.html",
+    "title": "Experience",
     "section": "",
-    "text": "I am interested in teaching statistics, probability, data science, and statistical computing.\n\n\n\nIntroductory Statistics\nProbability\nMathematical Statistics\nRegression Analysis\nTime Series Analysis\nBayesian Statistics\nStatistical Computing with R and Python\nData Science and Machine Learning\n\n\n\n\nAdd your teaching assistant, grader, lab instructor, guest lecture, or mentoring experience here.\n\n\n\nMy teaching goal is to help students understand statistical thinking, not only formulas. I aim to connect mathematical concepts with real data examples, computational practice, and clear interpretation."
+    "text": "Department of Statistics and Data Science, Southern Methodist University\nSeptember 2024 – Present\nDallas, Texas, United States\nI conduct research on Bayesian variational inference methods, nonlinear time-series modeling, and large language modeling for sentiment analysis. My work focuses on developing flexible statistical and computational methods for modeling complex data, evaluating predictive performance, and improving uncertainty quantification.\n\n\n\nUT Southwestern Medical Center\nOctober 2024 – March 2025\nDallas, Texas, United States · Remote\nI designed a statistical model using logistic regression to predict biliary atresia based on MMP7 and other variables. I conducted model evaluation using cross-validation methods to assess accuracy and reliability, and developed an R Shiny application for healthcare professionals to support real-time disease prediction.\n\n\n\nDepartment of Statistics and Data Science, Southern Methodist University\nJanuary 2024 – December 2024\nDallas, Texas, United States\nI worked on statistical analysis of the impact of Texas Senate Bill 8 on the health of pregnant women in Texas. The project involved causal inference methods, including exact matching and difference-in-differences approaches, to evaluate policy-related health outcomes.\n\n\n\nDepartment of Statistics and Data Science, Southern Methodist University\nAugust 2023 – January 2024\nDallas, Texas, United States\nI worked on topological data analysis for lung and brain cancer research. This experience strengthened my ability to apply statistical and computational methods to biomedical research questions and interdisciplinary collaborations.\n\n\n\nData Science Institute, Vanderbilt University\nAugust 2021 – December 2021\nNashville, Tennessee, United States\nI worked on research involving natural language processing and Python programming. This experience strengthened my foundation in computational data science, text analysis, and applied machine learning.\n\n\n\nVanderbilt University School of Medicine\nJune 2021 – October 2021\nNashville, Tennessee, United States · Remote\nI supported biomedical data analysis projects using R programming and statistical methods. My work involved data cleaning, exploratory analysis, and statistical modeling for healthcare-related research questions.\n\n\n\nUniversity of Chicago\nAugust 2021 – September 2021\nNashville, Tennessee, United States · Remote\nI participated in research involving R programming, statistical analysis, and applied data science. This experience helped me strengthen my ability to work on research problems across institutional collaborations.\n\n\n\nVanderbilt University Law School\nMarch 2021 – September 2021\nNashville, Tennessee, United States · Hybrid\nI worked on statistical data analysis using R programming. This role involved supporting legal and policy-related research through quantitative analysis and data interpretation.\n\n\n\nVanderbilt University\nSeptember 2020 – September 2021\nNashville, Tennessee, United States · Hybrid\nI supported research projects involving web development and Python programming. This experience helped me develop practical skills in computational research, programming, and data-oriented software development."
   },
   {
-    "objectID": "teaching.html#teaching-interests",
-    "href": "teaching.html#teaching-interests",
-    "title": "Teaching",
+    "objectID": "experience.html#research-and-academic-experience",
+    "href": "experience.html#research-and-academic-experience",
+    "title": "Experience",
     "section": "",
-    "text": "Introductory Statistics\nProbability\nMathematical Statistics\nRegression Analysis\nTime Series Analysis\nBayesian Statistics\nStatistical Computing with R and Python\nData Science and Machine Learning"
+    "text": "Department of Statistics and Data Science, Southern Methodist University\nSeptember 2024 – Present\nDallas, Texas, United States\nI conduct research on Bayesian variational inference methods, nonlinear time-series modeling, and large language modeling for sentiment analysis. My work focuses on developing flexible statistical and computational methods for modeling complex data, evaluating predictive performance, and improving uncertainty quantification.\n\n\n\nUT Southwestern Medical Center\nOctober 2024 – March 2025\nDallas, Texas, United States · Remote\nI designed a statistical model using logistic regression to predict biliary atresia based on MMP7 and other variables. I conducted model evaluation using cross-validation methods to assess accuracy and reliability, and developed an R Shiny application for healthcare professionals to support real-time disease prediction.\n\n\n\nDepartment of Statistics and Data Science, Southern Methodist University\nJanuary 2024 – December 2024\nDallas, Texas, United States\nI worked on statistical analysis of the impact of Texas Senate Bill 8 on the health of pregnant women in Texas. The project involved causal inference methods, including exact matching and difference-in-differences approaches, to evaluate policy-related health outcomes.\n\n\n\nDepartment of Statistics and Data Science, Southern Methodist University\nAugust 2023 – January 2024\nDallas, Texas, United States\nI worked on topological data analysis for lung and brain cancer research. This experience strengthened my ability to apply statistical and computational methods to biomedical research questions and interdisciplinary collaborations.\n\n\n\nData Science Institute, Vanderbilt University\nAugust 2021 – December 2021\nNashville, Tennessee, United States\nI worked on research involving natural language processing and Python programming. This experience strengthened my foundation in computational data science, text analysis, and applied machine learning.\n\n\n\nVanderbilt University School of Medicine\nJune 2021 – October 2021\nNashville, Tennessee, United States · Remote\nI supported biomedical data analysis projects using R programming and statistical methods. My work involved data cleaning, exploratory analysis, and statistical modeling for healthcare-related research questions.\n\n\n\nUniversity of Chicago\nAugust 2021 – September 2021\nNashville, Tennessee, United States · Remote\nI participated in research involving R programming, statistical analysis, and applied data science. This experience helped me strengthen my ability to work on research problems across institutional collaborations.\n\n\n\nVanderbilt University Law School\nMarch 2021 – September 2021\nNashville, Tennessee, United States · Hybrid\nI worked on statistical data analysis using R programming. This role involved supporting legal and policy-related research through quantitative analysis and data interpretation.\n\n\n\nVanderbilt University\nSeptember 2020 – September 2021\nNashville, Tennessee, United States · Hybrid\nI supported research projects involving web development and Python programming. This experience helped me develop practical skills in computational research, programming, and data-oriented software development."
   },
   {
-    "objectID": "teaching.html#teaching-experience",
-    "href": "teaching.html#teaching-experience",
-    "title": "Teaching",
-    "section": "",
-    "text": "Add your teaching assistant, grader, lab instructor, guest lecture, or mentoring experience here."
+    "objectID": "experience.html#teaching-experience",
+    "href": "experience.html#teaching-experience",
+    "title": "Experience",
+    "section": "Teaching Experience",
+    "text": "Teaching Experience\n\nGraduate Teaching Assistant\nSTAT 2331: Introduction to Statistical Methods\nDepartment of Statistics and Data Science, Southern Methodist University\nAugust 2025 – December 2025\nDallas, Texas, United States\nI served as a Graduate Teaching Assistant for STAT 2331, a non-calculus-based introduction to statistical methods. The course introduced students to statistical reasoning, descriptive statistics, probability concepts, simple linear regression, inference, and the use of statistics in decision-making.\nMy responsibilities included supporting students with course concepts, assisting with homework and statistical software questions, helping clarify course materials, and contributing to grading and instructional support.\n\n\nGraduate Teaching Assistant\nSTAT 3300: Applied Statistics: Regression\nDepartment of Statistics and Data Science, Southern Methodist University\nAugust 2022 – May 2023\nDallas, Texas, United States\nI served as a Graduate Teaching Assistant for STAT 3300, an applied statistics course focused on regression methods and statistical modeling. The course introduced students to simple and multiple linear regression, model interpretation, diagnostic checking, inference for regression coefficients, prediction, and applications of regression models to real data.\nMy responsibilities included supporting students with regression concepts, assisting with homework and R programming questions, helping students interpret regression output, and contributing to grading and instructional support."
   },
   {
-    "objectID": "teaching.html#teaching-philosophy",
-    "href": "teaching.html#teaching-philosophy",
-    "title": "Teaching",
-    "section": "",
-    "text": "My teaching goal is to help students understand statistical thinking, not only formulas. I aim to connect mathematical concepts with real data examples, computational practice, and clear interpretation."
+    "objectID": "experience.html#industry-and-consulting-experience",
+    "href": "experience.html#industry-and-consulting-experience",
+    "title": "Experience",
+    "section": "Industry and Consulting Experience",
+    "text": "Industry and Consulting Experience\n\nProject Consultant\nRevision Skincare\nApril 2025 – June 2025\nDallas, Texas, United States · Hybrid\nI conducted comprehensive data analysis on skin hyperpigmentation treatment effectiveness for 11 subjects, helping evaluate treatment outcomes. I applied advanced statistical methods to assess facial skin whitening results, ensuring data-driven insights for product development. I also collaborated with cross-functional teams to optimize treatment protocols and contribute to innovative skincare solutions.\n\n\nData Scientist Intern\nAmazon\nJune 2023 – September 2023\nBoston, Massachusetts, United States\nI worked as a Data Scientist Intern on the Amazon Alexa team. I built a time-series model for detecting abnormalities in user experience, applying statistical modeling and data science methods to real-world product data."
   },
   {
-    "objectID": "index.html",
-    "href": "index.html",
-    "title": "Li Yuan (leon-king)",
-    "section": "",
-    "text": "PhD Candidate in Statistical Science\nSouthern Methodist University\nI am a PhD candidate in Statistical Science at Southern Methodist University. My research focuses on Bayesian nonlinear time-series modeling, statistical learning, forecasting, uncertainty quantification and natural language processing.\nI am currently preparing for academic and research-oriented positions, including postdoctoral fellowships, research scientist roles, and teaching-focused faculty positions in statistics, biostatistics, data science, and related fields.\n\n\n\nBayesian statistics\nNonlinear time series\nNatural language processing\nUncertainty quantification\nStatistical learning\nComputational statistics\nData science\n\n\n\n\nMy current research develops flexible Bayesian nonlinear autoregressive models using Bernstein polynomial representations for nonlinear time-series forecasting and uncertainty quantification.\n\n\n\nEmail: yuanli@smu.edu\nGitHub: https://github.com/LiYuan199701\nLinkedIn: https://www.linkedin.com/in/leon-king-436309192/\nDownload CV Research Email Me"
-  },
-  {
-    "objectID": "index.html#research-interests",
-    "href": "index.html#research-interests",
-    "title": "Li Yuan (leon-king)",
-    "section": "",
-    "text": "Bayesian statistics\nNonlinear time series\nNatural language processing\nUncertainty quantification\nStatistical learning\nComputational statistics\nData science"
-  },
-  {
-    "objectID": "index.html#current-research",
-    "href": "index.html#current-research",
-    "title": "Li Yuan (leon-king)",
-    "section": "",
-    "text": "My current research develops flexible Bayesian nonlinear autoregressive models using Bernstein polynomial representations for nonlinear time-series forecasting and uncertainty quantification."
-  },
-  {
-    "objectID": "index.html#contact",
-    "href": "index.html#contact",
-    "title": "Li Yuan (leon-king)",
-    "section": "",
-    "text": "Email: yuanli@smu.edu\nGitHub: https://github.com/LiYuan199701\nLinkedIn: https://www.linkedin.com/in/leon-king-436309192/\nDownload CV Research Email Me"
+    "objectID": "experience.html#additional-training-and-professional-development",
+    "href": "experience.html#additional-training-and-professional-development",
+    "title": "Experience",
+    "section": "Additional Training and Professional Development",
+    "text": "Additional Training and Professional Development\n\nStudent Pilot\nDelta Qualiflight Aviation Academy\nMay 2024 – Present\nFort Worth, Texas, United States\nI am training toward a private pilot license and have developed skills in aviation, navigation, air traffic control communication, and aviation decision-making. I successfully completed my first solo flight on April 9 at Delta Qualiflight Aviation Academy, marking an important milestone in my aviation training.\n\n\nGraduate Student\nStanford Continuing Studies\nJune 2021 – March 2022\nRemote\nI completed coursework and training related to natural language processing and reinforcement learning.\n\n\nGraduate Student\nDuke University\nMay 2021 – June 2021\nRemote\nI completed academic training related to Bayesian statistics and R programming.\n\n\nGraduate Student\nYale University\nMay 2020 – June 2020\nRemote\nI completed academic training related to Python programming and multivariate calculus.\n\n\nGraduate Student\nUniversity of California, Berkeley\nAugust 2019 – May 2020\nBerkeley, California, United States\nI completed graduate-level academic preparation and training in quantitative and computational subjects."
   },
   {
     "objectID": "about.html",
