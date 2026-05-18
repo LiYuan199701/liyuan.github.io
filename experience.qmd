@@ -1,8 +1,6 @@
 ---
-title: "Experience"
+title: "Research and Academic Experience"
 ---
-
-## Research and Academic Experience
 
 ### Graduate Research Assistant  
 **Department of Statistics and Data Science, Southern Methodist University**  

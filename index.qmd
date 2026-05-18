@@ -39,9 +39,11 @@ My current research develops flexible Bayesian nonlinear autoregressive models u
 
 ## Contact
 
-Email: yuanli@smu.edu  
-GitHub: https://github.com/LiYuan199701  
-LinkedIn: https://www.linkedin.com/in/leon-king-436309192/
+Email: [yuanli@smu.edu](mailto:yuanli@smu.edu)
+
+GitHub: [https://github.com/LiYuan199701](https://github.com/LiYuan199701)  
+
+LinkedIn: [https://www.linkedin.com/in/leon-king-436309192/](https://www.linkedin.com/in/leon-king-436309192/)
 
 [Download CV](files/Li_Yuan_CV.pdf){.btn .btn-primary}
 [Research](research.qmd){.btn .btn-secondary}

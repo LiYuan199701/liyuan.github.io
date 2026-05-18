@@ -2,8 +2,6 @@
 title: "Research"
 ---
 
-# Research
-
 My research focuses on Bayesian nonlinear time-series modeling, statistical learning, and computational methods for forecasting and uncertainty quantification.
 
 ## Dissertation Research

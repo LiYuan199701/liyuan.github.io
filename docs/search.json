@@ -1,52 +1,17 @@
 [
   {
-    "objectID": "cv.html",
-    "href": "cv.html",
-    "title": "CV",
+    "objectID": "education.html",
+    "href": "education.html",
+    "title": "Education",
     "section": "",
-    "text": "You can download my CV here:\nDownload CV\n\n\nPhD in Statistical Science\nSouthern Methodist University\nExpected graduation: May 2027\nMS in Data Science\nVanderbilt University\n\n\n\nBayesian statistics, nonlinear time series, forecasting, uncertainty quantification, statistical learning, and computational statistics.\n\n\n\n\nProgramming: Python, R\nStatistical modeling: Bayesian modeling, time-series analysis, regression, machine learning\nTools: Git, GitHub, VS Code, Quarto, LaTeX, Jupyter Notebook"
-  },
-  {
-    "objectID": "cv.html#education",
-    "href": "cv.html#education",
-    "title": "CV",
-    "section": "",
-    "text": "PhD in Statistical Science\nSouthern Methodist University\nExpected graduation: May 2027\nMS in Data Science\nVanderbilt University"
-  },
-  {
-    "objectID": "cv.html#research-interests",
-    "href": "cv.html#research-interests",
-    "title": "CV",
-    "section": "",
-    "text": "Bayesian statistics, nonlinear time series, forecasting, uncertainty quantification, statistical learning, and computational statistics."
-  },
-  {
-    "objectID": "cv.html#technical-skills",
-    "href": "cv.html#technical-skills",
-    "title": "CV",
-    "section": "",
-    "text": "Programming: Python, R\nStatistical modeling: Bayesian modeling, time-series analysis, regression, machine learning\nTools: Git, GitHub, VS Code, Quarto, LaTeX, Jupyter Notebook"
+    "text": "You can download my CV here:\nDownload CV\n\nSchools\nPhD in Statistical Science\nSouthern Methodist University, Dallas, Texas, United States\n2022 – present\nMS in Statistical Science\nSouthern Methodist University, Dallas, Texas, United States\n2022 – 2025\nMS in Data Science\nVanderbilt University, Nashville, Tennessee, United States\n2020 – 2022\nBerkeley Global Access Program (BGA) - Multidisciplinary\nUniversity of California, Berkeley, California, United States\n2019 – 2020\nBS in Statistics\nSichuan University, Chengdu, Sichuan, China\n2015 – 2019\n\n\nTechnical Skills\n\nProgramming: Python, R, C, SQL, LaTeX, C++, JavaScript, HTML/CSS\nStatistical modeling: Bayesian modeling, time-series analysis, regression, machine learning, deep learning\nTools: Git, GitHub, VS Code, Quarto, LaTeX, Jupyter Notebook, RStudio, PyCharm, Tableau, Microsoft Office\nData analysis: Data cleaning, exploratory data analysis, statistical inference, visualization\nNatural language processing: Text preprocessing, sentiment analysis, text classification, topic modeling"
   },
   {
     "objectID": "publications.html",
     "href": "publications.html",
-    "title": "Publications",
+    "title": "Publications and Working Papers",
     "section": "",
-    "text": "Li Yuan. Nonlinear Time Series Modeling Using Bernstein Polynomials and Bayesian Inference. Manuscript in preparation for Transactions on Machine Learning Research (TMLR).\nLi Yuan. Critical Illness Outcomes of Hospitalized Pregnant Women Following a Texas Abortion Ban Manuscript in preparation for American Journal of Respiratory and Critical Care Medicine.\nLi Yuan Novel Point-of-Care Diagnostic Risk Model and Clinical Calculator for Biliary Atresia Manuscript in preparation.\n\n\n\nLi Yuan. Rate-Perturbing Single Amino Acid Mutation for Hydrolases: A Statistical Profiling. The Journal of Physical Chemistry B.\nView paper"
-  },
-  {
-    "objectID": "publications.html#working-papers",
-    "href": "publications.html#working-papers",
-    "title": "Publications",
-    "section": "",
-    "text": "Li Yuan. Nonlinear Time Series Modeling Using Bernstein Polynomials and Bayesian Inference. Manuscript in preparation for Transactions on Machine Learning Research (TMLR).\nLi Yuan. Critical Illness Outcomes of Hospitalized Pregnant Women Following a Texas Abortion Ban Manuscript in preparation for American Journal of Respiratory and Critical Care Medicine.\nLi Yuan Novel Point-of-Care Diagnostic Risk Model and Clinical Calculator for Biliary Atresia Manuscript in preparation."
-  },
-  {
-    "objectID": "publications.html#publications",
-    "href": "publications.html#publications",
-    "title": "Publications",
-    "section": "",
-    "text": "Li Yuan. Rate-Perturbing Single Amino Acid Mutation for Hydrolases: A Statistical Profiling. The Journal of Physical Chemistry B.\nView paper"
+    "text": "Working Papers\nLi Yuan. Nonlinear Time Series Modeling Using Bernstein Polynomials and Bayesian Inference. Manuscript in preparation for Transactions on Machine Learning Research (TMLR).\nLi Yuan. Critical Illness Outcomes of Hospitalized Pregnant Women Following a Texas Abortion Ban Manuscript in preparation for American Journal of Respiratory and Critical Care Medicine.\nLi Yuan Novel Point-of-Care Diagnostic Risk Model and Clinical Calculator for Biliary Atresia Manuscript in preparation.\n\n\nPublications\nLi Yuan. Rate-Perturbing Single Amino Acid Mutation for Hydrolases: A Statistical Profiling. The Journal of Physical Chemistry B.\nView paper"
   },
   {
     "objectID": "index.html",
@@ -116,61 +81,54 @@
     "href": "research.html",
     "title": "Research",
     "section": "",
-    "text": "My research focuses on Bayesian nonlinear time-series modeling, statistical learning, and computational methods for forecasting and uncertainty quantification.\n\n\nMy dissertation research develops Bernstein Bayesian nonlinear autoregressive time-series models for flexible nonlinear forecasting and Bayesian inference in natural language processing.\nThe main goal is to construct interpretable and flexible Bayesian models that can capture nonlinear temporal dependence while providing uncertainty quantification for future observations.\n\n\n\n\n\nI study flexible Bayesian approaches for modeling nonlinear autoregressive structures in time-series data.\n\n\n\nI use Bernstein polynomial basis functions to approximate nonlinear relationships in autoregressive models.\n\n\n\nI evaluate forecasting performance using prediction accuracy, uncertainty intervals, and residual diagnostics.\n\n\n\nMy work involves computational implementation in Python and R, including simulation studies, posterior predictive inference, and model comparison.\n\n\n\n\n\n\nThis project develops a Bayesian nonlinear autoregressive model using Bernstein polynomial representations and compares its forecasting performance with classical time-series models such as ARIMA and SARIMA."
+    "text": "My research focuses on Bayesian nonlinear time-series modeling, statistical learning, and computational methods for forecasting and uncertainty quantification."
   },
   {
     "objectID": "research.html#dissertation-research",
     "href": "research.html#dissertation-research",
     "title": "Research",
-    "section": "",
-    "text": "My dissertation research develops Bernstein Bayesian nonlinear autoregressive time-series models for flexible nonlinear forecasting and Bayesian inference in natural language processing.\nThe main goal is to construct interpretable and flexible Bayesian models that can capture nonlinear temporal dependence while providing uncertainty quantification for future observations."
+    "section": "Dissertation Research",
+    "text": "Dissertation Research\nMy dissertation research develops Bernstein Bayesian nonlinear autoregressive time-series models for flexible nonlinear forecasting and Bayesian inference in natural language processing.\nThe main goal is to construct interpretable and flexible Bayesian models that can capture nonlinear temporal dependence while providing uncertainty quantification for future observations."
   },
   {
     "objectID": "research.html#research-themes",
     "href": "research.html#research-themes",
     "title": "Research",
-    "section": "",
-    "text": "I study flexible Bayesian approaches for modeling nonlinear autoregressive structures in time-series data.\n\n\n\nI use Bernstein polynomial basis functions to approximate nonlinear relationships in autoregressive models.\n\n\n\nI evaluate forecasting performance using prediction accuracy, uncertainty intervals, and residual diagnostics.\n\n\n\nMy work involves computational implementation in Python and R, including simulation studies, posterior predictive inference, and model comparison."
+    "section": "Research Themes",
+    "text": "Research Themes\n\nBayesian Nonlinear Time-Series Modeling\nI study flexible Bayesian approaches for modeling nonlinear autoregressive structures in time-series data.\n\n\nBernstein Polynomial Methods\nI use Bernstein polynomial basis functions to approximate nonlinear relationships in autoregressive models.\n\n\nForecasting and Uncertainty Quantification\nI evaluate forecasting performance using prediction accuracy, uncertainty intervals, and residual diagnostics.\n\n\nStatistical Computing\nMy work involves computational implementation in Python and R, including simulation studies, posterior predictive inference, and model comparison."
   },
   {
     "objectID": "research.html#selected-projects",
     "href": "research.html#selected-projects",
     "title": "Research",
-    "section": "",
-    "text": "This project develops a Bayesian nonlinear autoregressive model using Bernstein polynomial representations and compares its forecasting performance with classical time-series models such as ARIMA and SARIMA."
+    "section": "Selected Projects",
+    "text": "Selected Projects\n\nNonlinear Time Series Modeling Using Bernstein Polynomials and Bayesian Inference\nThis project develops a Bayesian nonlinear autoregressive model using Bernstein polynomial representations and compares its forecasting performance with classical time-series models such as ARIMA and SARIMA."
   },
   {
     "objectID": "experience.html",
     "href": "experience.html",
-    "title": "Experience",
+    "title": "Research and Academic Experience",
     "section": "",
-    "text": "Department of Statistics and Data Science, Southern Methodist University\nSeptember 2024 – Present\nDallas, Texas, United States\nI conduct research on Bayesian variational inference methods, nonlinear time-series modeling, and large language modeling for sentiment analysis. My work focuses on developing flexible statistical and computational methods for modeling complex data, evaluating predictive performance, and improving uncertainty quantification.\n\n\n\nUT Southwestern Medical Center\nOctober 2024 – March 2025\nDallas, Texas, United States · Remote\nI designed a statistical model using logistic regression to predict biliary atresia based on MMP7 and other variables. I conducted model evaluation using cross-validation methods to assess accuracy and reliability, and developed an R Shiny application for healthcare professionals to support real-time disease prediction.\n\n\n\nDepartment of Statistics and Data Science, Southern Methodist University\nJanuary 2024 – December 2024\nDallas, Texas, United States\nI worked on statistical analysis of the impact of Texas Senate Bill 8 on the health of pregnant women in Texas. The project involved causal inference methods, including exact matching and difference-in-differences approaches, to evaluate policy-related health outcomes.\n\n\n\nDepartment of Statistics and Data Science, Southern Methodist University\nAugust 2023 – January 2024\nDallas, Texas, United States\nI worked on topological data analysis for lung and brain cancer research. This experience strengthened my ability to apply statistical and computational methods to biomedical research questions and interdisciplinary collaborations.\n\n\n\nData Science Institute, Vanderbilt University\nAugust 2021 – December 2021\nNashville, Tennessee, United States\nI worked on research involving natural language processing and Python programming. This experience strengthened my foundation in computational data science, text analysis, and applied machine learning.\n\n\n\nVanderbilt University School of Medicine\nJune 2021 – October 2021\nNashville, Tennessee, United States · Remote\nI supported biomedical data analysis projects using R programming and statistical methods. My work involved data cleaning, exploratory analysis, and statistical modeling for healthcare-related research questions.\n\n\n\nUniversity of Chicago\nAugust 2021 – September 2021\nNashville, Tennessee, United States · Remote\nI participated in research involving R programming, statistical analysis, and applied data science. This experience helped me strengthen my ability to work on research problems across institutional collaborations.\n\n\n\nVanderbilt University Law School\nMarch 2021 – September 2021\nNashville, Tennessee, United States · Hybrid\nI worked on statistical data analysis using R programming. This role involved supporting legal and policy-related research through quantitative analysis and data interpretation.\n\n\n\nVanderbilt University\nSeptember 2020 – September 2021\nNashville, Tennessee, United States · Hybrid\nI supported research projects involving web development and Python programming. This experience helped me develop practical skills in computational research, programming, and data-oriented software development."
-  },
-  {
-    "objectID": "experience.html#research-and-academic-experience",
-    "href": "experience.html#research-and-academic-experience",
-    "title": "Experience",
-    "section": "",
-    "text": "Department of Statistics and Data Science, Southern Methodist University\nSeptember 2024 – Present\nDallas, Texas, United States\nI conduct research on Bayesian variational inference methods, nonlinear time-series modeling, and large language modeling for sentiment analysis. My work focuses on developing flexible statistical and computational methods for modeling complex data, evaluating predictive performance, and improving uncertainty quantification.\n\n\n\nUT Southwestern Medical Center\nOctober 2024 – March 2025\nDallas, Texas, United States · Remote\nI designed a statistical model using logistic regression to predict biliary atresia based on MMP7 and other variables. I conducted model evaluation using cross-validation methods to assess accuracy and reliability, and developed an R Shiny application for healthcare professionals to support real-time disease prediction.\n\n\n\nDepartment of Statistics and Data Science, Southern Methodist University\nJanuary 2024 – December 2024\nDallas, Texas, United States\nI worked on statistical analysis of the impact of Texas Senate Bill 8 on the health of pregnant women in Texas. The project involved causal inference methods, including exact matching and difference-in-differences approaches, to evaluate policy-related health outcomes.\n\n\n\nDepartment of Statistics and Data Science, Southern Methodist University\nAugust 2023 – January 2024\nDallas, Texas, United States\nI worked on topological data analysis for lung and brain cancer research. This experience strengthened my ability to apply statistical and computational methods to biomedical research questions and interdisciplinary collaborations.\n\n\n\nData Science Institute, Vanderbilt University\nAugust 2021 – December 2021\nNashville, Tennessee, United States\nI worked on research involving natural language processing and Python programming. This experience strengthened my foundation in computational data science, text analysis, and applied machine learning.\n\n\n\nVanderbilt University School of Medicine\nJune 2021 – October 2021\nNashville, Tennessee, United States · Remote\nI supported biomedical data analysis projects using R programming and statistical methods. My work involved data cleaning, exploratory analysis, and statistical modeling for healthcare-related research questions.\n\n\n\nUniversity of Chicago\nAugust 2021 – September 2021\nNashville, Tennessee, United States · Remote\nI participated in research involving R programming, statistical analysis, and applied data science. This experience helped me strengthen my ability to work on research problems across institutional collaborations.\n\n\n\nVanderbilt University Law School\nMarch 2021 – September 2021\nNashville, Tennessee, United States · Hybrid\nI worked on statistical data analysis using R programming. This role involved supporting legal and policy-related research through quantitative analysis and data interpretation.\n\n\n\nVanderbilt University\nSeptember 2020 – September 2021\nNashville, Tennessee, United States · Hybrid\nI supported research projects involving web development and Python programming. This experience helped me develop practical skills in computational research, programming, and data-oriented software development."
+    "text": "Department of Statistics and Data Science, Southern Methodist University\nSeptember 2024 – Present\nDallas, Texas, United States\nI conduct research on Bayesian variational inference methods, nonlinear time-series modeling, and large language modeling for sentiment analysis. My work focuses on developing flexible statistical and computational methods for modeling complex data, evaluating predictive performance, and improving uncertainty quantification."
   },
   {
     "objectID": "experience.html#teaching-experience",
     "href": "experience.html#teaching-experience",
-    "title": "Experience",
+    "title": "Research and Academic Experience",
     "section": "Teaching Experience",
     "text": "Teaching Experience\n\nGraduate Teaching Assistant\nSTAT 2331: Introduction to Statistical Methods\nDepartment of Statistics and Data Science, Southern Methodist University\nAugust 2025 – December 2025\nDallas, Texas, United States\nI served as a Graduate Teaching Assistant for STAT 2331, a non-calculus-based introduction to statistical methods. The course introduced students to statistical reasoning, descriptive statistics, probability concepts, simple linear regression, inference, and the use of statistics in decision-making.\nMy responsibilities included supporting students with course concepts, assisting with homework and statistical software questions, helping clarify course materials, and contributing to grading and instructional support.\n\n\nGraduate Teaching Assistant\nSTAT 3300: Applied Statistics: Regression\nDepartment of Statistics and Data Science, Southern Methodist University\nAugust 2022 – May 2023\nDallas, Texas, United States\nI served as a Graduate Teaching Assistant for STAT 3300, an applied statistics course focused on regression methods and statistical modeling. The course introduced students to simple and multiple linear regression, model interpretation, diagnostic checking, inference for regression coefficients, prediction, and applications of regression models to real data.\nMy responsibilities included supporting students with regression concepts, assisting with homework and R programming questions, helping students interpret regression output, and contributing to grading and instructional support."
   },
   {
     "objectID": "experience.html#industry-and-consulting-experience",
     "href": "experience.html#industry-and-consulting-experience",
-    "title": "Experience",
+    "title": "Research and Academic Experience",
     "section": "Industry and Consulting Experience",
     "text": "Industry and Consulting Experience\n\nProject Consultant\nRevision Skincare\nApril 2025 – June 2025\nDallas, Texas, United States · Hybrid\nI conducted comprehensive data analysis on skin hyperpigmentation treatment effectiveness for 11 subjects, helping evaluate treatment outcomes. I applied advanced statistical methods to assess facial skin whitening results, ensuring data-driven insights for product development. I also collaborated with cross-functional teams to optimize treatment protocols and contribute to innovative skincare solutions.\n\n\nData Scientist Intern\nAmazon\nJune 2023 – September 2023\nBoston, Massachusetts, United States\nI worked as a Data Scientist Intern on the Amazon Alexa team. I built a time-series model for detecting abnormalities in user experience, applying statistical modeling and data science methods to real-world product data."
   },
   {
     "objectID": "experience.html#additional-training-and-professional-development",
     "href": "experience.html#additional-training-and-professional-development",
-    "title": "Experience",
+    "title": "Research and Academic Experience",
     "section": "Additional Training and Professional Development",
     "text": "Additional Training and Professional Development\n\nStudent Pilot\nDelta Qualiflight Aviation Academy\nMay 2024 – Present\nFort Worth, Texas, United States\nI am training toward a private pilot license and have developed skills in aviation, navigation, air traffic control communication, and aviation decision-making. I successfully completed my first solo flight on April 9 at Delta Qualiflight Aviation Academy, marking an important milestone in my aviation training.\n\n\nGraduate Student\nStanford Continuing Studies\nJune 2021 – March 2022\nRemote\nI completed coursework and training related to natural language processing and reinforcement learning.\n\n\nGraduate Student\nDuke University\nMay 2021 – June 2021\nRemote\nI completed academic training related to Bayesian statistics and R programming.\n\n\nGraduate Student\nYale University\nMay 2020 – June 2020\nRemote\nI completed academic training related to Python programming and multivariate calculus.\n\n\nGraduate Student\nUniversity of California, Berkeley\nAugust 2019 – May 2020\nBerkeley, California, United States\nI completed graduate-level academic preparation and training in quantitative and computational subjects."
   },

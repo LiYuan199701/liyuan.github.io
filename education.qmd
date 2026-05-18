@@ -1,0 +1,42 @@
+---
+title: "Education"
+---
+
+You can download my CV here:
+
+[Download CV](files/Li_Yuan_CV.pdf)
+
+# Schools
+
+**PhD in Statistical Science**  
+Southern Methodist University, Dallas, Texas, United States
+
+2022 – present
+
+**MS in Statistical Science**  
+Southern Methodist University, Dallas, Texas, United States
+
+2022 – 2025
+
+**MS in Data Science**  
+Vanderbilt University, Nashville, Tennessee, United States
+
+2020 – 2022
+
+**Berkeley Global Access Program (BGA) - Multidisciplinary**  
+University of California, Berkeley, California, United States
+
+2019 – 2020
+
+**BS in Statistics**  
+Sichuan University, Chengdu, Sichuan, China
+
+2015 – 2019
+
+# Technical Skills
+
+- Programming: Python, R, C, SQL, LaTeX, C++, JavaScript, HTML/CSS
+- Statistical modeling: Bayesian modeling, time-series analysis, regression, machine learning, deep learning
+- Tools: Git, GitHub, VS Code, Quarto, LaTeX, Jupyter Notebook, RStudio, PyCharm, Tableau, Microsoft Office
+- Data analysis: Data cleaning, exploratory data analysis, statistical inference, visualization
+- Natural language processing: Text preprocessing, sentiment analysis, text classification, topic modeling

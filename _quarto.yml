@@ -6,7 +6,7 @@ website:
   title: "Li Yuan"
   site-url: "https://liyuan199701.github.io/liyuan.github.io/"
   page-footer:
-    center: "© 2026 Li Yuan | PhD Candidate in Statistical Science, Southern Methodist University"
+    center: "© 2026 Li Yuan (Leon) | PhD Candidate in Statistical Science, Southern Methodist University"
   navbar:
     background: primary
     search: true
@@ -21,8 +21,8 @@ website:
         text: Teaching
       - href: experience.qmd
         text: Experience
-      - href: cv.qmd
-        text: CV
+      - href: education.qmd
+        text: Education
     right:
       - icon: github
         href: https://github.com/LiYuan199701
