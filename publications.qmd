@@ -2,17 +2,52 @@
 title: "Publications and Working Papers"
 ---
 
-# Working Papers
+# Manuscripts in progress
 
-**Li Yuan.** *Nonlinear Time Series Modeling Using Bernstein Polynomials and Bayesian Inference.* Manuscript in preparation for *Transactions on Machine Learning Research (TMLR)*.
+## 1. Nonlinear Time Series Modeling Using Bernstein Polynomials and Bayesian Inference
 
-**Li Yuan.** *Critical Illness Outcomes of Hospitalized Pregnant Women
-Following a Texas Abortion Ban* Manuscript in preparation for *American Journal of Respiratory and Critical Care Medicine*.
+**Journal/Status:** Manuscript in preparation for *Transactions on Machine Learning Research (TMLR)*.  
+**Authors:** **Li Yuan** and Raanju R. Sundararajan.
 
-**Li Yuan** *Novel Point-of-Care Diagnostic Risk Model and Clinical Calculator for Biliary Atresia*
-Manuscript in preparation.
+**Summary:**
+
+- This paper introduces Bernstein Polynomial Autoregressive (BPAR) models and an AR-BPAR extension to capture smooth nonlinear temporal dependence while preserving lag-level interpretability.
+- The framework uses Bayesian inference, including exact and variational approaches, to provide uncertainty quantification for model parameters and forecasts; shrinkage priors and credible intervals support model pruning.
+- Empirical studies across simulated nonlinear systems, chaotic benchmarks, and real time series show strong forecasting performance, especially for chaotic and highly nonlinear data, compared with classical statistical models and neural network baselines.
+
+## 2. Novel Point-of-Care Diagnostic Risk Model and Clinical Calculator for Biliary Atresia
+
+**Journal/Status:** Manuscript in preparation.  
+**Authors:** Sandra Rios-Melendez, **Li Yuan**, Song Zhang, Reena Mourya, Pranavkumar Shivakumar, Estella Alonso, Stephen Guthery, Sanjiv Harpavat, Simon Horslen, Binita Kamath, Saul Karpen, Rohit Kohli, Kathleen Loomes, John Magee, Alexander Miethke, Benjamin Shneider, Ron Sokol, Pamela L. Valentino, Jorge Bezerra, Sindhu Pandurangi, and Childhood Liver Disease Research Network (ChiLDReN).
+
+**Summary:**
+
+- This study develops a multivariable logistic risk prediction model for biliary atresia using clinical and biomarker data from cholestatic infants in the ChiLDReN cohort and an external validation cohort from Children's Medical Center Dallas.
+- The final model combines age, stool color, MMP-7, and GGT, achieving excellent discrimination for biliary atresia and improving risk classification compared with MMP-7 alone.
+- The model is translated into a web-based clinical calculator that provides individualized, real-time risk estimates to support earlier referral and diagnostic evaluation for infants with neonatal cholestasis.
 
 # Publications
 
-**Li Yuan.** *Rate-Perturbing Single Amino Acid Mutation for Hydrolases: A Statistical Profiling.* *The Journal of Physical Chemistry B*.  
+## 1. Critical Illness Outcomes of Hospitalized Pregnant Women Following a Texas Abortion Ban
+
+**Journal:** *American Journal of Respiratory and Critical Care Medicine*.  
+**Authors:** Catherine Chen, Deepshikha C. Ashana, Kevin Callison, Courtney Baker, R. Nicholas Burns, Jing Cao, **Li Yuan**, and Hayley B. Gershengorn.  
+[View paper](https://academic.oup.com/ajrccm/advance-article/doi/10.1093/ajrccm/aamag207/8679094?searchresult=1)
+
+**Summary:**
+
+- This study used an interrupted time series design to examine 2,344,135 hospitalized pregnant women in Texas from January 2018 through March 2024.
+- In the full cohort, Texas SB8 was not associated with adjusted rates of critical illness, sepsis, mechanical ventilation, or infection; however, the proportion of hospitalized pregnant patients with high-risk features increased after SB8.
+- Among high-risk patients, SB8 was associated with sustained increases in critical illness, sepsis, and infection, highlighting potential implications for infection prevention and critical care planning in abortion-restrictive states.
+
+## 2. Rate-Perturbing Single Amino Acid Mutation for Hydrolases: A Statistical Profiling
+
+**Journal:** *The Journal of Physical Chemistry B*.  
+**Authors:** Bailu Yan, Xinchun Ran, Yaoyukun Jiang, Sarah K. Torrence, **Li Yuan**, Qianzhen Shao, and Zhongyue J. Yang.  
 [View paper](https://pubs.acs.org/doi/10.1021/acs.jpcb.1c05901)
+
+**Summary:**
+
+- This paper introduced IntEnzyDB, an integrated structure-kinetics database for hydrolases containing thousands of curated kinetic measurements and protein structures for statistical analysis and machine learning.
+- The analysis found that only about 10% of single amino acid substitutions were rate-enhancing, and mutations to bulky nonpolar residues such as Val, Ile, Phe, and Leu were significantly more likely to improve hydrolase turnover or catalytic efficiency.
+- Structure-kinetics profiling showed that mutation effects depend on distance from the active site: nearby and midrange mutations can strongly change catalytic performance, while distal mutations are more likely to be efficiency-neutral and less likely to be deleterious.

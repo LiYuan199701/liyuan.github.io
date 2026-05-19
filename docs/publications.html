@@ -107,6 +107,10 @@ ul.task-list li input[type="checkbox"] {
     <a class="nav-link" href="./education.html" rel="" target="">
  <span class="menu-text">Education</span></a>
   </li>  
+  <li class="nav-item">
+    <a class="nav-link" href="./dating.html" rel="" target="">
+ <span class="menu-text">Dating</span></a>
+  </li>  
 </ul>
             <ul class="navbar-nav navbar-nav-scroll ms-auto">
   <li class="nav-item compact">
@@ -141,8 +145,16 @@ ul.task-list li input[type="checkbox"] {
     <h2 id="toc-title">On this page</h2>
    
   <ul>
-  <li><a href="#working-papers" id="toc-working-papers" class="nav-link active" data-scroll-target="#working-papers">Working Papers</a></li>
-  <li><a href="#publications" id="toc-publications" class="nav-link" data-scroll-target="#publications">Publications</a></li>
+  <li><a href="#manuscripts-in-progress" id="toc-manuscripts-in-progress" class="nav-link active" data-scroll-target="#manuscripts-in-progress">Manuscripts in progress</a>
+  <ul class="collapse">
+  <li><a href="#nonlinear-time-series-modeling-using-bernstein-polynomials-and-bayesian-inference" id="toc-nonlinear-time-series-modeling-using-bernstein-polynomials-and-bayesian-inference" class="nav-link" data-scroll-target="#nonlinear-time-series-modeling-using-bernstein-polynomials-and-bayesian-inference">1. Nonlinear Time Series Modeling Using Bernstein Polynomials and Bayesian Inference</a></li>
+  <li><a href="#novel-point-of-care-diagnostic-risk-model-and-clinical-calculator-for-biliary-atresia" id="toc-novel-point-of-care-diagnostic-risk-model-and-clinical-calculator-for-biliary-atresia" class="nav-link" data-scroll-target="#novel-point-of-care-diagnostic-risk-model-and-clinical-calculator-for-biliary-atresia">2. Novel Point-of-Care Diagnostic Risk Model and Clinical Calculator for Biliary Atresia</a></li>
+  </ul></li>
+  <li><a href="#publications" id="toc-publications" class="nav-link" data-scroll-target="#publications">Publications</a>
+  <ul class="collapse">
+  <li><a href="#critical-illness-outcomes-of-hospitalized-pregnant-women-following-a-texas-abortion-ban" id="toc-critical-illness-outcomes-of-hospitalized-pregnant-women-following-a-texas-abortion-ban" class="nav-link" data-scroll-target="#critical-illness-outcomes-of-hospitalized-pregnant-women-following-a-texas-abortion-ban">1. Critical Illness Outcomes of Hospitalized Pregnant Women Following a Texas Abortion Ban</a></li>
+  <li><a href="#rate-perturbing-single-amino-acid-mutation-for-hydrolases-a-statistical-profiling" id="toc-rate-perturbing-single-amino-acid-mutation-for-hydrolases-a-statistical-profiling" class="nav-link" data-scroll-target="#rate-perturbing-single-amino-acid-mutation-for-hydrolases-a-statistical-profiling">2. Rate-Perturbing Single Amino Acid Mutation for Hydrolases: A Statistical Profiling</a></li>
+  </ul></li>
   </ul>
 </nav>
     </div>
@@ -166,18 +178,59 @@ ul.task-list li input[type="checkbox"] {
 
 </header>
 
-<section id="working-papers" class="level1">
-<h1>Working Papers</h1>
-<p><strong>Li Yuan.</strong> <em>Nonlinear Time Series Modeling Using Bernstein Polynomials and Bayesian Inference.</em> Manuscript in preparation for <em>Transactions on Machine Learning Research (TMLR)</em>.</p>
-<p><strong>Li Yuan.</strong> <em>Critical Illness Outcomes of Hospitalized Pregnant Women Following a Texas Abortion Ban</em> Manuscript in preparation for <em>American Journal of Respiratory and Critical Care Medicine</em>.</p>
-<p><strong>Li Yuan</strong> <em>Novel Point-of-Care Diagnostic Risk Model and Clinical Calculator for Biliary Atresia</em> Manuscript in preparation.</p>
+<section id="manuscripts-in-progress" class="level1">
+<h1>Manuscripts in progress</h1>
+<section id="nonlinear-time-series-modeling-using-bernstein-polynomials-and-bayesian-inference" class="level2">
+<h2 class="anchored" data-anchor-id="nonlinear-time-series-modeling-using-bernstein-polynomials-and-bayesian-inference">1. Nonlinear Time Series Modeling Using Bernstein Polynomials and Bayesian Inference</h2>
+<p><strong>Journal/Status:</strong> Manuscript in preparation for <em>Transactions on Machine Learning Research (TMLR)</em>.<br>
+<strong>Authors:</strong> <strong>Li Yuan</strong> and Raanju R. Sundararajan.</p>
+<p><strong>Summary:</strong></p>
+<ul>
+<li>This paper introduces Bernstein Polynomial Autoregressive (BPAR) models and an AR-BPAR extension to capture smooth nonlinear temporal dependence while preserving lag-level interpretability.</li>
+<li>The framework uses Bayesian inference, including exact and variational approaches, to provide uncertainty quantification for model parameters and forecasts; shrinkage priors and credible intervals support model pruning.</li>
+<li>Empirical studies across simulated nonlinear systems, chaotic benchmarks, and real time series show strong forecasting performance, especially for chaotic and highly nonlinear data, compared with classical statistical models and neural network baselines.</li>
+</ul>
+</section>
+<section id="novel-point-of-care-diagnostic-risk-model-and-clinical-calculator-for-biliary-atresia" class="level2">
+<h2 class="anchored" data-anchor-id="novel-point-of-care-diagnostic-risk-model-and-clinical-calculator-for-biliary-atresia">2. Novel Point-of-Care Diagnostic Risk Model and Clinical Calculator for Biliary Atresia</h2>
+<p><strong>Journal/Status:</strong> Manuscript in preparation.<br>
+<strong>Authors:</strong> Sandra Rios-Melendez, <strong>Li Yuan</strong>, Song Zhang, Reena Mourya, Pranavkumar Shivakumar, Estella Alonso, Stephen Guthery, Sanjiv Harpavat, Simon Horslen, Binita Kamath, Saul Karpen, Rohit Kohli, Kathleen Loomes, John Magee, Alexander Miethke, Benjamin Shneider, Ron Sokol, Pamela L. Valentino, Jorge Bezerra, Sindhu Pandurangi, and Childhood Liver Disease Research Network (ChiLDReN).</p>
+<p><strong>Summary:</strong></p>
+<ul>
+<li>This study develops a multivariable logistic risk prediction model for biliary atresia using clinical and biomarker data from cholestatic infants in the ChiLDReN cohort and an external validation cohort from Children’s Medical Center Dallas.</li>
+<li>The final model combines age, stool color, MMP-7, and GGT, achieving excellent discrimination for biliary atresia and improving risk classification compared with MMP-7 alone.</li>
+<li>The model is translated into a web-based clinical calculator that provides individualized, real-time risk estimates to support earlier referral and diagnostic evaluation for infants with neonatal cholestasis.</li>
+</ul>
+</section>
 </section>
 <section id="publications" class="level1">
 <h1>Publications</h1>
-<p><strong>Li Yuan.</strong> <em>Rate-Perturbing Single Amino Acid Mutation for Hydrolases: A Statistical Profiling.</em> <em>The Journal of Physical Chemistry B</em>.<br>
+<section id="critical-illness-outcomes-of-hospitalized-pregnant-women-following-a-texas-abortion-ban" class="level2">
+<h2 class="anchored" data-anchor-id="critical-illness-outcomes-of-hospitalized-pregnant-women-following-a-texas-abortion-ban">1. Critical Illness Outcomes of Hospitalized Pregnant Women Following a Texas Abortion Ban</h2>
+<p><strong>Journal:</strong> <em>American Journal of Respiratory and Critical Care Medicine</em>.<br>
+<strong>Authors:</strong> Catherine Chen, Deepshikha C. Ashana, Kevin Callison, Courtney Baker, R. Nicholas Burns, Jing Cao, <strong>Li Yuan</strong>, and Hayley B. Gershengorn.<br>
+<a href="https://academic.oup.com/ajrccm/advance-article/doi/10.1093/ajrccm/aamag207/8679094?searchresult=1">View paper</a></p>
+<p><strong>Summary:</strong></p>
+<ul>
+<li>This study used an interrupted time series design to examine 2,344,135 hospitalized pregnant women in Texas from January 2018 through March 2024.</li>
+<li>In the full cohort, Texas SB8 was not associated with adjusted rates of critical illness, sepsis, mechanical ventilation, or infection; however, the proportion of hospitalized pregnant patients with high-risk features increased after SB8.</li>
+<li>Among high-risk patients, SB8 was associated with sustained increases in critical illness, sepsis, and infection, highlighting potential implications for infection prevention and critical care planning in abortion-restrictive states.</li>
+</ul>
+</section>
+<section id="rate-perturbing-single-amino-acid-mutation-for-hydrolases-a-statistical-profiling" class="level2">
+<h2 class="anchored" data-anchor-id="rate-perturbing-single-amino-acid-mutation-for-hydrolases-a-statistical-profiling">2. Rate-Perturbing Single Amino Acid Mutation for Hydrolases: A Statistical Profiling</h2>
+<p><strong>Journal:</strong> <em>The Journal of Physical Chemistry B</em>.<br>
+<strong>Authors:</strong> Bailu Yan, Xinchun Ran, Yaoyukun Jiang, Sarah K. Torrence, <strong>Li Yuan</strong>, Qianzhen Shao, and Zhongyue J. Yang.<br>
 <a href="https://pubs.acs.org/doi/10.1021/acs.jpcb.1c05901">View paper</a></p>
+<p><strong>Summary:</strong></p>
+<ul>
+<li>This paper introduced IntEnzyDB, an integrated structure-kinetics database for hydrolases containing thousands of curated kinetic measurements and protein structures for statistical analysis and machine learning.</li>
+<li>The analysis found that only about 10% of single amino acid substitutions were rate-enhancing, and mutations to bulky nonpolar residues such as Val, Ile, Phe, and Leu were significantly more likely to improve hydrolase turnover or catalytic efficiency.</li>
+<li>Structure-kinetics profiling showed that mutation effects depend on distance from the active site: nearby and midrange mutations can strongly change catalytic performance, while distal mutations are more likely to be efficiency-neutral and less likely to be deleterious.</li>
+</ul>
 
 
+</section>
 </section>
 
 </main> <!-- /main -->

@@ -23,6 +23,8 @@ website:
         text: Experience
       - href: education.qmd
         text: Education
+      - href: dating.qmd
+        text: Dating
     right:
       - icon: github
         href: https://github.com/LiYuan199701

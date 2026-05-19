@@ -11,7 +11,35 @@
     "href": "publications.html",
     "title": "Publications and Working Papers",
     "section": "",
-    "text": "Working Papers\nLi Yuan. Nonlinear Time Series Modeling Using Bernstein Polynomials and Bayesian Inference. Manuscript in preparation for Transactions on Machine Learning Research (TMLR).\nLi Yuan. Critical Illness Outcomes of Hospitalized Pregnant Women Following a Texas Abortion Ban Manuscript in preparation for American Journal of Respiratory and Critical Care Medicine.\nLi Yuan Novel Point-of-Care Diagnostic Risk Model and Clinical Calculator for Biliary Atresia Manuscript in preparation.\n\n\nPublications\nLi Yuan. Rate-Perturbing Single Amino Acid Mutation for Hydrolases: A Statistical Profiling. The Journal of Physical Chemistry B.\nView paper"
+    "text": "Journal/Status: Manuscript in preparation for Transactions on Machine Learning Research (TMLR).\nAuthors: Li Yuan and Raanju R. Sundararajan.\nSummary:\n\nThis paper introduces Bernstein Polynomial Autoregressive (BPAR) models and an AR-BPAR extension to capture smooth nonlinear temporal dependence while preserving lag-level interpretability.\nThe framework uses Bayesian inference, including exact and variational approaches, to provide uncertainty quantification for model parameters and forecasts; shrinkage priors and credible intervals support model pruning.\nEmpirical studies across simulated nonlinear systems, chaotic benchmarks, and real time series show strong forecasting performance, especially for chaotic and highly nonlinear data, compared with classical statistical models and neural network baselines.\n\n\n\n\nJournal/Status: Manuscript in preparation.\nAuthors: Sandra Rios-Melendez, Li Yuan, Song Zhang, Reena Mourya, Pranavkumar Shivakumar, Estella Alonso, Stephen Guthery, Sanjiv Harpavat, Simon Horslen, Binita Kamath, Saul Karpen, Rohit Kohli, Kathleen Loomes, John Magee, Alexander Miethke, Benjamin Shneider, Ron Sokol, Pamela L. Valentino, Jorge Bezerra, Sindhu Pandurangi, and Childhood Liver Disease Research Network (ChiLDReN).\nSummary:\n\nThis study develops a multivariable logistic risk prediction model for biliary atresia using clinical and biomarker data from cholestatic infants in the ChiLDReN cohort and an external validation cohort from Children’s Medical Center Dallas.\nThe final model combines age, stool color, MMP-7, and GGT, achieving excellent discrimination for biliary atresia and improving risk classification compared with MMP-7 alone.\nThe model is translated into a web-based clinical calculator that provides individualized, real-time risk estimates to support earlier referral and diagnostic evaluation for infants with neonatal cholestasis."
+  },
+  {
+    "objectID": "publications.html#nonlinear-time-series-modeling-using-bernstein-polynomials-and-bayesian-inference",
+    "href": "publications.html#nonlinear-time-series-modeling-using-bernstein-polynomials-and-bayesian-inference",
+    "title": "Publications and Working Papers",
+    "section": "",
+    "text": "Journal/Status: Manuscript in preparation for Transactions on Machine Learning Research (TMLR).\nAuthors: Li Yuan and Raanju R. Sundararajan.\nSummary:\n\nThis paper introduces Bernstein Polynomial Autoregressive (BPAR) models and an AR-BPAR extension to capture smooth nonlinear temporal dependence while preserving lag-level interpretability.\nThe framework uses Bayesian inference, including exact and variational approaches, to provide uncertainty quantification for model parameters and forecasts; shrinkage priors and credible intervals support model pruning.\nEmpirical studies across simulated nonlinear systems, chaotic benchmarks, and real time series show strong forecasting performance, especially for chaotic and highly nonlinear data, compared with classical statistical models and neural network baselines."
+  },
+  {
+    "objectID": "publications.html#novel-point-of-care-diagnostic-risk-model-and-clinical-calculator-for-biliary-atresia",
+    "href": "publications.html#novel-point-of-care-diagnostic-risk-model-and-clinical-calculator-for-biliary-atresia",
+    "title": "Publications and Working Papers",
+    "section": "",
+    "text": "Journal/Status: Manuscript in preparation.\nAuthors: Sandra Rios-Melendez, Li Yuan, Song Zhang, Reena Mourya, Pranavkumar Shivakumar, Estella Alonso, Stephen Guthery, Sanjiv Harpavat, Simon Horslen, Binita Kamath, Saul Karpen, Rohit Kohli, Kathleen Loomes, John Magee, Alexander Miethke, Benjamin Shneider, Ron Sokol, Pamela L. Valentino, Jorge Bezerra, Sindhu Pandurangi, and Childhood Liver Disease Research Network (ChiLDReN).\nSummary:\n\nThis study develops a multivariable logistic risk prediction model for biliary atresia using clinical and biomarker data from cholestatic infants in the ChiLDReN cohort and an external validation cohort from Children’s Medical Center Dallas.\nThe final model combines age, stool color, MMP-7, and GGT, achieving excellent discrimination for biliary atresia and improving risk classification compared with MMP-7 alone.\nThe model is translated into a web-based clinical calculator that provides individualized, real-time risk estimates to support earlier referral and diagnostic evaluation for infants with neonatal cholestasis."
+  },
+  {
+    "objectID": "publications.html#critical-illness-outcomes-of-hospitalized-pregnant-women-following-a-texas-abortion-ban",
+    "href": "publications.html#critical-illness-outcomes-of-hospitalized-pregnant-women-following-a-texas-abortion-ban",
+    "title": "Publications and Working Papers",
+    "section": "1. Critical Illness Outcomes of Hospitalized Pregnant Women Following a Texas Abortion Ban",
+    "text": "1. Critical Illness Outcomes of Hospitalized Pregnant Women Following a Texas Abortion Ban\nJournal: American Journal of Respiratory and Critical Care Medicine.\nAuthors: Catherine Chen, Deepshikha C. Ashana, Kevin Callison, Courtney Baker, R. Nicholas Burns, Jing Cao, Li Yuan, and Hayley B. Gershengorn.\nView paper\nSummary:\n\nThis study used an interrupted time series design to examine 2,344,135 hospitalized pregnant women in Texas from January 2018 through March 2024.\nIn the full cohort, Texas SB8 was not associated with adjusted rates of critical illness, sepsis, mechanical ventilation, or infection; however, the proportion of hospitalized pregnant patients with high-risk features increased after SB8.\nAmong high-risk patients, SB8 was associated with sustained increases in critical illness, sepsis, and infection, highlighting potential implications for infection prevention and critical care planning in abortion-restrictive states."
+  },
+  {
+    "objectID": "publications.html#rate-perturbing-single-amino-acid-mutation-for-hydrolases-a-statistical-profiling",
+    "href": "publications.html#rate-perturbing-single-amino-acid-mutation-for-hydrolases-a-statistical-profiling",
+    "title": "Publications and Working Papers",
+    "section": "2. Rate-Perturbing Single Amino Acid Mutation for Hydrolases: A Statistical Profiling",
+    "text": "2. Rate-Perturbing Single Amino Acid Mutation for Hydrolases: A Statistical Profiling\nJournal: The Journal of Physical Chemistry B.\nAuthors: Bailu Yan, Xinchun Ran, Yaoyukun Jiang, Sarah K. Torrence, Li Yuan, Qianzhen Shao, and Zhongyue J. Yang.\nView paper\nSummary:\n\nThis paper introduced IntEnzyDB, an integrated structure-kinetics database for hydrolases containing thousands of curated kinetic measurements and protein structures for statistical analysis and machine learning.\nThe analysis found that only about 10% of single amino acid substitutions were rate-enhancing, and mutations to bulky nonpolar residues such as Val, Ile, Phe, and Leu were significantly more likely to improve hydrolase turnover or catalytic efficiency.\nStructure-kinetics profiling showed that mutation effects depend on distance from the active site: nearby and midrange mutations can strongly change catalytic performance, while distal mutations are more likely to be efficiency-neutral and less likely to be deleterious."
   },
   {
     "objectID": "index.html",
@@ -40,6 +68,34 @@
     "title": "Li Yuan (Leon King)",
     "section": "Contact",
     "text": "Contact\nEmail: yuanli@smu.edu\nGitHub: https://github.com/LiYuan199701\nLinkedIn: https://www.linkedin.com/in/leon-king-436309192/\nDownload CV Research Email Me"
+  },
+  {
+    "objectID": "research.html",
+    "href": "research.html",
+    "title": "Research",
+    "section": "",
+    "text": "My research focuses on Bayesian nonlinear time-series modeling, statistical learning, and computational methods for forecasting and uncertainty quantification."
+  },
+  {
+    "objectID": "research.html#dissertation-research",
+    "href": "research.html#dissertation-research",
+    "title": "Research",
+    "section": "Dissertation Research",
+    "text": "Dissertation Research\nMy dissertation research develops Bernstein Bayesian nonlinear autoregressive time-series models for flexible nonlinear forecasting and Bayesian inference in natural language processing.\nThe main goal is to construct interpretable and flexible Bayesian models that can capture nonlinear temporal dependence while providing uncertainty quantification for future observations."
+  },
+  {
+    "objectID": "research.html#research-themes",
+    "href": "research.html#research-themes",
+    "title": "Research",
+    "section": "Research Themes",
+    "text": "Research Themes\n\nBayesian Nonlinear Time-Series Modeling\nI study flexible Bayesian approaches for modeling nonlinear autoregressive structures in time-series data.\n\n\nBernstein Polynomial Methods\nI use Bernstein polynomial basis functions to approximate nonlinear relationships in autoregressive models.\n\n\nForecasting and Uncertainty Quantification\nI evaluate forecasting performance using prediction accuracy, uncertainty intervals, and residual diagnostics.\n\n\nStatistical Computing\nMy work involves computational implementation in Python and R, including simulation studies, posterior predictive inference, and model comparison."
+  },
+  {
+    "objectID": "research.html#selected-projects",
+    "href": "research.html#selected-projects",
+    "title": "Research",
+    "section": "Selected Projects",
+    "text": "Selected Projects\n\nNonlinear Time Series Modeling Using Bernstein Polynomials and Bayesian Inference\nThis project develops a Bayesian nonlinear autoregressive model using Bernstein polynomial representations and compares its forecasting performance with classical time-series models such as ARIMA and SARIMA."
   },
   {
     "objectID": "teaching.html",
@@ -77,32 +133,67 @@
     "text": "Teaching Philosophy\nMy teaching goal is to help students understand statistical thinking, not only memorize formulas. I believe effective statistics teaching should combine mathematical foundations, computational practice, and real-world interpretation.\nIn the classroom, I aim to:\n\nExplain statistical concepts clearly and intuitively.\nConnect theory with real data applications.\nEncourage students to ask questions and think critically.\nUse computation to deepen understanding.\nHelp students interpret statistical results in practical contexts.\n\nI want students to leave my courses not only knowing how to calculate statistical quantities, but also understanding what those quantities mean, when to use them, and how to communicate their conclusions responsibly."
   },
   {
-    "objectID": "research.html",
-    "href": "research.html",
-    "title": "Research",
+    "objectID": "dating.html",
+    "href": "dating.html",
+    "title": "Dating Level-Up",
     "section": "",
-    "text": "My research focuses on Bayesian nonlinear time-series modeling, statistical learning, and computational methods for forecasting and uncertainty quantification."
+    "text": "This page is a private-style space for reflecting on dating, building confidence, and improving communication, presence, and connection over time."
   },
   {
-    "objectID": "research.html#dissertation-research",
-    "href": "research.html#dissertation-research",
-    "title": "Research",
-    "section": "Dissertation Research",
-    "text": "Dissertation Research\nMy dissertation research develops Bernstein Bayesian nonlinear autoregressive time-series models for flexible nonlinear forecasting and Bayesian inference in natural language processing.\nThe main goal is to construct interpretable and flexible Bayesian models that can capture nonlinear temporal dependence while providing uncertainty quantification for future observations."
+    "objectID": "dating.html#what-i-want-to-practice",
+    "href": "dating.html#what-i-want-to-practice",
+    "title": "Dating Level-Up",
+    "section": "What I Want to Practice",
+    "text": "What I Want to Practice\n\nBe curious instead of trying to impress.\nStay relaxed and present during conversations.\nAsk thoughtful follow-up questions.\nShare my own stories clearly and confidently.\nNotice compatibility instead of chasing approval.\nKeep healthy standards, boundaries, and self-respect."
   },
   {
-    "objectID": "research.html#research-themes",
-    "href": "research.html#research-themes",
-    "title": "Research",
-    "section": "Research Themes",
-    "text": "Research Themes\n\nBayesian Nonlinear Time-Series Modeling\nI study flexible Bayesian approaches for modeling nonlinear autoregressive structures in time-series data.\n\n\nBernstein Polynomial Methods\nI use Bernstein polynomial basis functions to approximate nonlinear relationships in autoregressive models.\n\n\nForecasting and Uncertainty Quantification\nI evaluate forecasting performance using prediction accuracy, uncertainty intervals, and residual diagnostics.\n\n\nStatistical Computing\nMy work involves computational implementation in Python and R, including simulation studies, posterior predictive inference, and model comparison."
+    "objectID": "dating.html#core-principles",
+    "href": "dating.html#core-principles",
+    "title": "Dating Level-Up",
+    "section": "Core Principles",
+    "text": "Core Principles\n\nMindset\n\nDating is a skill, and skills improve with repetition and reflection.\nConfidence grows from preparation, honesty, and self-trust.\nRejection is information, not failure.\nA good date is not about being perfect; it is about creating a real connection.\n\n\n\nCommunication\n\nListen carefully.\nAvoid interviewing; make it feel like a real conversation.\nBalance asking questions with sharing about myself.\nUse humor naturally instead of forcing it.\nPay attention to whether interest feels mutual.\n\n\n\nPresence\n\nDress neatly and show intention.\nMake eye contact.\nSpeak slowly and clearly.\nPut the phone away.\nFocus on enjoying the moment."
   },
   {
-    "objectID": "research.html#selected-projects",
-    "href": "research.html#selected-projects",
-    "title": "Research",
-    "section": "Selected Projects",
-    "text": "Selected Projects\n\nNonlinear Time Series Modeling Using Bernstein Polynomials and Bayesian Inference\nThis project develops a Bayesian nonlinear autoregressive model using Bernstein polynomial representations and compares its forecasting performance with classical time-series models such as ARIMA and SARIMA."
+    "objectID": "dating.html#before-a-date",
+    "href": "dating.html#before-a-date",
+    "title": "Dating Level-Up",
+    "section": "Before a Date",
+    "text": "Before a Date\n\nChoose a simple place with easy conversation.\nReview 3 to 5 topics I can talk about naturally.\nThink of 2 or 3 questions I genuinely want to ask.\nShow up on time.\nKeep expectations light and positive."
+  },
+  {
+    "objectID": "dating.html#during-a-date",
+    "href": "dating.html#during-a-date",
+    "title": "Dating Level-Up",
+    "section": "During a Date",
+    "text": "During a Date\n\nStart with warmth and ease.\nAsk open-ended questions.\nLook for shared values, energy, and curiosity.\nNotice whether the conversation flows both ways.\nBe honest about what I enjoy and who I am.\nEnd clearly and respectfully."
+  },
+  {
+    "objectID": "dating.html#after-a-date-reflection",
+    "href": "dating.html#after-a-date-reflection",
+    "title": "Dating Level-Up",
+    "section": "After a Date Reflection",
+    "text": "After a Date Reflection\nUse these prompts after each date:\n\nDid I feel relaxed and authentic?\nDid I ask good questions and listen well?\nDid I share enough about myself?\nWas there mutual interest and effort?\nWhat went well?\nWhat should I improve next time?"
+  },
+  {
+    "objectID": "dating.html#journal-template",
+    "href": "dating.html#journal-template",
+    "title": "Dating Level-Up",
+    "section": "Journal Template",
+    "text": "Journal Template\n\nDate Log\n\nPerson:\nDate:\nLocation:\nFirst impression:\nBest moment:\nConversation highlights:\nGreen flags:\nRed flags:\nWhat I did well:\nWhat I want to improve:\nDo I want a second date?"
+  },
+  {
+    "objectID": "dating.html#skills-to-level-up",
+    "href": "dating.html#skills-to-level-up",
+    "title": "Dating Level-Up",
+    "section": "Skills to Level Up",
+    "text": "Skills to Level Up\n\nStorytelling\nFlirting with warmth and confidence\nReading social cues\nEmotional steadiness\nAsking better follow-up questions\nPlanning simple, enjoyable dates\nKnowing when to lead and when to slow down"
+  },
+  {
+    "objectID": "dating.html#reminders-to-myself",
+    "href": "dating.html#reminders-to-myself",
+    "title": "Dating Level-Up",
+    "section": "Reminders to Myself",
+    "text": "Reminders to Myself\n\nI do not need to perform to be liked.\nThe goal is compatibility, not perfection.\nKindness and confidence can exist together.\nA calm and grounded energy is attractive.\nEach experience teaches me something useful."
   },
   {
     "objectID": "experience.html",
