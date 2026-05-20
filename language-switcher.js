@@ -1,4 +1,6 @@
 (function () {
+  const siteOrigin = "https://liyuan199701.github.io";
+
   const languages = [
     { code: "en", label: "English" },
     { code: "zh-CN", label: "Chinese" },
@@ -12,9 +14,63 @@
     { code: "hi", label: "Hindi" }
   ];
 
+  function removeTranslateParams(url) {
+    Array.from(url.searchParams.keys()).forEach((key) => {
+      if (key.startsWith("_x_tr_")) {
+        url.searchParams.delete(key);
+      }
+    });
+    return url;
+  }
+
+  function originalUrlFromTranslateProxy(currentUrl) {
+    if (currentUrl.hostname === "translate.google.com") {
+      const sourceUrl = currentUrl.searchParams.get("u");
+      if (!sourceUrl) {
+        return "";
+      }
+
+      const unwrappedUrl = originalUrlFromTranslateProxy(new URL(sourceUrl));
+      return unwrappedUrl || sourceUrl;
+    }
+
+    if (currentUrl.hostname.endsWith(".translate.goog")) {
+      const originalUrl = new URL(currentUrl.pathname, siteOrigin);
+      currentUrl.searchParams.forEach((value, key) => {
+        if (!key.startsWith("_x_tr_")) {
+          originalUrl.searchParams.append(key, value);
+        }
+      });
+      originalUrl.hash = currentUrl.hash;
+      return originalUrl.toString();
+    }
+
+    return "";
+  }
+
   function currentPageUrl() {
+    const translatedSourceUrl = originalUrlFromTranslateProxy(
+      new URL(window.location.href)
+    );
+
+    if (translatedSourceUrl) {
+      return translatedSourceUrl;
+    }
+
     const canonical = document.querySelector('link[rel="canonical"]');
-    return canonical && canonical.href ? canonical.href : window.location.href;
+    const sourceUrl = new URL(
+      canonical && canonical.href ? canonical.href : window.location.href
+    );
+    return removeTranslateParams(sourceUrl).toString();
+  }
+
+  function currentLanguage() {
+    const currentUrl = new URL(window.location.href);
+    return (
+      currentUrl.searchParams.get("tl") ||
+      currentUrl.searchParams.get("_x_tr_tl") ||
+      "en"
+    );
   }
 
   function translateTo(languageCode) {
@@ -65,6 +121,8 @@
       option.textContent = language.label;
       select.appendChild(option);
     });
+
+    select.value = currentLanguage();
 
     select.addEventListener("change", function (event) {
       translateTo(event.target.value);
