@@ -32,6 +32,11 @@ My work involves computational implementation in Python and R, including simulat
 
 ### Nonlinear Time Series Modeling Using Bernstein Polynomials and Bayesian Inference
 
+**Status:** Submitted to *Transactions on Machine Learning Research (TMLR)*.  
+**Authors:** **Li Yuan** and Raanju R. Sundararajan.
+
+[View OpenReview submission](https://openreview.net/forum?id=PPEHt53UJh&noteId=PPEHt53UJh){.btn .btn-primary}
+
 This project develops a Bayesian nonlinear autoregressive model using Bernstein polynomial representations and compares its forecasting performance with classical time-series models such as ARIMA and SARIMA.
 
 ## Selected Course Projects

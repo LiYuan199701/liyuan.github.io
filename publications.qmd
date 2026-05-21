@@ -2,12 +2,14 @@
 title: "Publications and Working Papers"
 ---
 
-# Manuscripts in progress
+# Manuscripts under review
 
 ## 1. Nonlinear Time Series Modeling Using Bernstein Polynomials and Bayesian Inference
 
-**Journal/Status:** Manuscript in preparation for *Transactions on Machine Learning Research (TMLR)*.  
+**Journal/Status:** Submitted to *Transactions on Machine Learning Research (TMLR)*.  
 **Authors:** **Li Yuan** and Raanju R. Sundararajan.
+
+[View OpenReview submission](https://openreview.net/forum?id=PPEHt53UJh&noteId=PPEHt53UJh)
 
 **Summary:**
 
@@ -15,7 +17,9 @@ title: "Publications and Working Papers"
 - The framework uses Bayesian inference, including exact and variational approaches, to provide uncertainty quantification for model parameters and forecasts; shrinkage priors and credible intervals support model pruning.
 - Empirical studies across simulated nonlinear systems, chaotic benchmarks, and real time series show strong forecasting performance, especially for chaotic and highly nonlinear data, compared with classical statistical models and neural network baselines.
 
-## 2. Novel Point-of-Care Diagnostic Risk Model and Clinical Calculator for Biliary Atresia
+# Manuscripts in progress
+
+## 1. Novel Point-of-Care Diagnostic Risk Model and Clinical Calculator for Biliary Atresia
 
 **Journal/Status:** Manuscript in preparation.  
 **Authors:** Sandra Rios-Melendez, **Li Yuan**, Song Zhang, Reena Mourya, Pranavkumar Shivakumar, Estella Alonso, Stephen Guthery, Sanjiv Harpavat, Simon Horslen, Binita Kamath, Saul Karpen, Rohit Kohli, Kathleen Loomes, John Magee, Alexander Miethke, Benjamin Shneider, Ron Sokol, Pamela L. Valentino, Jorge Bezerra, Sindhu Pandurangi, and Childhood Liver Disease Research Network (ChiLDReN).
