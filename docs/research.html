@@ -157,6 +157,18 @@ ul.task-list li input[type="checkbox"] {
   <ul class="collapse">
   <li><a href="#nonlinear-time-series-modeling-using-bernstein-polynomials-and-bayesian-inference" id="toc-nonlinear-time-series-modeling-using-bernstein-polynomials-and-bayesian-inference" class="nav-link" data-scroll-target="#nonlinear-time-series-modeling-using-bernstein-polynomials-and-bayesian-inference">Nonlinear Time Series Modeling Using Bernstein Polynomials and Bayesian Inference</a></li>
   </ul></li>
+  <li><a href="#selected-course-projects" id="toc-selected-course-projects" class="nav-link" data-scroll-target="#selected-course-projects">Selected Course Projects</a>
+  <ul class="collapse">
+  <li><a href="#amazon-query-product-ranking" id="toc-amazon-query-product-ranking" class="nav-link" data-scroll-target="#amazon-query-product-ranking">Amazon Query Product Ranking</a></li>
+  <li><a href="#automatic-medical-image-annotation-with-clip-and-cnn-models" id="toc-automatic-medical-image-annotation-with-clip-and-cnn-models" class="nav-link" data-scroll-target="#automatic-medical-image-annotation-with-clip-and-cnn-models">Automatic Medical Image Annotation with CLIP and CNN Models</a></li>
+  <li><a href="#amazon-us-customer-review-and-product-analysis" id="toc-amazon-us-customer-review-and-product-analysis" class="nav-link" data-scroll-target="#amazon-us-customer-review-and-product-analysis">Amazon US Customer Review and Product Analysis</a></li>
+  <li><a href="#us-accidents-database-and-r-shiny-application" id="toc-us-accidents-database-and-r-shiny-application" class="nav-link" data-scroll-target="#us-accidents-database-and-r-shiny-application">US Accidents Database and R Shiny Application</a></li>
+  <li><a href="#food-101-image-classification-with-clip-and-transfer-learning" id="toc-food-101-image-classification-with-clip-and-transfer-learning" class="nav-link" data-scroll-target="#food-101-image-classification-with-clip-and-transfer-learning">Food-101 Image Classification with CLIP and Transfer Learning</a></li>
+  </ul></li>
+  <li><a href="#research-milestone" id="toc-research-milestone" class="nav-link" data-scroll-target="#research-milestone">Research Milestone</a>
+  <ul class="collapse">
+  <li><a href="#ph.d.-qualifying-exam-research-paper" id="toc-ph.d.-qualifying-exam-research-paper" class="nav-link" data-scroll-target="#ph.d.-qualifying-exam-research-paper">Ph.D.&nbsp;Qualifying Exam Research Paper</a></li>
+  </ul></li>
   </ul>
 </nav>
     </div>
@@ -210,6 +222,96 @@ ul.task-list li input[type="checkbox"] {
 <section id="nonlinear-time-series-modeling-using-bernstein-polynomials-and-bayesian-inference" class="level3">
 <h3 class="anchored" data-anchor-id="nonlinear-time-series-modeling-using-bernstein-polynomials-and-bayesian-inference">Nonlinear Time Series Modeling Using Bernstein Polynomials and Bayesian Inference</h3>
 <p>This project develops a Bayesian nonlinear autoregressive model using Bernstein polynomial representations and compares its forecasting performance with classical time-series models such as ARIMA and SARIMA.</p>
+</section>
+</section>
+<section id="selected-course-projects" class="level2">
+<h2 class="anchored" data-anchor-id="selected-course-projects">Selected Course Projects</h2>
+<section id="amazon-query-product-ranking" class="level3">
+<h3 class="anchored" data-anchor-id="amazon-query-product-ranking">Amazon Query Product Ranking</h3>
+<p><strong>Social Network Analysis course project, MS in Data Science, Vanderbilt University</strong><br>
+Authors: <strong>Li Yuan</strong>, Jay Kim, and Daron Greenblatt.</p>
+<p><a href="files/amazon_query_product_ranking.pdf" class="btn btn-primary">View cleaned project paper</a></p>
+<p><strong>Paper summary:</strong></p>
+<p>This project studied product search relevance in the Amazon KDD Cup 2022 setting. Given a user query and a list of candidate products, the goal was to re-rank products so that more relevant items appeared higher in the results.</p>
+<ul>
+<li>Built and compared three transformer-based modeling approaches: Multi-Genre Natural Language Inference, Cross-Encoder Regression, and Cross-Encoder Classification.</li>
+<li>Framed query-product matching as a sentence-pair relevance task using product titles, descriptions, bullet points, and labels such as exact, substitute, complement, and irrelevant.</li>
+<li>Evaluated model performance on validation and test sets, while documenting practical challenges around model selection, class imbalance, GPU resources, and fine-tuning large language models for e-commerce ranking.</li>
+</ul>
+</section>
+<section id="automatic-medical-image-annotation-with-clip-and-cnn-models" class="level3">
+<h3 class="anchored" data-anchor-id="automatic-medical-image-annotation-with-clip-and-cnn-models">Automatic Medical Image Annotation with CLIP and CNN Models</h3>
+<p><strong>MS in Data Science capstone project, Vanderbilt University</strong><br>
+Author: <strong>Li Yuan</strong>.</p>
+<p><a href="files/ms_data_science_capstone_medical_image_annotation.pdf" class="btn btn-primary">View capstone paper</a> <a href="https://github.com/LiYuan199701/capstone" class="btn btn-secondary">View GitHub repository</a></p>
+<p><strong>Paper summary:</strong></p>
+<p>This capstone project explored how to reduce manual labeling effort for biomedical images by combining zero-shot vision-language models with supervised convolutional neural networks on the MedMNIST benchmark.</p>
+<ul>
+<li>Tested CLIP-style zero-shot image classification for medical image annotation, where general-domain visual-language models struggle with granular biomedical labels.</li>
+<li>Designed a two-stage workflow that first used CLIP to generate labels and then trained CNN models on the CLIP-labeled data to improve annotation quality.</li>
+<li>Reported that the combined approach improved prediction accuracy from about 80% to 95%, while also improving average annotation accuracy and F1 score compared with using CLIP alone.</li>
+<li>Proposed future extensions using medical-domain foundation models, domain-adapted CLIP training, and broader multi-class MedMNIST experiments.</li>
+</ul>
+</section>
+<section id="amazon-us-customer-review-and-product-analysis" class="level3">
+<h3 class="anchored" data-anchor-id="amazon-us-customer-review-and-product-analysis">Amazon US Customer Review and Product Analysis</h3>
+<p><strong>Big Data Scaling course project, MS in Data Science, Vanderbilt University</strong><br>
+Authors: <strong>Li Yuan</strong> and Matthew Flaherty.</p>
+<p><a href="files/amazon_us_customer_review_product_analysis.pdf" class="btn btn-primary">View project paper</a> <a href="https://huggingface.co/LiYuan/amazon-review-sentiment-analysis" class="btn btn-secondary">View Hugging Face model</a></p>
+<p><strong>Paper summary:</strong></p>
+<p>This project analyzed large-scale Amazon customer review data to study product recommendation, sentiment prediction, and product-category clustering in an e-commerce setting.</p>
+<ul>
+<li>Processed more than 20 GB of Amazon review data across 12 product categories using Google Cloud, Hadoop file storage, PySpark, and MLlib.</li>
+<li>Built a recommender system with Alternating Least Squares (ALS) matrix factorization to generate customer-product recommendations from review and rating behavior.</li>
+<li>Fine-tuned a multilingual BERT sentiment model to predict star ratings from customer review text, then published the resulting model to Hugging Face.</li>
+<li>Applied K-means clustering and locality-sensitive hashing ideas to group product titles and descriptions, supporting product discovery and category-level recommendation analysis.</li>
+</ul>
+</section>
+<section id="us-accidents-database-and-r-shiny-application" class="level3">
+<h3 class="anchored" data-anchor-id="us-accidents-database-and-r-shiny-application">US Accidents Database and R Shiny Application</h3>
+<p><strong>DS 5420: Data Management Systems final project, MS in Data Science, Vanderbilt University</strong><br>
+Authors: <strong>Li Yuan</strong> and Matthew Flaherty.</p>
+<p><a href="files/us_accidents_database_shiny_app.pdf" class="btn btn-primary">View project paper</a></p>
+<p><strong>Paper summary:</strong></p>
+<p>This project built a MySQL-backed R Shiny application for exploring and managing a large U.S. traffic accident dataset collected from Kaggle.</p>
+<ul>
+<li>Designed a database workflow for 4.2 million accident records with 49 features covering accidents across 49 states from February 2016 to December 2020.</li>
+<li>Normalized the original table into a database structure with a location table and accident table, while preserving a source mega-table for loading and data management.</li>
+<li>Implemented database views, stored procedures, triggers, and transactions to support reliable querying, validation, insertion, updating, and deletion of accident records.</li>
+<li>Built an interactive R Shiny front end with pages for accident maps, date-range trends, temperature histograms, accidents by street side, accidents by state, record search, and full CRUD operations.</li>
+<li>Documented the practical engineering challenges of connecting MySQL with Shiny and translating database operations into a usable web application.</li>
+</ul>
+</section>
+<section id="food-101-image-classification-with-clip-and-transfer-learning" class="level3">
+<h3 class="anchored" data-anchor-id="food-101-image-classification-with-clip-and-transfer-learning">Food-101 Image Classification with CLIP and Transfer Learning</h3>
+<p><strong>Machine Learning 2 course project, MS in Data Science, Vanderbilt University</strong><br>
+Author: <strong>Li Yuan</strong>. Advisor: <a href="https://engineering.vanderbilt.edu/bio/yuankai-huo/">Yuankai Huo</a>.</p>
+<p><a href="files/food101_clip_transfer_learning.pdf" class="btn btn-primary">View project paper</a></p>
+<p><strong>Paper summary:</strong></p>
+<p>This project studied large-scale food image classification on the Food-101 dataset using both CLIP zero-shot classification and PyTorch transfer learning.</p>
+<ul>
+<li>Evaluated OpenAI CLIP models for zero-shot classification across 101 food categories, with ViT-B/16 producing the strongest reported CLIP result at about 83.82% accuracy.</li>
+<li>Prepared and cleaned the Food-101 image data, including train/validation organization, image preprocessing, and removal of corrupted images.</li>
+<li>Compared several pre-trained deep learning architectures, including ResNet-50, VGG16, EfficientNet-B7, RegNet-X, and DenseNet-161.</li>
+<li>Scaled the transfer-learning workflow from a smaller architecture-selection subset to the full image dataset, reaching about 70.09% validation accuracy on 101 food classes.</li>
+<li>Documented practical deep-learning constraints such as slow training, large image data, Google Colab GPU limits, and CUDA memory failures for larger CLIP models.</li>
+</ul>
+</section>
+</section>
+<section id="research-milestone" class="level2">
+<h2 class="anchored" data-anchor-id="research-milestone">Research Milestone</h2>
+<section id="ph.d.-qualifying-exam-research-paper" class="level3">
+<h3 class="anchored" data-anchor-id="ph.d.-qualifying-exam-research-paper">Ph.D.&nbsp;Qualifying Exam Research Paper</h3>
+<p><strong>Integrate Attention-Based Neural Networks with Text Regressions in Sentiment Inference</strong><br>
+Ph.D.&nbsp;Qualifying Exam research paper, Southern Methodist University.</p>
+<p><a href="files/Phd_qualifying.pdf" class="btn btn-primary">View qualifying exam research paper</a></p>
+<p><strong>Paper summary:</strong></p>
+<p>This paper was completed for the Ph.D.&nbsp;Qualifying Exam, which assesses a student’s readiness for independent research. It synthesizes work on statistical text analysis, attention-based multiple-instance classification, and counterfactually augmented data for sentiment inference.</p>
+<ul>
+<li>Reviewed statistical approaches for using text as data in social science and applied research.</li>
+<li>Discussed attention-based neural network methods for interpretable sentiment analysis.</li>
+<li>Reproduced computational results from the attention-based multiple-instance classification model.</li>
+</ul>
 
 
 </section>

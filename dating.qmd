@@ -4,6 +4,20 @@ title: "Dating Level-Up"
 
 This page is a private-style space for reflecting on dating, building confidence, and improving communication, presence, and connection over time.
 
+## Self-Knowledge Tools
+
+These tools are for reflection, not diagnosis. I use them as prompts for journaling, communication, and growth rather than fixed labels.
+
+| Area | Tool | Why it is useful for dating |
+|---|---|---|
+| Attachment patterns | [Attachment Style Quiz](https://quiz.attachmentproject.com/) | Helps identify anxious, avoidant, secure, or fearful-avoidant relationship patterns so I can notice how I seek closeness, reassurance, and independence. |
+| Personality traits | [Big Five Personality Test](https://openpsychometrics.org/tests/IPIP-BFFM/) | Uses IPIP Big Five markers, which are more scientifically established than personality-type labels for understanding traits like openness, conscientiousness, extraversion, agreeableness, and emotional stability. |
+| Character strengths | [VIA Character Strengths Survey](https://www.viacharacter.org/character-strengths) | Helps clarify values and signature strengths I can bring into dating, such as kindness, curiosity, humor, honesty, or social intelligence. |
+| Emotion regulation | [DERS-16 Emotion Regulation Test](https://www.attachmentproject.com/emotional-regulation/) | Helps identify how I handle intense emotions, rejection, conflict, and uncertainty. |
+| Self-esteem | [Rosenberg Self-Esteem Scale](https://www.attachmentproject.com/self-esteem-test/) | Helps me reflect on confidence, self-worth, and whether I am dating from grounded self-respect instead of approval-seeking. |
+| Self-compassion | [Self-Compassion Test](https://self-compassion.org/self-compassion-test/) | Helps build resilience after rejection or awkward moments by practicing self-kindness, common humanity, and mindful awareness. |
+| Personality type, optional | [MyPersonality](https://mypersonality.net/) | Can be a fun starting point for reflection, but I treat 16-type results lightly and avoid using them as fixed identities or compatibility rules. |
+
 ## What I Want to Practice
 
 - Be curious instead of trying to impress.
@@ -99,3 +113,22 @@ Use these prompts after each date:
 - Kindness and confidence can exist together.
 - A calm and grounded energy is attractive.
 - Each experience teaches me something useful.
+
+## Academic Course Project
+
+### Speed Dating Analysis
+
+**STAT 6337: Statistical Analysis II final project, MS in Statistical Science, Southern Methodist University**  
+Author: **Li Yuan**.
+
+[View project paper](files/stat6337_speed_dating_analysis.pdf){.btn .btn-primary}
+[View GitHub repository](https://github.com/LiYuan199701/young-dating-analysis/tree/main){.btn .btn-secondary}
+
+**Paper summary:**
+
+This project analyzed the Columbia University speed-dating experiment, where graduate and professional students participated in short rotating dates and recorded match decisions plus ratings of partner attributes.
+
+- Tested hypotheses about dating decisions, same-race preferences, and attribute importance using logistic regression, the Cochran-Mantel-Haenszel test, random forest, and elastic-net penalized logistic regression.
+- Compared statistical inference and prediction-oriented methods to study how race, gender, physical attractiveness, shared interests, and other attributes related to match decisions in this dataset.
+- Found that physical attractiveness and shared interests were among the strongest predictors of dating decisions, while race-related findings were interpreted within the limited scope of the Columbia graduate-student sample.
+- Discussed limitations around generalizability, possible confounding, and future extensions such as generalized linear mixed models for cross-nested dating interactions.

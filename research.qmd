@@ -33,3 +33,105 @@ My work involves computational implementation in Python and R, including simulat
 ### Nonlinear Time Series Modeling Using Bernstein Polynomials and Bayesian Inference
 
 This project develops a Bayesian nonlinear autoregressive model using Bernstein polynomial representations and compares its forecasting performance with classical time-series models such as ARIMA and SARIMA.
+
+## Selected Course Projects
+
+### Amazon Query Product Ranking
+
+**Social Network Analysis course project, MS in Data Science, Vanderbilt University**  
+Authors: **Li Yuan**, Jay Kim, and Daron Greenblatt.
+
+[View cleaned project paper](files/amazon_query_product_ranking.pdf){.btn .btn-primary}
+
+**Paper summary:**
+
+This project studied product search relevance in the Amazon KDD Cup 2022 setting. Given a user query and a list of candidate products, the goal was to re-rank products so that more relevant items appeared higher in the results.
+
+- Built and compared three transformer-based modeling approaches: Multi-Genre Natural Language Inference, Cross-Encoder Regression, and Cross-Encoder Classification.
+- Framed query-product matching as a sentence-pair relevance task using product titles, descriptions, bullet points, and labels such as exact, substitute, complement, and irrelevant.
+- Evaluated model performance on validation and test sets, while documenting practical challenges around model selection, class imbalance, GPU resources, and fine-tuning large language models for e-commerce ranking.
+
+### Automatic Medical Image Annotation with CLIP and CNN Models
+
+**MS in Data Science capstone project, Vanderbilt University**  
+Author: **Li Yuan**.
+
+[View capstone paper](files/ms_data_science_capstone_medical_image_annotation.pdf){.btn .btn-primary}
+[View GitHub repository](https://github.com/LiYuan199701/capstone){.btn .btn-secondary}
+
+**Paper summary:**
+
+This capstone project explored how to reduce manual labeling effort for biomedical images by combining zero-shot vision-language models with supervised convolutional neural networks on the MedMNIST benchmark.
+
+- Tested CLIP-style zero-shot image classification for medical image annotation, where general-domain visual-language models struggle with granular biomedical labels.
+- Designed a two-stage workflow that first used CLIP to generate labels and then trained CNN models on the CLIP-labeled data to improve annotation quality.
+- Reported that the combined approach improved prediction accuracy from about 80% to 95%, while also improving average annotation accuracy and F1 score compared with using CLIP alone.
+- Proposed future extensions using medical-domain foundation models, domain-adapted CLIP training, and broader multi-class MedMNIST experiments.
+
+### Amazon US Customer Review and Product Analysis
+
+**Big Data Scaling course project, MS in Data Science, Vanderbilt University**  
+Authors: **Li Yuan** and Matthew Flaherty.
+
+[View project paper](files/amazon_us_customer_review_product_analysis.pdf){.btn .btn-primary}
+[View Hugging Face model](https://huggingface.co/LiYuan/amazon-review-sentiment-analysis){.btn .btn-secondary}
+
+**Paper summary:**
+
+This project analyzed large-scale Amazon customer review data to study product recommendation, sentiment prediction, and product-category clustering in an e-commerce setting.
+
+- Processed more than 20 GB of Amazon review data across 12 product categories using Google Cloud, Hadoop file storage, PySpark, and MLlib.
+- Built a recommender system with Alternating Least Squares (ALS) matrix factorization to generate customer-product recommendations from review and rating behavior.
+- Fine-tuned a multilingual BERT sentiment model to predict star ratings from customer review text, then published the resulting model to Hugging Face.
+- Applied K-means clustering and locality-sensitive hashing ideas to group product titles and descriptions, supporting product discovery and category-level recommendation analysis.
+
+### US Accidents Database and R Shiny Application
+
+**DS 5420: Data Management Systems final project, MS in Data Science, Vanderbilt University**  
+Authors: **Li Yuan** and Matthew Flaherty.
+
+[View project paper](files/us_accidents_database_shiny_app.pdf){.btn .btn-primary}
+
+**Paper summary:**
+
+This project built a MySQL-backed R Shiny application for exploring and managing a large U.S. traffic accident dataset collected from Kaggle.
+
+- Designed a database workflow for 4.2 million accident records with 49 features covering accidents across 49 states from February 2016 to December 2020.
+- Normalized the original table into a database structure with a location table and accident table, while preserving a source mega-table for loading and data management.
+- Implemented database views, stored procedures, triggers, and transactions to support reliable querying, validation, insertion, updating, and deletion of accident records.
+- Built an interactive R Shiny front end with pages for accident maps, date-range trends, temperature histograms, accidents by street side, accidents by state, record search, and full CRUD operations.
+- Documented the practical engineering challenges of connecting MySQL with Shiny and translating database operations into a usable web application.
+
+### Food-101 Image Classification with CLIP and Transfer Learning
+
+**Machine Learning 2 course project, MS in Data Science, Vanderbilt University**  
+Author: **Li Yuan**. Advisor: [Yuankai Huo](https://engineering.vanderbilt.edu/bio/yuankai-huo/).
+
+[View project paper](files/food101_clip_transfer_learning.pdf){.btn .btn-primary}
+
+**Paper summary:**
+
+This project studied large-scale food image classification on the Food-101 dataset using both CLIP zero-shot classification and PyTorch transfer learning.
+
+- Evaluated OpenAI CLIP models for zero-shot classification across 101 food categories, with ViT-B/16 producing the strongest reported CLIP result at about 83.82% accuracy.
+- Prepared and cleaned the Food-101 image data, including train/validation organization, image preprocessing, and removal of corrupted images.
+- Compared several pre-trained deep learning architectures, including ResNet-50, VGG16, EfficientNet-B7, RegNet-X, and DenseNet-161.
+- Scaled the transfer-learning workflow from a smaller architecture-selection subset to the full image dataset, reaching about 70.09% validation accuracy on 101 food classes.
+- Documented practical deep-learning constraints such as slow training, large image data, Google Colab GPU limits, and CUDA memory failures for larger CLIP models.
+
+## Research Milestone
+
+### Ph.D. Qualifying Exam Research Paper
+
+**Integrate Attention-Based Neural Networks with Text Regressions in Sentiment Inference**  
+Ph.D. Qualifying Exam research paper, Southern Methodist University.
+
+[View qualifying exam research paper](files/Phd_qualifying.pdf){.btn .btn-primary}
+
+**Paper summary:**
+
+This paper was completed for the Ph.D. Qualifying Exam, which assesses a student's readiness for independent research. It synthesizes work on statistical text analysis, attention-based multiple-instance classification, and counterfactually augmented data for sentiment inference.
+
+- Reviewed statistical approaches for using text as data in social science and applied research.
+- Discussed attention-based neural network methods for interpretable sentiment analysis.
+- Reproduced computational results from the attention-based multiple-instance classification model.

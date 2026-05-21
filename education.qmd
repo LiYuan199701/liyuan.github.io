@@ -13,6 +13,11 @@ Southern Methodist University, Dallas, Texas, United States
 
 2022 – present
 
+- Passed the Ph.D. Qualifying Exam, which assesses readiness for independent research.  
+  [View qualifying exam research paper](files/Phd_qualifying.pdf)
+
+  Summary: This paper synthesizes research on statistical text analysis, attention-based neural networks, and counterfactually augmented data for sentiment inference. It also reproduces computational results from an attention-based multiple-instance classification model.
+
 **MS in Statistical Science**  
 Southern Methodist University, Dallas, Texas, United States
 
