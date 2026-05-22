@@ -2,31 +2,7 @@
 title: "Research"
 ---
 
-My research focuses on Bayesian nonlinear time-series modeling, statistical learning, and computational methods for forecasting and uncertainty quantification.
-
-## Dissertation Research
-
-My dissertation research develops Bernstein Bayesian nonlinear autoregressive time-series models for flexible nonlinear forecasting and Bayesian inference in natural language processing.
-
-The main goal is to construct interpretable and flexible Bayesian models that can capture nonlinear temporal dependence while providing uncertainty quantification for future observations.
-
-## Research Themes
-
-### Bayesian Nonlinear Time-Series Modeling
-
-I study flexible Bayesian approaches for modeling nonlinear autoregressive structures in time-series data.
-
-### Bernstein Polynomial Methods
-
-I use Bernstein polynomial basis functions to approximate nonlinear relationships in autoregressive models.
-
-### Forecasting and Uncertainty Quantification
-
-I evaluate forecasting performance using prediction accuracy, uncertainty intervals, and residual diagnostics.
-
-### Statistical Computing
-
-My work involves computational implementation in Python and R, including simulation studies, posterior predictive inference, and model comparison.
+This page summarizes my research projects, publications, and selected course projects. It includes manuscripts under review, manuscripts in progress, and published papers across machine learning, data science, and biomedical applications. Each project includes a brief summary and links to papers or code where available.
 
 ## Selected Projects
 
@@ -123,6 +99,192 @@ This project studied large-scale food image classification on the Food-101 datas
 - Compared several pre-trained deep learning architectures, including ResNet-50, VGG16, EfficientNet-B7, RegNet-X, and DenseNet-161.
 - Scaled the transfer-learning workflow from a smaller architecture-selection subset to the full image dataset, reaching about 70.09% validation accuracy on 101 food classes.
 - Documented practical deep-learning constraints such as slow training, large image data, Google Colab GPU limits, and CUDA memory failures for larger CLIP models.
+
+### Modeling Insurance Data
+
+**STAT 6324: Computational Statistics final project, Southern Methodist University**  
+Authors: Hunter Schuler and **Li Yuan**.
+
+[View project report](files/stat6324_modeling_insurance_data.pdf){.btn .btn-primary}
+[View presentation slides](files/stat6324_modeling_insurance_data_slides.pptx){.btn .btn-secondary}
+
+**Paper summary:**
+
+This project modeled U.S. health insurance charges using a public Kaggle dataset with demographic and health-related predictors such as age, sex, BMI, number of children, smoking status, and region.
+
+- Conducted exploratory data analysis to study variable distributions, class imbalance, and relationships between insurance charges and predictors such as smoking status, BMI, and age.
+- Built baseline and reduced interaction linear regression models, using train/test/validation splits and model diagnostics to evaluate fit and assumption violations.
+- Addressed imbalance in age, smoking status, and children variables through downsampling, resampling, and feature recoding before refitting models.
+- Used h2o AutoML to compare machine learning models, finding that tree-based models performed best and that an XGBoost model achieved the lowest reported test-set RMSE.
+- Interpreted variable importance results showing smoking status and BMI as the strongest predictors of insurance charges, while sex, children, and region had smaller effects.
+
+### Categorical Regression Models
+
+**STAT 6336: Statistical Analysis I literature review project, Southern Methodist University**  
+Author: **Li Yuan**.
+
+[View literature review](files/stat6336_categorical_regression_models_literature_review.pdf){.btn .btn-primary}
+
+**Paper summary:**
+
+This literature review synthesized major categorical regression models for binary, unordered multinomial, and ordered categorical response variables.
+
+- Reviewed logistic regression as the foundational binary-response model and explained why multi-category outcomes require extensions beyond a single probability threshold.
+- Summarized unordered multinomial logit models, including dummy-vector response coding, reference-category probabilities, generalized logits, and random-utility interpretations.
+- Discussed ordered categorical regression through latent-variable and cumulative-model perspectives, including threshold-based category assignment and cumulative logits.
+- Compared cumulative ordinal models with sequential ordinal models and described when each framework is more appropriate.
+- Included multinomial-distribution and maximum-likelihood background to connect categorical response modeling with probability theory and estimation.
+
+### Principal Component Analysis and Nonlinear PCA
+
+**STAT 6345: Linear Regression midterm project, Southern Methodist University**  
+Authors: Hunter Schuler and **Li Yuan**.
+
+[View presentation slides](files/stat6345_principal_component_analysis_project.pptx){.btn .btn-primary}
+
+**Project summary:**
+
+This project presented principal component analysis as a dimension-reduction method and compared classical linear PCA with nonlinear PCA approaches.
+
+- Reviewed PCA theory using covariance matrices, singular value decomposition, eigenvectors, eigenvalues, component scores, and loading interpretation.
+- Applied PCA to a Portuguese red-wine physicochemical dataset with 1,599 samples, 11 continuous physical-property variables, and a wine-quality score.
+- Interpreted major components from the wine data, including acidity, smoothness or stability, bitterness, salt-sugar contrast, dryness, and aroma-related structure.
+- Discussed limitations of ordinary PCA, including linearity assumptions, sensitivity to outliers, complete-data requirements, and restrictions to continuous variables.
+- Introduced nonlinear PCA variants such as standard NLPCA, hierarchical NLPCA, circular PCA, and inverse NLPCA, including examples where nonlinear structure or missing-data estimation benefits from nonlinear methods.
+
+### Birth Weights
+
+**STAT 6345: Linear Regression final project, Southern Methodist University**  
+Author: **Li Yuan**.
+
+[View project report](files/stat6345_birth_weights_linear_regression_final_project.pdf){.btn .btn-primary}
+
+**Paper summary:**
+
+This project compared linear-regression and generalized linear modeling strategies for predicting infant birth weight from maternal and pregnancy-related variables.
+
+- Conducted exploratory analysis of birth-weight data, including distributions of gestational age, maternal race, smoking status, education, and birth weight in grams.
+- Compared ordinary least squares, log-transformed models, Box-Cox transformations, all two-way interaction models, elastic net, ridge, lasso, robust regression, inverse Gaussian models, random forest, and iteratively reweighted least squares.
+- Evaluated models using train/test splitting, test-set RMSE, BIC/AIC, and residual diagnostics, with special attention to heteroskedasticity and skewed predictors.
+- Selected a final IRLS model with smoking status, gestational age, and interaction terms involving maternal race, using exhaustive subset selection guided by BIC.
+- Interpreted the final model as showing strong associations between birth weight and gestational age, maternal smoking, and selected interaction effects, while checking multicollinearity with variance inflation factors.
+
+### Formula One Analysis: Interpreting and Predicting Race Points
+
+**STAT 6341: Sports Analytics final project, Southern Methodist University**  
+Author: **Li Yuan**.
+
+[View project report](files/stat6341_formula_one_analysis_report.docx){.btn .btn-primary}
+[View presentation slides](files/stat6341_formula_one_analysis_slides.pptx){.btn .btn-secondary}
+[View Shiny dashboard](https://e2jgp0-liyuan199701.shinyapps.io/F1_Final/){.btn .btn-secondary}
+
+**Project summary:**
+
+This project analyzed Formula One race results to compare drivers and constructors, explain point outcomes, and predict future race performance.
+
+- Built a Formula One modeling dataset from Kaggle race tables, covering seasons 1994-2023 with driver, constructor, circuit, qualifying position, age, and race-point variables.
+- Developed a Bayesian linear mixed model in RStan with fixed effects for year, circuit, age, and qualifying position, plus random effects for constructors and drivers nested within constructors.
+- Used posterior inference to compare constructors and drivers, identifying Mercedes and Red Bull as leading constructors and comparing top driver effects such as Lewis Hamilton and Fernando Alonso.
+- Trained frequentist and machine-learning models with tidymodels, including linear regression, random forest, and XGBoost, and compared predictive performance using train/test RMSE.
+- Built an R Shiny dashboard for interactive Formula One visualization and prediction, including driver/constructor trends, nationality summaries, and model-based point predictions.
+- Discussed limitations such as sparse driver/constructor levels, the 2010 point-system change, omitted race features, and the need for models better suited to discrete point outcomes.
+
+### GIDEON Project: Public Defense Event Frequency Analysis
+
+**STAT 6366: Statistical Consulting final project, Southern Methodist University**  
+Authors: **Li Yuan** and Hunter Schuler.
+
+[View final report](files/stat6366_gideon_project_final_report.pdf){.btn .btn-primary}
+[View presentation slides](files/stat6366_gideon_project_final_slides.pptx){.btn .btn-secondary}
+[View Shiny dashboard](https://e2jgp0-liyuan199701.shinyapps.io/law_consulting/){.btn .btn-secondary}
+
+**Project summary:**
+
+This consulting project supported the Deason Criminal Justice Reform Center's GIDEON Project, which studies whether increased public-defense funding in New York changed attorney-client interactions and defense-service patterns.
+
+- Joined three raw criminal-case data sources into a unified analysis dataset using shared case and client identifiers, producing a linked dataset with more than 390,000 rows and 200 variables.
+- Cleaned and grouped case records into felony and misdemeanor categories, filtered erroneous dates, and focused analysis on client-contact, discovery, disposition, hearing, sentencing, and related event codes.
+- Designed multiple event-frequency measures, including event counts per closed case and event rates per case per week to account for differences in case duration.
+- Built visual analyses with `ggplot2` and `plotly` to compare event-code patterns, case counts, case duration, and event rates over time for felony and misdemeanor cases.
+- Fit Poisson regression and grouped cross-time-series models to assess whether event rates changed meaningfully over time after accounting for case duration.
+- Built an R Shiny dashboard for interactive client-facing exploration of event-code definitions, case-type trends, event frequencies, event rates, and consultant/client information.
+- Concluded that the current data did not show practically meaningful changes in attorney-client interaction rates, while recommending continued tracking because legal-system reforms may have delayed effects.
+
+### Electricity Net Generation in the US and Texas
+
+**STAT 6363: Time Series Analysis final project, Southern Methodist University**  
+Author: **Li Yuan**.
+
+[View project report](files/stat6363_electricity_net_generation_time_series.pdf){.btn .btn-primary}
+
+**Paper summary:**
+
+This project analyzed monthly electricity net generation in the United States and Texas from January 2001 through early 2024 using seasonal time-series methods.
+
+- Collected monthly net-generation data from the U.S. Energy Information Administration, covering electricity generated by coal, natural gas, nuclear, hydroelectric, wind, and solar sources.
+- Compared cumulative state-level electricity generation and identified Texas as the highest-producing state, motivating a focused state-level analysis alongside the national series.
+- Assessed stationarity using visual inspection, split-sample mean and standard-deviation comparisons, and Augmented Dickey-Fuller tests.
+- Used additive decomposition and smoothed periodograms to identify strong 12-month seasonality in both the U.S. and Texas electricity generation series.
+- Fit SARIMA(1,1,1)(0,1,1)[12] models to both series and checked residual diagnostics with ACF, Q-Q plots, and Ljung-Box tests.
+- Produced 12-month forecasts showing stable seasonal patterns, with a slight downward trend in U.S. generation and a slight upward trend in Texas generation.
+
+### Fully Automatic Text Data Augmentation
+
+**CS 7322: Introduction to Natural Language Processing final project, Southern Methodist University**  
+Author: **Li Yuan**.
+
+[View project report](files/cs7322_fully_automatic_text_data_augmentation_report.pdf){.btn .btn-primary}
+[View paper presentation](files/cs7322_counterfactually_augmented_data_presentation.pptx){.btn .btn-secondary}
+
+**Project summary:**
+
+This project explored fully automatic text data augmentation methods for sentiment classification and evaluated whether they improved NLP model generalization without human annotation.
+
+- Reviewed related work on counterfactually augmented data, easy data augmentation, unsupervised data augmentation, back translation, and BERT-based adversarial examples.
+- Implemented seven augmentation strategies: synonym replacement, negation addition, random insertion, random deletion, random swap, BERT mask prediction, and back translation.
+- Built sentiment-classification experiments using a balanced wine-review dataset and compared original training data with one-to-one augmented training sets.
+- Evaluated augmentation effects on two models: the Attention-Based Multiple Instance Classification (AMIC) model and fine-tuned `bert-base-uncased`.
+- Found that most automatic augmentation methods produced accuracy similar to the original data; random swap slightly improved AMIC performance, while synonym replacement and random deletion slightly improved BERT performance.
+- Identified negation addition as a fragile augmentation strategy because it often broke grammar or made sentiment labels ambiguous, especially for smaller training samples.
+- Presented the paper "Learning the Difference That Makes a Difference with Counterfactually-Augmented Data" to connect the project to human-in-the-loop counterfactual augmentation and robustness against spurious correlations.
+
+### Bayesian Neural Networks
+
+**STAT 6390 final presentation, Southern Methodist University**  
+Author: **Li Yuan**.
+
+[View presentation slides](files/stat6390_bayesian_neural_networks_final_presentation.pptx){.btn .btn-primary}
+
+**Project summary:**
+
+This final presentation introduced Bayesian neural networks as stochastic neural networks trained with Bayesian inference to quantify uncertainty in weights and predictions.
+
+- Compared traditional neural networks with Bayesian neural networks, emphasizing that standard neural networks produce point estimates while Bayesian neural networks place priors on model weights.
+- Explained posterior predictive inference as an ensemble-like average over neural networks sampled from the posterior distribution.
+- Discussed how Bayesian priors can act as regularization, support uncertainty quantification, and help reduce overfitting in high-capacity neural networks.
+- Reviewed why exact posterior inference is difficult for neural networks because of high-dimensional weight spaces and large datasets.
+- Presented Monte Carlo integration, Metropolis-Hastings, variational inference, KL divergence, the evidence lower bound, and stochastic variational inference as computational strategies.
+- Highlighted Python and Pyro as practical tools for Bayesian neural network implementation, including examples using MCMC and variational inference.
+- Connected Bayesian neural networks to applications requiring uncertainty-aware prediction, such as autonomous vehicles, healthcare, finance, and flight trajectory prediction.
+
+### GAIN: Missing Data Imputation Using Generative Adversarial Nets
+
+**STAT 7331: Statistical Modeling of Longitudinal and Incomplete Data final paper presentation, Southern Methodist University**  
+Author: **Li Yuan**.
+
+[View presentation report](files/stat7331_gain_missing_data_imputation_report.pdf){.btn .btn-primary}
+[View reviewed paper](files/stat7331_gain_reviewed_paper.pdf){.btn .btn-secondary}
+
+**Project summary:**
+
+This final paper presentation reviewed GAIN, a generative-adversarial approach for imputing missing data, and connected it to statistical modeling of incomplete data.
+
+- Summarized the missing-data setting, including the role of missingness indicators, completed data vectors, and the MCAR assumption used in the reviewed paper's theoretical results.
+- Explained the GAIN architecture, where a generator imputes missing components and a discriminator learns to distinguish observed values from imputed values.
+- Highlighted the role of the hint vector, which gives the discriminator partial information about the missingness mask so the generator can learn the target data distribution.
+- Reviewed the minimax training objective, mini-batch stochastic gradient descent updates, and the use of fully connected neural networks for the generator and discriminator.
+- Compared GAIN conceptually with traditional imputation methods such as MICE, MissForest, matrix completion, autoencoders, and expectation-maximization.
+- Discussed reported empirical results showing that GAIN improved imputation RMSE, post-imputation prediction performance, and congeniality across several benchmark datasets.
 
 ## Research Milestone
 

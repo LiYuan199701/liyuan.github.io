@@ -30,6 +30,20 @@ title: "Publications and Working Papers"
 - The final model combines age, stool color, MMP-7, and GGT, achieving excellent discrimination for biliary atresia and improving risk classification compared with MMP-7 alone.
 - The model is translated into a web-based clinical calculator that provides individualized, real-time risk estimates to support earlier referral and diagnostic evaluation for infants with neonatal cholestasis.
 
+## 2. AMIC Uncertainty: Bayesian Variational Inference for Sentiment Analysis
+
+**Journal/Status:** Manuscript in preparation.  
+**Authors:** **Li Yuan**.
+
+**Summary:**
+
+- This ongoing research extends the Attention-Based Multiple Instance Classification (AMIC) model from point-estimate sentiment prediction toward uncertainty-aware Bayesian prediction.
+- The proposed Bayesian AMIC framework adds a Bayesian variational layer to pooled document-level embeddings produced by AMIC's attention and sentiment blocks.
+- The method uses variational posterior distributions over neural-network weights, KL regularization against Gaussian priors, binary cross-entropy, and AMIC sparsity and peakness penalties in a unified training loss.
+- Posterior predictive sampling is used to estimate predictive means, credible intervals, variance, entropy, and class-probability uncertainty for document-level sentiment predictions.
+- The framework also proposes a way to derive word-level sentiment contributions from the Bayesian head, supporting interpretable positive and negative word scoring.
+- Experiments are being developed across benchmark sentiment datasets including wine reviews, Twitter sentiment, Amazon reviews, and IMDB movie reviews.
+
 # Publications
 
 ## 1. Critical Illness Outcomes of Hospitalized Pregnant Women Following a Texas Abortion Ban

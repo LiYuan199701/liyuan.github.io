@@ -152,6 +152,7 @@ ul.task-list li input[type="checkbox"] {
   <li><a href="#manuscripts-in-progress" id="toc-manuscripts-in-progress" class="nav-link" data-scroll-target="#manuscripts-in-progress">Manuscripts in progress</a>
   <ul class="collapse">
   <li><a href="#novel-point-of-care-diagnostic-risk-model-and-clinical-calculator-for-biliary-atresia" id="toc-novel-point-of-care-diagnostic-risk-model-and-clinical-calculator-for-biliary-atresia" class="nav-link" data-scroll-target="#novel-point-of-care-diagnostic-risk-model-and-clinical-calculator-for-biliary-atresia">1. Novel Point-of-Care Diagnostic Risk Model and Clinical Calculator for Biliary Atresia</a></li>
+  <li><a href="#amic-uncertainty-bayesian-variational-inference-for-sentiment-analysis" id="toc-amic-uncertainty-bayesian-variational-inference-for-sentiment-analysis" class="nav-link" data-scroll-target="#amic-uncertainty-bayesian-variational-inference-for-sentiment-analysis">2. AMIC Uncertainty: Bayesian Variational Inference for Sentiment Analysis</a></li>
   </ul></li>
   <li><a href="#publications" id="toc-publications" class="nav-link" data-scroll-target="#publications">Publications</a>
   <ul class="collapse">
@@ -207,6 +208,20 @@ ul.task-list li input[type="checkbox"] {
 <li>This study develops a multivariable logistic risk prediction model for biliary atresia using clinical and biomarker data from cholestatic infants in the ChiLDReN cohort and an external validation cohort from Children’s Medical Center Dallas.</li>
 <li>The final model combines age, stool color, MMP-7, and GGT, achieving excellent discrimination for biliary atresia and improving risk classification compared with MMP-7 alone.</li>
 <li>The model is translated into a web-based clinical calculator that provides individualized, real-time risk estimates to support earlier referral and diagnostic evaluation for infants with neonatal cholestasis.</li>
+</ul>
+</section>
+<section id="amic-uncertainty-bayesian-variational-inference-for-sentiment-analysis" class="level2">
+<h2 class="anchored" data-anchor-id="amic-uncertainty-bayesian-variational-inference-for-sentiment-analysis">2. AMIC Uncertainty: Bayesian Variational Inference for Sentiment Analysis</h2>
+<p><strong>Journal/Status:</strong> Manuscript in preparation.<br>
+<strong>Authors:</strong> <strong>Li Yuan</strong>.</p>
+<p><strong>Summary:</strong></p>
+<ul>
+<li>This ongoing research extends the Attention-Based Multiple Instance Classification (AMIC) model from point-estimate sentiment prediction toward uncertainty-aware Bayesian prediction.</li>
+<li>The proposed Bayesian AMIC framework adds a Bayesian variational layer to pooled document-level embeddings produced by AMIC’s attention and sentiment blocks.</li>
+<li>The method uses variational posterior distributions over neural-network weights, KL regularization against Gaussian priors, binary cross-entropy, and AMIC sparsity and peakness penalties in a unified training loss.</li>
+<li>Posterior predictive sampling is used to estimate predictive means, credible intervals, variance, entropy, and class-probability uncertainty for document-level sentiment predictions.</li>
+<li>The framework also proposes a way to derive word-level sentiment contributions from the Bayesian head, supporting interpretable positive and negative word scoring.</li>
+<li>Experiments are being developed across benchmark sentiment datasets including wine reviews, Twitter sentiment, Amazon reviews, and IMDB movie reviews.</li>
 </ul>
 </section>
 </section>
