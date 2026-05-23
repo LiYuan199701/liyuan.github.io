@@ -165,6 +165,7 @@ ul.task-list li input[type="checkbox"] {
   <li><a href="#electricity-net-generation-in-the-us-and-texas" id="toc-electricity-net-generation-in-the-us-and-texas" class="nav-link" data-scroll-target="#electricity-net-generation-in-the-us-and-texas">Electricity Net Generation in the US and Texas</a></li>
   <li><a href="#fully-automatic-text-data-augmentation" id="toc-fully-automatic-text-data-augmentation" class="nav-link" data-scroll-target="#fully-automatic-text-data-augmentation">Fully Automatic Text Data Augmentation</a></li>
   <li><a href="#bayesian-neural-networks" id="toc-bayesian-neural-networks" class="nav-link" data-scroll-target="#bayesian-neural-networks">Bayesian Neural Networks</a></li>
+  <li><a href="#apply-geometric-data-analysis-to-the-mnist-data" id="toc-apply-geometric-data-analysis-to-the-mnist-data" class="nav-link" data-scroll-target="#apply-geometric-data-analysis-to-the-mnist-data">Apply Geometric Data Analysis to the MNIST Data</a></li>
   <li><a href="#gain-missing-data-imputation-using-generative-adversarial-nets" id="toc-gain-missing-data-imputation-using-generative-adversarial-nets" class="nav-link" data-scroll-target="#gain-missing-data-imputation-using-generative-adversarial-nets">GAIN: Missing Data Imputation Using Generative Adversarial Nets</a></li>
   </ul></li>
   <li><a href="#research-milestone" id="toc-research-milestone" class="nav-link" data-scroll-target="#research-milestone">Research Milestone</a>
@@ -419,6 +420,23 @@ Author: <strong>Li Yuan</strong>.</p>
 <li>Presented Monte Carlo integration, Metropolis-Hastings, variational inference, KL divergence, the evidence lower bound, and stochastic variational inference as computational strategies.</li>
 <li>Highlighted Python and Pyro as practical tools for Bayesian neural network implementation, including examples using MCMC and variational inference.</li>
 <li>Connected Bayesian neural networks to applications requiring uncertainty-aware prediction, such as autonomous vehicles, healthcare, finance, and flight trajectory prediction.</li>
+</ul>
+</section>
+<section id="apply-geometric-data-analysis-to-the-mnist-data" class="level3">
+<h3 class="anchored" data-anchor-id="apply-geometric-data-analysis-to-the-mnist-data">Apply Geometric Data Analysis to the MNIST Data</h3>
+<p><strong>STAT 6383: Statistical Shape Analysis final project, Southern Methodist University</strong><br>
+Author: <strong>Li Yuan</strong>.</p>
+<p><a href="files/stat6383_geometric_data_analysis_mnist.pdf" class="btn btn-primary">View project report</a> <a href="files/stat6383_geometric_data_analysis_mnist_slides.pptx" class="btn btn-secondary">View presentation slides</a></p>
+<p><strong>Project summary:</strong></p>
+<p>This project applied geometric data analysis and statistical shape analysis to MNIST handwritten digit images, using curve-based shape representations to compare and classify digit contours.</p>
+<ul>
+<li>Preprocessed MNIST images by separating digits by label, converting grayscale images into binary images, extracting contour points, and resampling contours through linear interpolation.</li>
+<li>Represented digit boundaries using the Square-Root Velocity Function (SRVF), enabling elastic shape comparison through geodesic distances on the curve manifold.</li>
+<li>Computed geodesic paths between handwritten digits to visualize how one digit contour deforms into another under the SRVF framework.</li>
+<li>Estimated Karcher means and shape variation for each digit class, using the class means as representative digit shapes.</li>
+<li>Explored functional principal component analysis for digit contours to study dominant shape-variation directions within each class.</li>
+<li>Built a nearest-Karcher-mean classifier for MNIST test images and used parallel R workflows with <code>future</code> and <code>furrr</code> to handle the high computational cost of elastic shape-distance calculations.</li>
+<li>Reported 74% overall classification accuracy on a balanced subset of test images, while identifying confusion among visually similar or highly variable digits such as 2, 6, 7, and 8.</li>
 </ul>
 </section>
 <section id="gain-missing-data-imputation-using-generative-adversarial-nets" class="level3">

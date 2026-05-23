@@ -267,6 +267,26 @@ This final presentation introduced Bayesian neural networks as stochastic neural
 - Highlighted Python and Pyro as practical tools for Bayesian neural network implementation, including examples using MCMC and variational inference.
 - Connected Bayesian neural networks to applications requiring uncertainty-aware prediction, such as autonomous vehicles, healthcare, finance, and flight trajectory prediction.
 
+### Apply Geometric Data Analysis to the MNIST Data
+
+**STAT 6383: Statistical Shape Analysis final project, Southern Methodist University**  
+Author: **Li Yuan**.
+
+[View project report](files/stat6383_geometric_data_analysis_mnist.pdf){.btn .btn-primary}
+[View presentation slides](files/stat6383_geometric_data_analysis_mnist_slides.pptx){.btn .btn-secondary}
+
+**Project summary:**
+
+This project applied geometric data analysis and statistical shape analysis to MNIST handwritten digit images, using curve-based shape representations to compare and classify digit contours.
+
+- Preprocessed MNIST images by separating digits by label, converting grayscale images into binary images, extracting contour points, and resampling contours through linear interpolation.
+- Represented digit boundaries using the Square-Root Velocity Function (SRVF), enabling elastic shape comparison through geodesic distances on the curve manifold.
+- Computed geodesic paths between handwritten digits to visualize how one digit contour deforms into another under the SRVF framework.
+- Estimated Karcher means and shape variation for each digit class, using the class means as representative digit shapes.
+- Explored functional principal component analysis for digit contours to study dominant shape-variation directions within each class.
+- Built a nearest-Karcher-mean classifier for MNIST test images and used parallel R workflows with `future` and `furrr` to handle the high computational cost of elastic shape-distance calculations.
+- Reported 74% overall classification accuracy on a balanced subset of test images, while identifying confusion among visually similar or highly variable digits such as 2, 6, 7, and 8.
+
 ### GAIN: Missing Data Imputation Using Generative Adversarial Nets
 
 **STAT 7331: Statistical Modeling of Longitudinal and Incomplete Data final paper presentation, Southern Methodist University**  
