@@ -27,6 +27,8 @@ website:
         text: Education
       - href: dating.qmd
         text: Dating
+      - href: sports.qmd
+        text: Sports
     right:
       - icon: github
         href: https://github.com/LiYuan199701

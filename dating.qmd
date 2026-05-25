@@ -4,9 +4,15 @@ title: "Dating Level-Up"
 
 This page is a private-style space for reflecting on dating, building confidence, and improving communication, presence, and connection over time.
 
-## Self-Knowledge Tools
+::: {.panel-tabset}
+
+## Self-Knowledge
+
+### Self-Knowledge Tools
 
 These tools are for reflection, not diagnosis. I use them as prompts for journaling, communication, and growth rather than fixed labels.
+
+::: {.self-knowledge-tools-table}
 
 | Area | Tool | Why it is useful for dating |
 |---|---|---|
@@ -18,7 +24,76 @@ These tools are for reflection, not diagnosis. I use them as prompts for journal
 | Self-compassion | [Self-Compassion Test](https://self-compassion.org/self-compassion-test/) | Helps build resilience after rejection or awkward moments by practicing self-kindness, common humanity, and mindful awareness. |
 | Personality type, optional | [MyPersonality](https://mypersonality.net/) | Can be a fun starting point for reflection, but I treat 16-type results lightly and avoid using them as fixed identities or compatibility rules. |
 
-## What I Want to Practice
+:::
+
+## Approaching
+
+### Summary of the Lecture
+
+I listened to *Approach Academy Module 1: Approach Strategy & Expectations* from Dating by Blaine as a starting framework for approaching women respectfully in real life. The useful core message is that approaching is not about performing, pressuring, or "hitting on" someone. It is a social skill built from choosing appropriate environments, noticing possible openness, starting a brief and friendly conversation, reading reciprocity, and making a clear but low-pressure invitation.
+
+The lecture is strongest when it emphasizes respect, grooming, practice, and emotional resilience after rejection. The part I should treat carefully is the numerical claim that nearly all single women want to be approached more often or prefer meeting a future boyfriend in real life. That may be based on the creator's own audience survey, but it should not be treated as representative scientific evidence. A healthier interpretation is: many people still appreciate warm, respectful real-life interaction, but interest varies by context, relationship status, personality, safety, culture, and timing.
+
+### Evidence-Based Verification
+
+| Lecture claim or idea | Evidence-based interpretation | Supporting sources |
+|---|---|---|
+| Many women are open to being approached in real life. | Plausible, but not universal. Real-life meeting is still meaningful, yet online dating has also become a major way couples meet. Do not assume openness just because someone is single or attractive. | Rosenfeld, Thomas, and Hausen found that online dating became the most common way heterosexual couples meet in the United States: [PNAS article](https://www.pnas.org/doi/10.1073/pnas.1908630116). |
+| Rejection is normal. | Strongly supported. Many people are not single, not looking, or not interested in that moment. Pew reports that single men are more likely than single women to be looking for dates or a relationship, so a respectful man should expect many neutral or unavailable responses. | Pew Research Center, [A profile of single Americans](https://www.pewresearch.org/social-trends/2020/08/20/a-profile-of-single-americans/). |
+| Respect is the baseline. | Strongly supported ethically and practically. A good approach should preserve the other person's freedom to say no, leave, ignore, or keep the interaction brief. | RAINN, [Consent 101: Respect, Boundaries, and Building Trust](https://rainn.org/news/what-consent). |
+| Look healthy, clean, and intentional. | Reasonable. First impressions and physical attractiveness influence initial romantic interest, but grooming is not a guarantee and should not replace kindness, conversation, and compatibility. | Luo and Zhang, [What Leads to Romantic Attraction?](https://colab.ws/articles/10.1111/j.1467-6494.2009.00570.x). |
+| Look for her signal before approaching. | Useful but easy to overread. Men can misinterpret friendliness or ambiguous nonverbal behavior as romantic or sexual interest, so signals should mean only "maybe she is open to a brief hello," not "she definitely wants me." | Farris, Treat, Viken, and McFall, [Perceptual mechanisms in decoding women's sexual intent](https://iro.uiowa.edu/esploro/outputs/journalArticle/Perceptual-Mechanisms-That-Characterize-Gender-Differences/9984214750402771). |
+| Approaching improves with practice. | Reasonable. Social confidence can improve through gradual exposure, feedback, and repetition, especially when practice is ethical and low-pressure. | Mayo Clinic describes exposure-based CBT as gradually facing feared social situations: [Social anxiety disorder treatment](https://www.mayoclinic.org/diseases-conditions/social-anxiety-disorder/diagnosis-treatment/drc-20353567). |
+| Conversation should become mutual, not one-sided. | Strongly supported. Relationship research links appropriate self-disclosure with liking, especially when people share gradually and reciprocally. | Collins and Miller, [Self-disclosure and liking: A meta-analytic review](https://pubmed.ncbi.nlm.nih.gov/7809308/). |
+
+### My Ethical Approach Blueprint
+
+1. Choose an appropriate environment: social events, cafes, bookstores, campus events, hobby spaces, conferences, parties, or places where casual conversation is normal.
+2. Do not approach when the context makes pressure high: isolated spaces, late night empty streets, when she is working and cannot leave, when she has headphones in, when she looks rushed, or when she has already disengaged.
+3. Start with a short, normal opener based on the shared context: "Hi, I noticed your book and wanted to ask what you think of it" or "Hi, I am trying to be more social today and wanted to say hello."
+4. Make it easy to decline: "I do not want to interrupt you if you are busy."
+5. Watch for reciprocity: she asks questions back, smiles naturally, turns toward me, expands the conversation, or keeps engaging without pressure.
+6. If interest seems mutual, ask clearly and calmly: "I have enjoyed talking with you. Would you like to get coffee sometime?"
+7. If she says no, seems uncertain, gives short answers, looks away repeatedly, mentions a partner, or tries to leave, exit immediately and warmly: "No worries. It was nice meeting you. Have a good day."
+
+### What I Want to Practice
+
+- Warm openers that feel natural rather than scripted.
+- Reading reciprocity without overinterpreting politeness.
+- Slowing down when I feel nervous.
+- Keeping the interaction brief unless she is clearly engaged.
+- Asking for a date directly only after mutual conversation.
+- Treating rejection as normal information, not as a judgment of my worth.
+- Being proud of respectful effort even when the outcome is no.
+
+### Useful Scripts
+
+**Simple opener:** "Hi, I do not want to interrupt you for long, but I wanted to say hello. I am Li."
+
+**Context opener:** "I saw you were reading/working on/listening to [context]. I was curious about it."
+
+**Date invitation:** "I have enjoyed talking with you. Would you be open to coffee sometime?"
+
+**Graceful exit:** "No worries at all. Nice meeting you, and I hope you have a good day."
+
+### Personal Rule
+
+The goal is not to convince someone to like me. The goal is to create a respectful opportunity for mutual interest to appear. If it is not mutual, I leave with dignity and kindness.
+
+### Sources
+
+- Dating by Blaine. (2024). *Approach Academy Module 1: Approach Strategy & Expectations*. Personal lecture notes from course material.
+- Collins, N. L., and Miller, L. C. (1994). [Self-disclosure and liking: A meta-analytic review](https://pubmed.ncbi.nlm.nih.gov/7809308/). *Psychological Bulletin*.
+- Farris, C., Treat, T. A., Viken, R. J., and McFall, R. M. (2008). [Perceptual mechanisms that characterize gender differences in decoding women's sexual intent](https://iro.uiowa.edu/esploro/outputs/journalArticle/Perceptual-Mechanisms-That-Characterize-Gender-Differences/9984214750402771). *Psychological Science*.
+- Luo, S., and Zhang, G. (2009). [What leads to romantic attraction: Similarity, reciprocity, security, or beauty? Evidence from a speed-dating study](https://colab.ws/articles/10.1111/j.1467-6494.2009.00570.x). *Journal of Personality*.
+- Mayo Clinic. [Social anxiety disorder: Diagnosis and treatment](https://www.mayoclinic.org/diseases-conditions/social-anxiety-disorder/diagnosis-treatment/drc-20353567).
+- Pew Research Center. (2020). [A profile of single Americans](https://www.pewresearch.org/social-trends/2020/08/20/a-profile-of-single-americans/).
+- RAINN. [Consent 101: Respect, Boundaries, and Building Trust](https://rainn.org/news/what-consent).
+- Rosenfeld, M. J., Thomas, R. J., and Hausen, S. (2019). [Disintermediating your friends: How online dating in the United States displaces other ways of meeting](https://www.pnas.org/doi/10.1073/pnas.1908630116). *Proceedings of the National Academy of Sciences*.
+
+## Dating Practice
+
+### What I Want to Practice
 
 - Be curious instead of trying to impress.
 - Stay relaxed and present during conversations.
@@ -27,16 +102,16 @@ These tools are for reflection, not diagnosis. I use them as prompts for journal
 - Notice compatibility instead of chasing approval.
 - Keep healthy standards, boundaries, and self-respect.
 
-## Core Principles
+### Core Principles
 
-### Mindset
+#### Mindset
 
 - Dating is a skill, and skills improve with repetition and reflection.
 - Confidence grows from preparation, honesty, and self-trust.
 - Rejection is information, not failure.
 - A good date is not about being perfect; it is about creating a real connection.
 
-### Communication
+#### Communication
 
 - Listen carefully.
 - Avoid interviewing; make it feel like a real conversation.
@@ -44,7 +119,7 @@ These tools are for reflection, not diagnosis. I use them as prompts for journal
 - Use humor naturally instead of forcing it.
 - Pay attention to whether interest feels mutual.
 
-### Presence
+#### Presence
 
 - Dress neatly and show intention.
 - Make eye contact.
@@ -52,7 +127,7 @@ These tools are for reflection, not diagnosis. I use them as prompts for journal
 - Put the phone away.
 - Focus on enjoying the moment.
 
-## Before a Date
+### Before a Date
 
 - Choose a simple place with easy conversation.
 - Review 3 to 5 topics I can talk about naturally.
@@ -60,7 +135,7 @@ These tools are for reflection, not diagnosis. I use them as prompts for journal
 - Show up on time.
 - Keep expectations light and positive.
 
-## During a Date
+### During a Date
 
 - Start with warmth and ease.
 - Ask open-ended questions.
@@ -69,7 +144,7 @@ These tools are for reflection, not diagnosis. I use them as prompts for journal
 - Be honest about what I enjoy and who I am.
 - End clearly and respectfully.
 
-## After a Date Reflection
+### After a Date Reflection
 
 Use these prompts after each date:
 
@@ -80,9 +155,9 @@ Use these prompts after each date:
 5. What went well?
 6. What should I improve next time?
 
-## Journal Template
+### Journal Template
 
-### Date Log
+#### Date Log
 
 - Person:
 - Date:
@@ -96,7 +171,7 @@ Use these prompts after each date:
 - What I want to improve:
 - Do I want a second date?
 
-## Skills to Level Up
+### Skills to Level Up
 
 - Storytelling
 - Flirting with warmth and confidence
@@ -106,7 +181,7 @@ Use these prompts after each date:
 - Planning simple, enjoyable dates
 - Knowing when to lead and when to slow down
 
-## Reminders to Myself
+### Reminders to Myself
 
 - I do not need to perform to be liked.
 - The goal is compatibility, not perfection.
@@ -114,7 +189,7 @@ Use these prompts after each date:
 - A calm and grounded energy is attractive.
 - Each experience teaches me something useful.
 
-## Academic Course Project
+## Academic Project
 
 ### Speed Dating Analysis
 
@@ -132,3 +207,5 @@ This project analyzed the Columbia University speed-dating experiment, where gra
 - Compared statistical inference and prediction-oriented methods to study how race, gender, physical attractiveness, shared interests, and other attributes related to match decisions in this dataset.
 - Found that physical attractiveness and shared interests were among the strongest predictors of dating decisions, while race-related findings were interpreted within the limited scope of the Columbia graduate-student sample.
 - Discussed limitations around generalizability, possible confounding, and future extensions such as generalized linear mixed models for cross-nested dating interactions.
+
+:::
