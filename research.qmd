@@ -15,6 +15,24 @@ This page summarizes my research projects, publications, and selected course pro
 
 This project develops a Bayesian nonlinear autoregressive model using Bernstein polynomial representations and compares its forecasting performance with classical time-series models such as ARIMA and SARIMA.
 
+### Empirical Legal Analytics: Deal Lawyer Database and Missingness Analysis
+
+**Research assistant project, Vanderbilt Law School and MS in Data Science, Vanderbilt University**  
+Faculty collaborators: [Tracey E. George](https://law.vanderbilt.edu/bio/tracey-george/) and [Albert Yoon](https://jackmanlaw.utoronto.ca/people/albert-yoon).
+
+[View faculty collaborator profile](https://law.vanderbilt.edu/bio/tracey-george/){.btn .btn-primary}
+
+**Project summary:**
+
+This research assistant project supported empirical legal scholarship on deal lawyers, law firms, and attorney biographical data in mergers-and-acquisitions transactions. I built reproducible R analyses to evaluate missingness patterns and study how missing lawyer or law-firm information related to deal characteristics, industry sectors, time, law-school rank, firm rank, and inferred attorney gender.
+
+- Cleaned and joined deal, deal-lawyer, lawyer biographical, law-school ranking, and law-firm ranking datasets, creating encoded deal identifiers and matched analysis tables.
+- Quantified missing lawyer, law-firm, and attorney-biographical information across industry sector, deal value, year, and deal type using summary tables and visualizations.
+- Applied chi-square tests, two-sample Kolmogorov-Smirnov tests, and two-proportion tests to compare missing versus non-missing groups.
+- Built logistic-regression models with robust standard errors and random-forest classifiers to assess predictors of attorney gender patterns and missing biographical information.
+- Used SSA baby-name data and UCI gender-by-name data as supplementary sources for probabilistic gender inference in records without complete attorney biographies.
+- Produced reproducible statistical reports and figures for faculty research workflows at the intersection of law, data science, and empirical social science.
+
 ## Selected Course Projects
 
 ### Amazon Query Product Ranking
