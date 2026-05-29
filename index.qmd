@@ -37,6 +37,8 @@ I am currently preparing for academic and research-oriented positions, including
 
 My current research develops flexible Bayesian nonlinear autoregressive models using Bernstein polynomial representations for nonlinear time-series forecasting and uncertainty quantification, and applies Bayesian Inference to natural language processing tasks such as sentiment analysis and text classification.
 
+**Advising:** Current advisor: [Raanju R. Sundararajan](https://www.smu.edu/dedman/academics/departments/statistics/people/faculty/sundarajan). Previous NLP/sentiment-analysis advisor: [Jing Cao, Ph.D.](https://people.smu.edu/jingcao/).
+
 ## Contact
 
 Email: [yuanli@smu.edu](mailto:yuanli@smu.edu)

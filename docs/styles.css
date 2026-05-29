@@ -281,6 +281,19 @@ img {
   box-shadow: 0 8px 24px rgba(0, 0, 0, 0.12);
 }
 
+.golf-science-note {
+  margin: 1rem 0 1.2rem;
+  padding: 1rem 1.15rem;
+  border-left: 5px solid #6c7d16;
+  border-radius: 14px;
+  background: linear-gradient(135deg, rgba(244, 246, 220, 0.96), rgba(232, 244, 232, 0.86));
+  box-shadow: 0 8px 22px rgba(64, 74, 22, 0.08);
+}
+
+.golf-science-note p {
+  margin-bottom: 0;
+}
+
 .flight-training-note {
   margin: 1rem 0 1.25rem;
   padding: 1rem 1.15rem;

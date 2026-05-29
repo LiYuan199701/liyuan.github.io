@@ -376,6 +376,79 @@ This session records my driver practice at [Royal Golf Zone](https://www.royalgo
 - Track whether misses are mostly left-starting, slicing/fading, or contact-related.
 - Record the same metrics by club once I begin practicing irons, wedges, and putting.
 
+### Golf Ball Science, GolfTech Best Shots, and Bag Fitting
+
+#### Why Golf Balls Are This Size and Why They Have Dimples
+
+::: {.golf-science-note}
+Modern golf balls are standardized for competitive fairness and flight consistency. Under the USGA/R&A equipment rules, a conforming ball must not be smaller than 1.680 inches in diameter and must not be heavier than 1.620 ounces. That size-and-mass envelope keeps the ball large enough to see, strike, and control, while preventing an unfair aerodynamic advantage from a smaller or heavier ball.
+:::
+
+The small dents on the ball are dimples, and they are there for aerodynamics rather than decoration. A smooth sphere at golf-ball speed creates a large turbulent wake behind it, which produces high pressure drag and makes the ball slow down quickly. Dimples intentionally disturb the thin boundary layer of air near the ball surface. That turbulent boundary layer stays attached farther around the back of the ball, shrinks the wake, and reduces pressure drag. With backspin, dimples also help the ball generate lift through the Magnus effect, which is why a well-struck driver shot can carry much farther than a smooth ball hit with the same speed.
+
+Practical meaning for my practice: launch angle, spin rate, ball speed, and dimple-driven aerodynamics are tied together. Too much backspin can make the ball climb and lose distance; too little spin can reduce lift and make the ball fall early. For my driver, the goal is not just more ball speed, but a better launch/spin window.
+
+Sources: [USGA Appendix III - The Ball](https://www.usga.org/custom-search-pages/rules/equipment-rules/rule-14611.html), [NASA Glenn on drag of a sphere](https://www1.grc.nasa.gov/beginners-guide-to-aeronautics/drag-of-a-sphere/), and [NASA Glenn on spinning-ball aerodynamic force](https://www.grc.nasa.gov/www/k-12/VirtualAero/BottleRocket/airplane/beach.html).
+
+#### GolfTech Driver Best Shots - May 27, 2026
+
+These are my best two driver shots from last night's GolfTech practice. The 207-yard shot was the longest total distance, while the 206-yard shot had the better carry and smash factor.
+
+| Shot | Total | Carry | Ball speed | Club speed | Launch | Backspin | Descent | Max height | Smash | Offline | Read |
+|---:|---:|---:|---:|---:|---:|---:|---:|---:|---:|---:|---|
+| 17 / 17 | 207 yd | 187 yd | 132 mph | 89 mph | 9 deg | 3661 rpm | 27 deg | 14 yd | 1.47 | 11 yd | Longest total distance; good speed, but launch was low and spin was high. |
+| 10 / 10 | 206 yd | 190 yd | 127 mph | 84 mph | 16 deg | 3167 rpm | 40 deg | 24 yd | 1.50 | 40 yd | Best carry and smash factor; launch was in the target range, but dispersion needs work. |
+
+::: {.sports-metric-grid}
+
+::: {.sports-metric-card}
+**Best total**
+
+207 yd
+:::
+
+::: {.sports-metric-card}
+**Best carry**
+
+190 yd
+:::
+
+::: {.sports-metric-card}
+**Best smash factor**
+
+1.50
+:::
+
+::: {.sports-metric-card}
+**Top ball speed**
+
+132 mph
+:::
+
+:::
+
+::: {.sports-image-grid}
+
+![GolfTech driver practice best total-distance shot: 207 yards total and 187 yards carry](images/sports/golftech-2026-05-27-driver-best-shot-207yd.png)
+
+![GolfTech driver practice best carry shot: 206 yards total and 190 yards carry](images/sports/golftech-2026-05-27-driver-best-shot-206yd.png)
+
+:::
+
+#### Current Golf Bag Fitting Setup
+
+The table below records my current recommended bag setup from the club-fitting screenshots. The 7 iron and pitching wedge are treated as iron-set fitting anchors; I can expand this once the full iron set is finalized.
+
+[Download current golf bag fitting CSV](data/golf_club_bag_fitting_2026-05-28.csv){.btn .btn-primary}
+
+| Bag slot | Head | Loft / lie | Length | Shaft | Grip | Notes |
+|---|---|---|---|---|---|---|
+| Driver | TaylorMade Qi35 Max | 10.5 loft; adapter 0.75 up | 45 in; standard 45.75 in | Fujikura Speeder NX TCS 50 R | Golf Pride MCC Plus 4, Gray/Blue, standard | Shorter-than-standard driver build for control. |
+| 7 Iron | Callaway Elyte Max Fast | 30 loft; 60.75 lie; 1.0 up | 37.5 in | Mitsubishi Vanquish 40 R2 | Golf Pride MCC Plus 4, Gray/Blue, standard | Iron fitting reference. |
+| Pitching Wedge | Callaway Elyte Max Fast | 43 loft; 60.75 lie; 1.0 up | 35.75 in | Mitsubishi Vanquish 40 R2 | Golf Pride MCC Plus 4, Gray/Blue, standard | Iron set wedge reference. |
+| 56 Wedge | TaylorMade Milled Grind 5 Satin Chrome | 56/10/SC; 64 lie | 35.75 in; standard 35.25 in | Dynamic Gold Tour Issue 115 Wedge | Golf Pride MCC Plus 4, Gray/Blue, standard, +2 wraps | Slightly longer wedge with extra grip wraps. |
+| Putter | Callaway Ai-ONE Silver Seven DB | 3 loft; 70 lie | 36 in | Odyssey SL 90 Putter Shaft | Callaway Ai-ONE Slim Pistol, white, putter size | Face-balanced style setup for putting stability. |
+
 ### Simulator Screenshot Gallery
 
 ::: {.sports-image-grid}

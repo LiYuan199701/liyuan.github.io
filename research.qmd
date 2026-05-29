@@ -9,7 +9,8 @@ This page summarizes my research projects, publications, and selected course pro
 ### Nonlinear Time Series Modeling Using Bernstein Polynomials and Bayesian Inference
 
 **Status:** Submitted to *Transactions on Machine Learning Research (TMLR)*.  
-**Authors:** **Li Yuan** and Raanju R. Sundararajan.
+**Authors:** **Li Yuan** and [Raanju R. Sundararajan](https://www.smu.edu/dedman/academics/departments/statistics/people/faculty/sundarajan).  
+**Current advisor:** [Raanju R. Sundararajan](https://www.smu.edu/dedman/academics/departments/statistics/people/faculty/sundarajan).
 
 [View OpenReview submission](https://openreview.net/forum?id=PPEHt53UJh&noteId=PPEHt53UJh){.btn .btn-primary}
 
@@ -249,7 +250,7 @@ This project analyzed monthly electricity net generation in the United States an
 ### Fully Automatic Text Data Augmentation
 
 **CS 7322: Introduction to Natural Language Processing final project, Southern Methodist University**  
-Author: **Li Yuan**.
+Author: **Li Yuan**. Advisor: [Jing Cao, Ph.D.](https://people.smu.edu/jingcao/).
 
 [View project report](files/cs7322_fully_automatic_text_data_augmentation_report.pdf){.btn .btn-primary}
 [View paper presentation](files/cs7322_counterfactually_augmented_data_presentation.pptx){.btn .btn-secondary}

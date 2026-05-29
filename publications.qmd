@@ -7,7 +7,8 @@ title: "Publications and Working Papers"
 ## 1. Nonlinear Time Series Modeling Using Bernstein Polynomials and Bayesian Inference
 
 **Journal/Status:** Submitted to *Transactions on Machine Learning Research (TMLR)*.  
-**Authors:** **Li Yuan** and Raanju R. Sundararajan.
+**Authors:** **Li Yuan** and [Raanju R. Sundararajan](https://www.smu.edu/dedman/academics/departments/statistics/people/faculty/sundarajan).  
+**Current advisor:** [Raanju R. Sundararajan](https://www.smu.edu/dedman/academics/departments/statistics/people/faculty/sundarajan).
 
 [View OpenReview submission](https://openreview.net/forum?id=PPEHt53UJh&noteId=PPEHt53UJh)
 
@@ -33,7 +34,8 @@ title: "Publications and Working Papers"
 ## 2. AMIC Uncertainty: Bayesian Variational Inference for Sentiment Analysis
 
 **Journal/Status:** Manuscript in preparation.  
-**Authors:** **Li Yuan**.
+**Authors:** **Li Yuan**.  
+**Advisor:** [Jing Cao, Ph.D.](https://people.smu.edu/jingcao/).
 
 **Summary:**
 
