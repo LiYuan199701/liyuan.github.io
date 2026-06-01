@@ -9,7 +9,7 @@ You can download my CV here:
 # Schools
 
 **PhD in Statistical Science**  
-Southern Methodist University, Dallas, Texas, United States
+[Southern Methodist University](https://www.smu.edu/dedman/academics/departments/statistics), Dallas, Texas, United States
 
 2022 – present
 
@@ -20,22 +20,22 @@ Southern Methodist University, Dallas, Texas, United States
   Summary: This paper synthesizes research on statistical text analysis, attention-based neural networks, and counterfactually augmented data for sentiment inference. It also reproduces computational results from an attention-based multiple-instance classification model.
 
 **MS in Statistical Science**  
-Southern Methodist University, Dallas, Texas, United States
+[Southern Methodist University](https://www.smu.edu/dedman/academics/departments/statistics), Dallas, Texas, United States
 
 2022 – 2025
 
 **MS in Data Science**  
-Vanderbilt University, Nashville, Tennessee, United States
+[Vanderbilt University](https://www.vanderbilt.edu/datascience/), Nashville, Tennessee, United States
 
 2020 – 2022
 
 **Berkeley Global Access Program (BGA) - Multidisciplinary**  
-University of California, Berkeley, California, United States
+[University of California, Berkeley](https://extension.berkeley.edu/international/academic/berkeley-global-access/visiting-student/?b_source=google&b_medium=cpc&b_campaign=20169602537&b_adgroup=&b_keyword=&b_matchtype=&b_gclid=Cj0KCQjw2_TQBhCnARIsAF3-XhzKaadieDis5Xku8tXgDvpFAODg5vVBqZ0bIiRQRVLHCWYn2DWssIEaAtexEALw_wcB&b_device=c-&b_position=&b_adid=&b_placement=&b_random=15852960303173757338&gad_source=1&gad_campaignid=21205844149&gbraid=0AAAAADgHbDJzzt04WKgtICGtdOl2LEinQ&gclid=Cj0KCQjw2_TQBhCnARIsAF3-XhzKaadieDis5Xku8tXgDvpFAODg5vVBqZ0bIiRQRVLHCWYn2DWssIEaAtexEALw_wcB), Berkeley, California, United States
 
 2019 – 2020
 
 **BS in Statistics**  
-Sichuan University, Chengdu, Sichuan, China
+[Sichuan University](https://math.scu.edu.cn/en/English/About.htm), Chengdu, Sichuan, China
 
 2015 – 2019
 

@@ -1,0 +1,7 @@
+Ride Order,Activity ID,Source File,Distance (mi),Elapsed Time,Elapsed Seconds,Moving Time,Moving Seconds,Avg Speed (mph),Avg Moving Speed (mph),Avg HR (bpm),Max HR (bpm),Total Ascent (ft),Total Descent (ft),Avg Cadence (rpm),Max Cadence (rpm),Calories,Avg Temp (F),Max Speed (mph),Route / Notes
+1,22109798266,activity_22109798266.csv,9.12,41:28,2488.0,38:14,2294.0,13.2,14.3,119.0,145.0,174.0,180.0,62.0,125.0,336.0,70.1,21.6,Dallas road cycling activity
+2,22176079934,activity_22176079934.csv,9.12,44:54,2694.0,35:59,2159.0,12.2,15.2,113.0,140.0,190.0,190.0,66.0,102.0,326.0,73.4,23.3,Dallas road cycling activity
+3,22301153174,activity_22301153174.csv,10.03,42:56,2576.0,39:56,2396.0,14.0,15.1,131.0,153.0,236.0,236.0,61.0,86.0,421.0,77.0,23.8,Dallas road cycling activity
+4,22311683203,activity_22311683203.csv,9.18,38:30,2310.0,37:24,2244.0,14.3,14.7,131.0,152.0,226.0,226.0,62.0,107.0,383.0,78.8,24.4,Dallas road cycling activity
+5,22366655913,activity_22366655913.csv,9.25,39:29,2369.0,38:01,2281.0,14.1,14.6,131.0,148.0,259.0,262.0,61.0,101.0,385.0,78.8,23.5,White Rock Lake / Dallas road cycling baseline
+6,23073973446,activity_23073973446.csv,8.06,32:45,1965.0,31:40,1900.0,14.8,15.3,128.0,150.0,141.0,148.0,66.0,97.0,317.0,82.4,23.4,Dallas road cycling activity

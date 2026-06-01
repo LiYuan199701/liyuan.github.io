@@ -175,7 +175,7 @@ ul.task-list li input[type="checkbox"] {
 
 <p>This page tracks my sports practice data, equipment, and performance analytics over time. The goal is to turn practice into usable feedback: what I shot, what changed, what patterns appeared, and what I should focus on next.</p>
 <div class="tabset-margin-container"></div><div class="panel-tabset">
-<ul class="nav nav-tabs" role="tablist"><li class="nav-item" role="presentation"><a class="nav-link active" id="tabset-2-1-tab" data-bs-toggle="tab" data-bs-target="#tabset-2-1" role="tab" aria-controls="tabset-2-1" aria-selected="true">Archery</a></li><li class="nav-item" role="presentation"><a class="nav-link" id="tabset-2-2-tab" data-bs-toggle="tab" data-bs-target="#tabset-2-2" role="tab" aria-controls="tabset-2-2" aria-selected="false">Golf</a></li><li class="nav-item" role="presentation"><a class="nav-link" id="tabset-2-3-tab" data-bs-toggle="tab" data-bs-target="#tabset-2-3" role="tab" aria-controls="tabset-2-3" aria-selected="false">Flight Training</a></li></ul>
+<ul class="nav nav-tabs" role="tablist"><li class="nav-item" role="presentation"><a class="nav-link active" id="tabset-2-1-tab" data-bs-toggle="tab" data-bs-target="#tabset-2-1" role="tab" aria-controls="tabset-2-1" aria-selected="true">Archery</a></li><li class="nav-item" role="presentation"><a class="nav-link" id="tabset-2-2-tab" data-bs-toggle="tab" data-bs-target="#tabset-2-2" role="tab" aria-controls="tabset-2-2" aria-selected="false">Golf</a></li><li class="nav-item" role="presentation"><a class="nav-link" id="tabset-2-3-tab" data-bs-toggle="tab" data-bs-target="#tabset-2-3" role="tab" aria-controls="tabset-2-3" aria-selected="false">Cycling</a></li><li class="nav-item" role="presentation"><a class="nav-link" id="tabset-2-4-tab" data-bs-toggle="tab" data-bs-target="#tabset-2-4" role="tab" aria-controls="tabset-2-4" aria-selected="false">Flight Training</a></li></ul>
 <div class="tab-content">
 <div id="tabset-2-1" class="tab-pane active" role="tabpanel" aria-labelledby="tabset-2-1-tab">
 <section id="current-focus" class="level3">
@@ -1783,6 +1783,299 @@ Xs+10s
 </section>
 </div>
 <div id="tabset-2-3" class="tab-pane" role="tabpanel" aria-labelledby="tabset-2-3-tab">
+<section id="road-bike-cycling-tracker" class="level3">
+<h3 class="anchored" data-anchor-id="road-bike-cycling-tracker">Road Bike Cycling Tracker</h3>
+<p>This section tracks my road bike training, Garmin ride summaries, White Rock Lake route practice, and future cycling-performance analytics. The current goal is to build a repeatable log for distance, speed, heart rate, cadence, climbing, temperature, and training notes.</p>
+<div class="cycling-training-note">
+<p><strong>Data note:</strong> the current Garmin CSV exports are lap/summary files, not full second-by-second GPS/FIT records. They are enough for ride-level analytics and lap comparison. For route replay, map traces, power curves, and time-series plots, I should also export <code>.fit</code>, <code>.gpx</code>, or <code>.tcx</code> files from Garmin Connect.</p>
+</div>
+</section>
+<section id="bike-and-tracking-setup" class="level3">
+<h3 class="anchored" data-anchor-id="bike-and-tracking-setup">Bike and Tracking Setup</h3>
+<table class="table">
+<colgroup>
+<col style="width: 33%">
+<col style="width: 33%">
+<col style="width: 33%">
+</colgroup>
+<thead>
+<tr class="header">
+<th>Category</th>
+<th>Current setup</th>
+<th>What it supports</th>
+</tr>
+</thead>
+<tbody>
+<tr class="odd">
+<td>Road bike</td>
+<td>Trek <strong>Domane SL 5 Gen 4</strong></td>
+<td>Endurance road bike built for long miles, rough roads, and comfort-focused training.</td>
+</tr>
+<tr class="even">
+<td>Frame</td>
+<td>500 Series OCLV Carbon</td>
+<td>Lightweight endurance frame platform with comfort and stability as priorities.</td>
+</tr>
+<tr class="odd">
+<td>Drivetrain</td>
+<td>Shimano 105</td>
+<td>Reliable road drivetrain for structured training and general performance riding.</td>
+</tr>
+<tr class="even">
+<td>Wheels / cockpit</td>
+<td>Aluminum wheels and aluminum handlebars</td>
+<td>Balanced performance and value; good baseline before future upgrades.</td>
+</tr>
+<tr class="odd">
+<td>GPS computer</td>
+<td>Garmin <strong>Edge 840 Bundle</strong></td>
+<td>Touchscreen + button cycling computer for navigation, ride planning, workout prompts, and performance tracking.</td>
+</tr>
+<tr class="even">
+<td>Sensors</td>
+<td>Speed Sensor 2, Cadence Sensor, HRM-Dual</td>
+<td>Enables speed, cadence, and heart-rate tracking independent of only GPS estimates.</td>
+</tr>
+<tr class="odd">
+<td>Current device status</td>
+<td>Edge 840 software <code>30.18</code>; Speed Sensor 2 software <code>4.10</code>; sensor battery OK</td>
+<td>Establishes a setup baseline for future ride logs.</td>
+</tr>
+<tr class="even">
+<td>Future upgrade path</td>
+<td>Compatible power meter</td>
+<td>Would unlock Garmin power guide, stamina insights, cycling ability classification, and more complete adaptive coaching.</td>
+</tr>
+</tbody>
+</table>
+<p><a href="https://www.youtube.com/watch?v=6zvzwqUwtIw" class="btn btn-primary">Watch Trek Domane SL 5 Gen 4 intro video</a> <a href="data/cycling_ride_summary.csv" class="btn btn-secondary">Download cycling ride summary CSV</a> <a href="data/cycling_lap_summary.csv" class="btn btn-secondary">Download cycling lap summary CSV</a></p>
+<p>Garmin Edge 840 capabilities I want to use as this tracker grows:</p>
+<ul>
+<li>Navigation and ride planning with touchscreen and button control.</li>
+<li>Multi-band GNSS for better location accuracy in more challenging environments.</li>
+<li>Daily suggested workouts, training prompts, and missed-workout reminders.</li>
+<li>ClimbPro ascent planning to monitor remaining ascent and grade during climbs.</li>
+<li>Ride-type maps that highlight popular roads, trails, and searchable points of interest.</li>
+<li>Power guide, stamina insights, and cyclist ability/course-demand classification once I add a compatible power meter.</li>
+</ul>
+</section>
+<section id="garmin-csv-summary" class="level3">
+<h3 class="anchored" data-anchor-id="garmin-csv-summary">Garmin CSV Summary</h3>
+<p>The current dataset contains six Garmin activity exports from the <code>cycling</code> folder. Because the CSV exports do not include ride dates, I use Garmin activity IDs and ride order as the tracking identifiers for now.</p>
+<div class="sports-metric-grid">
+<div class="sports-metric-card">
+<p><strong>Logged rides</strong></p>
+<p>6</p>
+</div>
+<div class="sports-metric-card">
+<p><strong>Total distance</strong></p>
+<p>54.76 mi</p>
+</div>
+<div class="sports-metric-card">
+<p><strong>Total elapsed time</strong></p>
+<p>4:00:02</p>
+</div>
+<div class="sports-metric-card">
+<p><strong>Total moving time</strong></p>
+<p>3:41:14</p>
+</div>
+<div class="sports-metric-card">
+<p><strong>Moving avg speed</strong></p>
+<p>14.85 mph</p>
+</div>
+<div class="sports-metric-card">
+<p><strong>Avg heart rate</strong></p>
+<p>125 bpm</p>
+</div>
+<div class="sports-metric-card">
+<p><strong>Total ascent</strong></p>
+<p>1,226 ft</p>
+</div>
+<div class="sports-metric-card">
+<p><strong>Total calories</strong></p>
+<p>2,168</p>
+</div>
+</div>
+<div class="cycling-table-wrap">
+<table class="table">
+<colgroup>
+<col style="width: 8%">
+<col style="width: 8%">
+<col style="width: 8%">
+<col style="width: 8%">
+<col style="width: 8%">
+<col style="width: 8%">
+<col style="width: 8%">
+<col style="width: 8%">
+<col style="width: 8%">
+<col style="width: 8%">
+<col style="width: 8%">
+<col style="width: 6%">
+</colgroup>
+<thead>
+<tr class="header">
+<th style="text-align: right;">Ride</th>
+<th style="text-align: right;">Garmin activity ID</th>
+<th style="text-align: right;">Distance</th>
+<th style="text-align: right;">Time</th>
+<th style="text-align: right;">Moving time</th>
+<th style="text-align: right;">Avg speed</th>
+<th style="text-align: right;">Moving avg</th>
+<th style="text-align: right;">Avg HR</th>
+<th style="text-align: right;">Avg cadence</th>
+<th style="text-align: right;">Ascent</th>
+<th style="text-align: right;">Max speed</th>
+<th>Notes</th>
+</tr>
+</thead>
+<tbody>
+<tr class="odd">
+<td style="text-align: right;">1</td>
+<td style="text-align: right;">22109798266</td>
+<td style="text-align: right;">9.12 mi</td>
+<td style="text-align: right;">41:28</td>
+<td style="text-align: right;">38:14</td>
+<td style="text-align: right;">13.2 mph</td>
+<td style="text-align: right;">14.3 mph</td>
+<td style="text-align: right;">119 bpm</td>
+<td style="text-align: right;">62 rpm</td>
+<td style="text-align: right;">174 ft</td>
+<td style="text-align: right;">21.6 mph</td>
+<td>Dallas road cycling activity</td>
+</tr>
+<tr class="even">
+<td style="text-align: right;">2</td>
+<td style="text-align: right;">22176079934</td>
+<td style="text-align: right;">9.12 mi</td>
+<td style="text-align: right;">44:54</td>
+<td style="text-align: right;">35:59</td>
+<td style="text-align: right;">12.2 mph</td>
+<td style="text-align: right;">15.2 mph</td>
+<td style="text-align: right;">113 bpm</td>
+<td style="text-align: right;">66 rpm</td>
+<td style="text-align: right;">190 ft</td>
+<td style="text-align: right;">23.3 mph</td>
+<td>Dallas road cycling activity</td>
+</tr>
+<tr class="odd">
+<td style="text-align: right;">3</td>
+<td style="text-align: right;">22301153174</td>
+<td style="text-align: right;">10.03 mi</td>
+<td style="text-align: right;">42:56</td>
+<td style="text-align: right;">39:56</td>
+<td style="text-align: right;">14.0 mph</td>
+<td style="text-align: right;">15.1 mph</td>
+<td style="text-align: right;">131 bpm</td>
+<td style="text-align: right;">61 rpm</td>
+<td style="text-align: right;">236 ft</td>
+<td style="text-align: right;">23.8 mph</td>
+<td>Longest current logged ride</td>
+</tr>
+<tr class="even">
+<td style="text-align: right;">4</td>
+<td style="text-align: right;">22311683203</td>
+<td style="text-align: right;">9.18 mi</td>
+<td style="text-align: right;">38:30</td>
+<td style="text-align: right;">37:24</td>
+<td style="text-align: right;">14.3 mph</td>
+<td style="text-align: right;">14.7 mph</td>
+<td style="text-align: right;">131 bpm</td>
+<td style="text-align: right;">62 rpm</td>
+<td style="text-align: right;">226 ft</td>
+<td style="text-align: right;">24.4 mph</td>
+<td>Fastest max speed</td>
+</tr>
+<tr class="odd">
+<td style="text-align: right;">5</td>
+<td style="text-align: right;">22366655913</td>
+<td style="text-align: right;">9.25 mi</td>
+<td style="text-align: right;">39:29</td>
+<td style="text-align: right;">38:01</td>
+<td style="text-align: right;">14.1 mph</td>
+<td style="text-align: right;">14.6 mph</td>
+<td style="text-align: right;">131 bpm</td>
+<td style="text-align: right;">61 rpm</td>
+<td style="text-align: right;">259 ft</td>
+<td style="text-align: right;">23.5 mph</td>
+<td>White Rock Lake ride from screenshot</td>
+</tr>
+<tr class="even">
+<td style="text-align: right;">6</td>
+<td style="text-align: right;">23073973446</td>
+<td style="text-align: right;">8.06 mi</td>
+<td style="text-align: right;">32:45</td>
+<td style="text-align: right;">31:40</td>
+<td style="text-align: right;">14.8 mph</td>
+<td style="text-align: right;">15.3 mph</td>
+<td style="text-align: right;">128 bpm</td>
+<td style="text-align: right;">66 rpm</td>
+<td style="text-align: right;">141 ft</td>
+<td style="text-align: right;">23.4 mph</td>
+<td>Best current average speed</td>
+</tr>
+</tbody>
+</table>
+</div>
+</section>
+<section id="white-rock-lake-baseline-ride" class="level3">
+<h3 class="anchored" data-anchor-id="white-rock-lake-baseline-ride">White Rock Lake Baseline Ride</h3>
+<p>The White Rock Lake ride shown in the Garmin screenshot is activity <code>22366655913</code>: 9.25 miles in 39:29, with 14.1 mph average speed, 14.6 mph moving average speed, 131 bpm average heart rate, 61 rpm average cadence, and 259 ft total ascent.</p>
+<div class="cycling-visual-grid">
+<div class="quarto-figure quarto-figure-center">
+<figure class="figure">
+<p><img src="images/sports/cycling-white-rock-lake-route.png" class="img-fluid figure-img"></p>
+<figcaption class="figure-caption">Garmin Connect White Rock Lake road cycling route plot</figcaption>
+</figure>
+</div>
+<div class="quarto-figure quarto-figure-center">
+<figure class="figure">
+<p><img src="images/sports/cycling-garmin-edge-840-sensor-status.png" class="img-fluid figure-img"></p>
+<figcaption class="figure-caption">Garmin Edge 840 and Speed Sensor 2 setup status</figcaption>
+</figure>
+</div>
+</div>
+</section>
+<section id="cycling-analytics" class="level3">
+<h3 class="anchored" data-anchor-id="cycling-analytics">Cycling Analytics</h3>
+<div class="cycling-visual-grid">
+<div class="quarto-figure quarto-figure-center">
+<figure class="figure">
+<p><img src="images/sports/cycling-performance-trends.svg" class="img-fluid figure-img"></p>
+<figcaption class="figure-caption">Cycling performance trend from Garmin CSV exports</figcaption>
+</figure>
+</div>
+<div class="quarto-figure quarto-figure-center">
+<figure class="figure">
+<p><img src="images/sports/cycling-ride-distance-baseline.svg" class="img-fluid figure-img"></p>
+<figcaption class="figure-caption">Cycling ride distance baseline chart</figcaption>
+</figure>
+</div>
+</div>
+<p>Early read from the Garmin data:</p>
+<ul>
+<li>Across six logged rides, the current training baseline is about 55 miles total, with a weighted moving average speed of 14.85 mph.</li>
+<li>Moving speed is more stable than elapsed speed. This means stops, traffic, intersections, or route interruptions are affecting elapsed pace more than riding pace.</li>
+<li>The strongest current average-speed ride is activity <code>23073973446</code> at 14.8 mph elapsed average and 15.3 mph moving average.</li>
+<li>The longest current ride is activity <code>22301153174</code> at 10.03 miles.</li>
+<li>The highest-climbing current ride is the White Rock Lake activity <code>22366655913</code> with 259 ft of ascent.</li>
+<li>Average cadence is currently around 63 rpm. A useful future focus is tracking whether smoother cadence work, bike fit, and route choice can gradually raise comfortable cadence while keeping heart rate controlled.</li>
+<li>Heart rate rose from the first two rides into the 128-131 bpm range on later rides, while speed also improved. That suggests later rides were more sustained training efforts rather than only casual cruising.</li>
+</ul>
+</section>
+<section id="future-cycling-data-fields" class="level3">
+<h3 class="anchored" data-anchor-id="future-cycling-data-fields">Future Cycling Data Fields</h3>
+<p>For each future ride, I should record:</p>
+<ul>
+<li>Date, start time, route name, weather, temperature, wind, and traffic/stop context.</li>
+<li>Bike used, tire pressure, sensor status, and whether the HRM-Dual was connected.</li>
+<li>Distance, elapsed time, moving time, average speed, moving average speed, max speed.</li>
+<li>Average heart rate, max heart rate, average cadence, max cadence, calories, ascent, and descent.</li>
+<li>Optional future power metrics: average power, normalized power, power zones, training stress, stamina, and power-guide targets.</li>
+<li>Subjective notes: perceived effort, comfort, fueling, hydration, saddle/fit issues, and one next-ride focus.</li>
+</ul>
+</section>
+</div>
+<div id="tabset-2-4" class="tab-pane" role="tabpanel" aria-labelledby="tabset-2-4-tab">
 <p>This section tracks my Private Pilot License training flights, ForeFlight debriefs, route history, and flight-performance patterns over time. The goal is to make each lesson reviewable: where I flew, how the altitude and speed profile looked, what ForeFlight scored well, and what I should focus on in the next flight.</p>
 <div class="flight-training-note">
 <p><strong>Training review only:</strong> these plots and logs are for personal learning and post-flight analysis. They are not for navigation, dispatch, or operational flight planning.</p>

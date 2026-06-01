@@ -473,6 +473,154 @@ The table below records my current recommended bag setup from the club-fitting s
 
 :::
 
+## Cycling
+
+### Road Bike Cycling Tracker
+
+This section tracks my road bike training, Garmin ride summaries, White Rock Lake route practice, and future cycling-performance analytics. The current goal is to build a repeatable log for distance, speed, heart rate, cadence, climbing, temperature, and training notes.
+
+::: {.cycling-training-note}
+**Data note:** the current Garmin CSV exports are lap/summary files, not full second-by-second GPS/FIT records. They are enough for ride-level analytics and lap comparison. For route replay, map traces, power curves, and time-series plots, I should also export `.fit`, `.gpx`, or `.tcx` files from Garmin Connect.
+:::
+
+### Bike and Tracking Setup
+
+| Category | Current setup | What it supports |
+|---|---|---|
+| Road bike | Trek **Domane SL 5 Gen 4** | Endurance road bike built for long miles, rough roads, and comfort-focused training. |
+| Frame | 500 Series OCLV Carbon | Lightweight endurance frame platform with comfort and stability as priorities. |
+| Drivetrain | Shimano 105 | Reliable road drivetrain for structured training and general performance riding. |
+| Wheels / cockpit | Aluminum wheels and aluminum handlebars | Balanced performance and value; good baseline before future upgrades. |
+| GPS computer | Garmin **Edge 840 Bundle** | Touchscreen + button cycling computer for navigation, ride planning, workout prompts, and performance tracking. |
+| Sensors | Speed Sensor 2, Cadence Sensor, HRM-Dual | Enables speed, cadence, and heart-rate tracking independent of only GPS estimates. |
+| Current device status | Edge 840 software `30.18`; Speed Sensor 2 software `4.10`; sensor battery OK | Establishes a setup baseline for future ride logs. |
+| Future upgrade path | Compatible power meter | Would unlock Garmin power guide, stamina insights, cycling ability classification, and more complete adaptive coaching. |
+
+[Watch Trek Domane SL 5 Gen 4 intro video](https://www.youtube.com/watch?v=6zvzwqUwtIw){.btn .btn-primary}
+[Download cycling ride summary CSV](data/cycling_ride_summary.csv){.btn .btn-secondary}
+[Download cycling lap summary CSV](data/cycling_lap_summary.csv){.btn .btn-secondary}
+
+Garmin Edge 840 capabilities I want to use as this tracker grows:
+
+- Navigation and ride planning with touchscreen and button control.
+- Multi-band GNSS for better location accuracy in more challenging environments.
+- Daily suggested workouts, training prompts, and missed-workout reminders.
+- ClimbPro ascent planning to monitor remaining ascent and grade during climbs.
+- Ride-type maps that highlight popular roads, trails, and searchable points of interest.
+- Power guide, stamina insights, and cyclist ability/course-demand classification once I add a compatible power meter.
+
+### Garmin CSV Summary
+
+The current dataset contains six Garmin activity exports from the `cycling` folder. Because the CSV exports do not include ride dates, I use Garmin activity IDs and ride order as the tracking identifiers for now.
+
+::: {.sports-metric-grid}
+
+::: {.sports-metric-card}
+**Logged rides**
+
+6
+:::
+
+::: {.sports-metric-card}
+**Total distance**
+
+54.76 mi
+:::
+
+::: {.sports-metric-card}
+**Total elapsed time**
+
+4:00:02
+:::
+
+::: {.sports-metric-card}
+**Total moving time**
+
+3:41:14
+:::
+
+::: {.sports-metric-card}
+**Moving avg speed**
+
+14.85 mph
+:::
+
+::: {.sports-metric-card}
+**Avg heart rate**
+
+125 bpm
+:::
+
+::: {.sports-metric-card}
+**Total ascent**
+
+1,226 ft
+:::
+
+::: {.sports-metric-card}
+**Total calories**
+
+2,168
+:::
+
+:::
+
+::: {.cycling-table-wrap}
+
+| Ride | Garmin activity ID | Distance | Time | Moving time | Avg speed | Moving avg | Avg HR | Avg cadence | Ascent | Max speed | Notes |
+|---:|---:|---:|---:|---:|---:|---:|---:|---:|---:|---:|---|
+| 1 | 22109798266 | 9.12 mi | 41:28 | 38:14 | 13.2 mph | 14.3 mph | 119 bpm | 62 rpm | 174 ft | 21.6 mph | Dallas road cycling activity |
+| 2 | 22176079934 | 9.12 mi | 44:54 | 35:59 | 12.2 mph | 15.2 mph | 113 bpm | 66 rpm | 190 ft | 23.3 mph | Dallas road cycling activity |
+| 3 | 22301153174 | 10.03 mi | 42:56 | 39:56 | 14.0 mph | 15.1 mph | 131 bpm | 61 rpm | 236 ft | 23.8 mph | Longest current logged ride |
+| 4 | 22311683203 | 9.18 mi | 38:30 | 37:24 | 14.3 mph | 14.7 mph | 131 bpm | 62 rpm | 226 ft | 24.4 mph | Fastest max speed |
+| 5 | 22366655913 | 9.25 mi | 39:29 | 38:01 | 14.1 mph | 14.6 mph | 131 bpm | 61 rpm | 259 ft | 23.5 mph | White Rock Lake ride from screenshot |
+| 6 | 23073973446 | 8.06 mi | 32:45 | 31:40 | 14.8 mph | 15.3 mph | 128 bpm | 66 rpm | 141 ft | 23.4 mph | Best current average speed |
+
+:::
+
+### White Rock Lake Baseline Ride
+
+The White Rock Lake ride shown in the Garmin screenshot is activity `22366655913`: 9.25 miles in 39:29, with 14.1 mph average speed, 14.6 mph moving average speed, 131 bpm average heart rate, 61 rpm average cadence, and 259 ft total ascent.
+
+::: {.cycling-visual-grid}
+
+![Garmin Connect White Rock Lake road cycling route plot](images/sports/cycling-white-rock-lake-route.png)
+
+![Garmin Edge 840 and Speed Sensor 2 setup status](images/sports/cycling-garmin-edge-840-sensor-status.png)
+
+:::
+
+### Cycling Analytics
+
+::: {.cycling-visual-grid}
+
+![Cycling performance trend from Garmin CSV exports](images/sports/cycling-performance-trends.svg)
+
+![Cycling ride distance baseline chart](images/sports/cycling-ride-distance-baseline.svg)
+
+:::
+
+Early read from the Garmin data:
+
+- Across six logged rides, the current training baseline is about 55 miles total, with a weighted moving average speed of 14.85 mph.
+- Moving speed is more stable than elapsed speed. This means stops, traffic, intersections, or route interruptions are affecting elapsed pace more than riding pace.
+- The strongest current average-speed ride is activity `23073973446` at 14.8 mph elapsed average and 15.3 mph moving average.
+- The longest current ride is activity `22301153174` at 10.03 miles.
+- The highest-climbing current ride is the White Rock Lake activity `22366655913` with 259 ft of ascent.
+- Average cadence is currently around 63 rpm. A useful future focus is tracking whether smoother cadence work, bike fit, and route choice can gradually raise comfortable cadence while keeping heart rate controlled.
+- Heart rate rose from the first two rides into the 128-131 bpm range on later rides, while speed also improved. That suggests later rides were more sustained training efforts rather than only casual cruising.
+
+### Future Cycling Data Fields
+
+For each future ride, I should record:
+
+- Date, start time, route name, weather, temperature, wind, and traffic/stop context.
+- Bike used, tire pressure, sensor status, and whether the HRM-Dual was connected.
+- Distance, elapsed time, moving time, average speed, moving average speed, max speed.
+- Average heart rate, max heart rate, average cadence, max cadence, calories, ascent, and descent.
+- Optional future power metrics: average power, normalized power, power zones, training stress, stamina, and power-guide targets.
+- Subjective notes: perceived effort, comfort, fueling, hydration, saddle/fit issues, and one next-ride focus.
+
 ## Flight Training
 
 This section tracks my Private Pilot License training flights, ForeFlight debriefs, route history, and flight-performance patterns over time. The goal is to make each lesson reviewable: where I flew, how the altitude and speed profile looked, what ForeFlight scored well, and what I should focus on in the next flight.
