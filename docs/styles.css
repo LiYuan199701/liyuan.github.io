@@ -294,6 +294,48 @@ img {
   margin-bottom: 0;
 }
 
+.golf-fundamentals-note {
+  margin: 1rem 0 1.25rem;
+  padding: 1rem 1.15rem;
+  border-left: 5px solid #7a4b18;
+  border-radius: 14px;
+  background: linear-gradient(135deg, rgba(255, 245, 224, 0.96), rgba(238, 247, 226, 0.88));
+  box-shadow: 0 8px 22px rgba(84, 62, 30, 0.08);
+}
+
+.golf-fundamentals-note p {
+  margin-bottom: 0;
+}
+
+.golf-fundamentals-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(260px, 1fr));
+  gap: 1rem;
+  margin: 1rem 0 1.5rem;
+}
+
+.golf-fundamental-card {
+  padding: 1rem 1.05rem;
+  border: 1px solid rgba(122, 75, 24, 0.16);
+  border-radius: 16px;
+  background: linear-gradient(145deg, rgba(255, 250, 238, 0.98), rgba(242, 248, 232, 0.92));
+  box-shadow: 0 10px 24px rgba(64, 51, 28, 0.08);
+}
+
+.golf-fundamental-card p {
+  margin-bottom: 0;
+}
+
+.golf-table-wrap {
+  width: 100%;
+  overflow-x: auto;
+  margin: 1rem 0 1.4rem;
+}
+
+.golf-table-wrap table {
+  min-width: 920px;
+}
+
 .flight-training-note {
   margin: 1rem 0 1.25rem;
   padding: 1rem 1.15rem;
@@ -364,6 +406,47 @@ img {
 
 .cycling-table-wrap table {
   min-width: 1050px;
+}
+
+.swimming-training-note {
+  margin: 1rem 0 1.25rem;
+  padding: 1rem 1.15rem;
+  border-left: 5px solid #0e92b8;
+  border-radius: 14px;
+  background: linear-gradient(135deg, rgba(224, 247, 252, 0.96), rgba(240, 249, 255, 0.9));
+  box-shadow: 0 8px 22px rgba(21, 83, 112, 0.08);
+}
+
+.swimming-training-note p {
+  margin-bottom: 0;
+}
+
+.swimming-visual-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(280px, 1fr));
+  gap: 1rem;
+  margin: 1rem 0 1.5rem;
+  align-items: start;
+}
+
+.swimming-visual-grid img {
+  width: 100%;
+  max-height: 760px;
+  object-fit: contain;
+  background: #f7fbff;
+  border: 1px solid rgba(14, 105, 145, 0.14);
+  border-radius: 14px;
+  box-shadow: 0 10px 28px rgba(14, 66, 94, 0.14);
+}
+
+.swimming-table-wrap {
+  width: 100%;
+  overflow-x: auto;
+  margin: 1rem 0 1.4rem;
+}
+
+.swimming-table-wrap table {
+  min-width: 980px;
 }
 
 /* Make CV/research lists easier to read */

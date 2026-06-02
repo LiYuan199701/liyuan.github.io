@@ -376,6 +376,117 @@ This session records my driver practice at [Royal Golf Zone](https://www.royalgo
 - Track whether misses are mostly left-starting, slicing/fading, or contact-related.
 - Record the same metrics by club once I begin practicing irons, wedges, and putting.
 
+### Impact and Ball Flight Fundamentals
+
+These notes are my working reference for understanding launch-monitor data. I want to connect every simulator number to one of two questions: **Did I create enough energy?** and **Did I deliver the club in a way that sent the ball where I intended?**
+
+::: {.golf-fundamentals-note}
+**Core model:** distance comes first from ball speed, then gets shaped by launch angle, spin rate, descent angle, and ground conditions. Direction starts mostly from where the face is pointed at impact, while curve comes from the face-to-path relationship, centeredness of strike, spin axis, and gear effect.
+:::
+
+::: {.golf-fundamentals-grid}
+
+::: {.golf-fundamental-card}
+**1. Distance**  
+**MAXIMIZING DISTANCE**
+
+Distance is not just swing speed. It is the final result of ball speed, smash factor, launch angle, spin rate, carry, descent angle, and bounce/roll. For driver practice, I should first raise the floor: more solid contacts above 150 yd carry, then push ball speed and optimize launch/spin.
+:::
+
+::: {.golf-fundamental-card}
+**2. Smash Factor**  
+**SMASH FACTOR FUNDAMENTAL**
+
+Smash factor is `ball speed / club speed`. It measures energy transfer at impact. My May 22 clean-driver average was about `122.0 / 86.3 = 1.41`, while my GolfTech best shots reached `1.47` and `1.50`. A low smash number usually points to off-center contact, poor face control, or too much spin loft.
+:::
+
+::: {.golf-fundamental-card}
+**3. Spin Rate**  
+**SPIN RATE FUNDAMENTAL**
+
+Spin rate is the total backspin that helps the ball stay in the air but can also cost distance if it is too high. My Royal Golf Zone full-contact average was about `2,740 rpm`, while one GolfTech best shot showed `3,661 rpm`, which likely explains why that 207 yd shot had good speed but a lower, spinny flight.
+:::
+
+::: {.golf-fundamental-card}
+**4. Launch Angle**  
+**LAUNCH ANGLE FUNDAMENTAL**
+
+Launch angle is the vertical angle the ball leaves the clubface. My Royal Golf Zone clean-driver average was about `14.2 deg`, which is a useful window. The GolfTech 207 yd shot launched at `9 deg`, probably too low for maximizing carry; the 206 yd shot launched at `16 deg`, which produced better carry but still needs dispersion control.
+:::
+
+::: {.golf-fundamental-card}
+**5. Launch Direction**  
+**LAUNCH DIRECTION FUNDAMENTAL**
+
+Launch direction is the horizontal start line. For my data, the side angle is the practical proxy: negative values started left, positive values started right. My full-contact average side angle was about `-2.2 deg`, so my current driver pattern trends slightly left. A useful near-term goal is keeping start line inside `+/-5 deg`.
+:::
+
+::: {.golf-fundamental-card}
+**6. Club Path**  
+**SWING DIRECTION - CALCULATOR**
+
+Club path is where the clubhead is moving horizontally through impact. Negative values in my simulator data suggest out-to-in / leftward delivery. A rough swing-direction checkpoint is: if launch direction and club path are both left, I need to check alignment and path; if launch starts left but curves right, face-to-path is probably open.
+:::
+
+::: {.golf-fundamental-card}
+**7. Spin Axis 1**  
+**SPIN AXIS 1 CALCULATOR**
+
+A useful approximation is `spin-axis proxy = atan(side spin / backspin)`. Example: shot 52 had `1389 rpm` side spin and `2816 rpm` backspin, which gives about `26 deg` of axis tilt - a big curve signal. Shot 62 had `0` side spin, so the proxy is near `0 deg`.
+:::
+
+::: {.golf-fundamental-card}
+**8. Spin Axis 2**  
+**GEAR EFFECT**
+
+Gear effect comes from off-center driver impact. Toe strikes can tilt spin toward draw/hook; heel strikes can tilt spin toward fade/slice. This means a shot can show a surprising spin axis even when path and face look reasonable. Next step: use foot spray or impact tape to connect strike location to curvature.
+:::
+
+::: {.golf-fundamental-card}
+**9. Straight Shot**  
+**STRAIGHT SHOT W/ DUFNER**
+
+For a straight-shot baseline, I want three things at once: centered strike, face near target, and face-to-path near zero. The "Dufner" checkpoint for me is boring on purpose: balanced finish, stable face, neutral path, and a start line that does not require rescue curve.
+:::
+
+::: {.golf-fundamental-card}
+**10. Bounce & Roll**  
+**BOUNCE & ROLL - CALCULATOR**
+
+Total distance equals carry plus rollout. Rollout depends on landing angle, spin, ball speed, turf firmness, and slope. In simulator practice, I should track both carry and total distance because a long total can hide a low-launch shot that would be less reliable outdoors.
+:::
+
+:::
+
+#### Practice Calculators and Checkpoints
+
+::: {.golf-table-wrap}
+
+| Topic | Quick formula or checkpoint | What I should watch in my data |
+|---|---|---|
+| Distance | `Total = carry + bounce/roll` | Do not chase total distance only; carry is the more transferable baseline. |
+| Smash factor | `Ball speed / club speed` | Current clean-driver average is about `1.41`; best GolfTech smash reached `1.50`. |
+| Spin rate | Backspin in rpm | Royal clean average is about `2,740 rpm`; GolfTech 3,661 rpm shot likely spun too much. |
+| Launch angle | Vertical launch in degrees | Keep driver launch in a usable window; compare 9 deg low launch vs 16 deg better carry. |
+| Launch direction | Horizontal start line / side angle | Current pattern trends left; target should be inside `+/-5 deg`. |
+| Club path | Horizontal clubhead direction at impact | Several strong shots had negative path; reduce extreme leftward delivery. |
+| Face-to-path | `Face angle - club path` when face data is available | This is the main curve diagnosis; near zero is the straight-shot baseline. |
+| Spin-axis proxy | `atan(side spin / backspin)` | Shot 52 proxy is about 26 deg, showing why side spin matters. |
+| Gear effect | Compare strike location with curve | Add impact spray/tape to explain toe/heel misses. |
+| Rollout | `Total distance - carry distance` | Track whether distance is coming from reliable carry or risky low-launch roll. |
+
+:::
+
+#### How This Connects to My Current Driver Work
+
+- **Distance:** My best visible Royal Golf Zone total was 230 yd, but the stronger long-term KPI is raising average carry from about 192 yd while reducing mishits.
+- **Energy transfer:** My GolfTech best smash factor of 1.50 shows I can create efficient driver impact; the next step is making that contact repeatable.
+- **Launch and spin:** The 207 yd GolfTech shot had strong speed but low launch and high spin. The 206 yd shot had better carry and smash, but dispersion was wider.
+- **Direction:** The Royal clean-shot set leaned left by side angle. Before chasing speed, I should make start line and path tighter.
+- **Curvature:** Side spin and spin-axis proxy show why path alone is not enough. Impact location and gear effect may explain some big misses.
+
+Sources and useful references: [TrackMan on face-to-path](https://www.trackman.com/de/blog/golf/face-to-path), [Titleist Learning Lab on club path and launch direction](https://www.titleist.ca/learning-lab/performance/golf-club-path), [TrackMan on smash/spin concepts](https://www.trackman.com/blog/golf/trackman-talks-master-the-smash-index-and-spin-index), and [SkyTrak on launch-monitor ball data](https://www.skytrakgolf.com/blogs/articles/understanding-golf-ball-data-what-every-metric-actually-means-for-your-game).
+
 ### Golf Ball Science, GolfTech Best Shots, and Bag Fitting
 
 #### Why Golf Balls Are This Size and Why They Have Dimples
@@ -620,6 +731,172 @@ For each future ride, I should record:
 - Average heart rate, max heart rate, average cadence, max cadence, calories, ascent, and descent.
 - Optional future power metrics: average power, normalized power, power zones, training stress, stamina, and power-guide targets.
 - Subjective notes: perceived effort, comfort, fueling, hydration, saddle/fit issues, and one next-ride focus.
+
+## Swimming
+
+### Pool Swim Tracker
+
+This section tracks my pool swimming practice, Apple Watch workout summaries, stroke mix, heart-rate response, SWOLF/efficiency signals, and future swim-training progress. The first logged session was at the [SMU Campus Recreation pool](https://www.smu.edu/studentaffairs/campus-recreation/facilities/pool). SMU describes the Dedman Center indoor pool as a 5-lane, 25-yard pool, which matches the `25 yd` pool length recorded by my Apple Watch.
+
+::: {.swimming-training-note}
+**Data note:** this first swim log is transcribed from Apple Watch screenshots, not from a raw Apple Health export. The screenshots are useful for workout summary, auto sets, heart-rate zones, and stroke totals. For deeper analysis later, I should export Apple Health workout data so I can analyze lap-by-lap timing, heart-rate samples, and pace trends more precisely.
+:::
+
+### June 1, 2026 SMU Pool Swim
+
+[Download swim workout CSV](data/swimming_workout_log.csv){.btn .btn-primary}
+[Download auto sets CSV](data/swimming_auto_sets_2026-06-01.csv){.btn .btn-secondary}
+[Download stroke breakdown CSV](data/swimming_stroke_breakdown_2026-06-01.csv){.btn .btn-secondary}
+
+::: {.sports-metric-grid}
+
+::: {.sports-metric-card}
+**Distance**
+
+550 yd
+:::
+
+::: {.sports-metric-card}
+**Laps**
+
+22
+:::
+
+::: {.sports-metric-card}
+**Pool length**
+
+25 yd
+:::
+
+::: {.sports-metric-card}
+**Workout time**
+
+51:41
+:::
+
+::: {.sports-metric-card}
+**Avg pace**
+
+9:36 /100 yd
+:::
+
+::: {.sports-metric-card}
+**Avg HR**
+
+106 bpm
+:::
+
+::: {.sports-metric-card}
+**Active calories**
+
+186
+:::
+
+::: {.sports-metric-card}
+**Effort**
+
+6 Moderate
+:::
+
+:::
+
+| Field | Session record |
+|---|---|
+| Date | 2026-06-01 |
+| Time | 5:46 PM to 6:38 PM |
+| Location | University Park, Texas |
+| Venue | [SMU Campus Recreation Pool](https://www.smu.edu/studentaffairs/campus-recreation/facilities/pool) |
+| Workout type | Pool Swim |
+| Distance | 550 yd |
+| Pool length | 25 yd |
+| Laps | 22 |
+| Workout time | 0:51:41 |
+| Average pace | 9:36 / 100 yd |
+| Average heart rate | 106 bpm |
+| Active / total calories | 186 / 270 cal |
+| Effort | 6 - Moderate |
+
+### Stroke Mix
+
+The Apple Watch stroke summary shows that this session was mainly breaststroke, with smaller amounts of freestyle, kickboard work, backstroke, and mixed stroke work.
+
+::: {.swimming-visual-grid}
+
+![Stroke distance breakdown for the June 1, 2026 pool swim](images/sports/swimming-2026-06-01-stroke-breakdown.svg)
+
+:::
+
+| Stroke | Distance | Laps | Share of distance |
+|---|---:|---:|---:|
+| Breaststroke | 350 yd | 14 | 63.6% |
+| Freestyle | 100 yd | 4 | 18.2% |
+| Kickboard | 50 yd | 2 | 9.1% |
+| Backstroke | 25 yd | 1 | 4.5% |
+| Mixed | 25 yd | 1 | 4.5% |
+
+### Heart-Rate and Intensity Read
+
+| Heart-rate zone | Time | Range | Training read |
+|---|---:|---|---|
+| Zone 1 | 48:58 | <133 bpm | Easy aerobic / technique work |
+| Zone 2 | 0:37 | 134-146 bpm | Brief moderate effort |
+| Zone 3 | 0:00 | 147-160 bpm | None |
+| Zone 4 | 0:00 | 161-173 bpm | None |
+| Zone 5 | 0:00 | 174+ bpm | None |
+
+Early read:
+
+- This was mostly a low-intensity aerobic and technique session: average heart rate was 106 bpm, and almost all recorded zone time was in Zone 1.
+- The session distance was 550 yd, which matches 22 lengths in a 25 yd pool.
+- Breaststroke was the dominant stroke at 350 yd, or 63.6% of total distance.
+- The post-workout heart-rate values declined from 108 bpm at finish to 105 bpm at 1 minute and 102 bpm at 2 minutes. Because the workout was mostly Zone 1, a small recovery drop is not surprising.
+- The first auto set appears unusually long for a 25 yd freestyle length, and set 12 appears unusually fast for a 25 yd breaststroke length. I should treat those as possible Apple Watch auto-set detection artifacts until more swim sessions confirm the pattern.
+
+### Auto Sets
+
+The table below records the visible Apple Watch auto-set data. SWOLF is a rough efficiency indicator combining swim time and stroke count for a pool length, so lower can be better when distance and stroke type are comparable. It should not be compared too aggressively across different strokes or across sets with possible detection artifacts.
+
+::: {.swimming-table-wrap}
+
+| Set | Stroke | Distance | Swim | Rest | Visible stroke count | Avg SWOLF | Note |
+|---:|---|---:|---:|---:|---:|---:|---|
+| 1 | Freestyle | 25 yd | 10:47 | 0:58 | 14 | 46 | Warm-up or Apple auto-set artifact |
+| 2 | Freestyle | 25 yd | 0:33 | 4:24 | 15 | 48 |  |
+| 3 | Breaststroke | 25 yd | 0:45 | 0:21 | 15 | 60 |  |
+| 4 | Breaststroke | 25 yd | 0:42 | 1:07 | 13 | 55 |  |
+| 5 | Backstroke | 25 yd | 0:39 | 1:45 | 12 | 51 |  |
+| 6 | Breaststroke | 25 yd | 0:37 | 1:03 | 11 | 48 |  |
+| 7 | Breaststroke | 25 yd | 0:39 | 0:52 | 11 | 50 |  |
+| 8 | Mixed | 25 yd | 0:34 | 2:23 | 14 |  |  |
+| 9 | Kickboard | 50 yd | 0:50 | 0:32 | 0 |  | Kickboard set |
+| 10 | Freestyle | 25 yd | 0:33 | 0:47 | 11 | 44 |  |
+| 11 | Breaststroke | 75 yd | 3:38 | 1:39 | 14 | 86 | Long breaststroke set |
+| 12 | Breaststroke | 25 yd | 0:19 | 2:53 | 7 | 26 | Very fast detected set; verify later |
+| 13 | Breaststroke | 50 yd | 1:48 | 1:09 | 12 | 66 |  |
+| 14 | Breaststroke | 50 yd | 1:29 | 1:07 | 13 | 58 |  |
+| 15 | Breaststroke | 75 yd | 1:43 | 0:00 | 11 | 45 | Strong closing breaststroke set |
+
+:::
+
+::: {.swimming-visual-grid}
+
+![Apple Watch auto sets 1 through 7 for the June 1, 2026 swim](images/sports/swimming-2026-06-01-auto-sets-1-7.png)
+
+![Apple Watch auto sets 7 through 13 for the June 1, 2026 swim](images/sports/swimming-2026-06-01-auto-sets-7-13.png)
+
+![Apple Watch auto sets 10 through 15 for the June 1, 2026 swim](images/sports/swimming-2026-06-01-auto-sets-10-15.png)
+
+:::
+
+### Future Swimming Data Fields
+
+For each future swim, I should record:
+
+- Date, pool, pool length, workout duration, distance, laps, stroke mix, and perceived effort.
+- Average pace, best set pace, active calories, total calories, average heart rate, max heart rate, and heart-rate zone time.
+- Auto-set table with stroke, distance, swim time, rest time, stroke count, and SWOLF.
+- Notes about technique: breathing, kick rhythm, body position, turn quality, fatigue, and shoulder comfort.
+- A specific next-session goal, such as reaching 750 yd total, reducing long rests, improving freestyle volume, or keeping breaststroke SWOLF more stable.
 
 ## Flight Training
 

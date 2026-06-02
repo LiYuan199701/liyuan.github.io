@@ -1,0 +1,32 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1000" height="430" viewBox="0 0 1000 430" role="img" aria-labelledby="title desc">
+  <title id="title">Stroke distance breakdown for June 1, 2026 pool swim</title>
+  <desc id="desc">Horizontal bar chart showing breaststroke 350 yards, freestyle 100 yards, kickboard 50 yards, backstroke 25 yards, and mixed 25 yards.</desc>
+  <rect width="100%" height="100%" rx="26" fill="#f7fbff"/>
+  <text x="54" y="58" font-family="Avenir, Helvetica, Arial, sans-serif" font-size="30" font-weight="700" fill="#17324d">Stroke Distance Breakdown</text>
+  <text x="54" y="86" font-family="Avenir, Helvetica, Arial, sans-serif" font-size="15" fill="#587086">SMU pool swim, 550 yd total, Apple Watch summary</text>
+  <line x1="270" y1="120" x2="270" y2="365" stroke="#d4e4ef" stroke-width="2"/>
+  <line x1="270" y1="365" x2="855" y2="365" stroke="#d4e4ef" stroke-width="2"/>
+  <g font-family="Avenir, Helvetica, Arial, sans-serif">
+    <text x="54" y="148" font-size="18" font-weight="700" fill="#17324d">Breaststroke</text>
+    <rect x="270" y="126" width="560" height="30" rx="15" fill="#17bebb"/>
+    <text x="846" y="148" font-size="17" font-weight="700" fill="#17324d">350 yd · 63.6%</text>
+
+    <text x="54" y="198" font-size="18" font-weight="700" fill="#17324d">Freestyle</text>
+    <rect x="270" y="176" width="160" height="30" rx="15" fill="#3aa0ff"/>
+    <text x="446" y="198" font-size="17" font-weight="700" fill="#17324d">100 yd · 18.2%</text>
+
+    <text x="54" y="248" font-size="18" font-weight="700" fill="#17324d">Kickboard</text>
+    <rect x="270" y="226" width="80" height="30" rx="15" fill="#ffd23f"/>
+    <text x="366" y="248" font-size="17" font-weight="700" fill="#17324d">50 yd · 9.1%</text>
+
+    <text x="54" y="298" font-size="18" font-weight="700" fill="#17324d">Backstroke</text>
+    <rect x="270" y="276" width="40" height="30" rx="15" fill="#7b61ff"/>
+    <text x="326" y="298" font-size="17" font-weight="700" fill="#17324d">25 yd · 4.5%</text>
+
+    <text x="54" y="348" font-size="18" font-weight="700" fill="#17324d">Mixed</text>
+    <rect x="270" y="326" width="40" height="30" rx="15" fill="#ff7f50"/>
+    <text x="326" y="348" font-size="17" font-weight="700" fill="#17324d">25 yd · 4.5%</text>
+
+    <text x="54" y="397" font-size="14" fill="#587086">Breaststroke dominated the session; freestyle and kickboard provide useful future technique baselines.</text>
+  </g>
+</svg>

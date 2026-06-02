@@ -175,7 +175,7 @@ ul.task-list li input[type="checkbox"] {
 
 <p>This page tracks my sports practice data, equipment, and performance analytics over time. The goal is to turn practice into usable feedback: what I shot, what changed, what patterns appeared, and what I should focus on next.</p>
 <div class="tabset-margin-container"></div><div class="panel-tabset">
-<ul class="nav nav-tabs" role="tablist"><li class="nav-item" role="presentation"><a class="nav-link active" id="tabset-2-1-tab" data-bs-toggle="tab" data-bs-target="#tabset-2-1" role="tab" aria-controls="tabset-2-1" aria-selected="true">Archery</a></li><li class="nav-item" role="presentation"><a class="nav-link" id="tabset-2-2-tab" data-bs-toggle="tab" data-bs-target="#tabset-2-2" role="tab" aria-controls="tabset-2-2" aria-selected="false">Golf</a></li><li class="nav-item" role="presentation"><a class="nav-link" id="tabset-2-3-tab" data-bs-toggle="tab" data-bs-target="#tabset-2-3" role="tab" aria-controls="tabset-2-3" aria-selected="false">Cycling</a></li><li class="nav-item" role="presentation"><a class="nav-link" id="tabset-2-4-tab" data-bs-toggle="tab" data-bs-target="#tabset-2-4" role="tab" aria-controls="tabset-2-4" aria-selected="false">Flight Training</a></li></ul>
+<ul class="nav nav-tabs" role="tablist"><li class="nav-item" role="presentation"><a class="nav-link active" id="tabset-2-1-tab" data-bs-toggle="tab" data-bs-target="#tabset-2-1" role="tab" aria-controls="tabset-2-1" aria-selected="true">Archery</a></li><li class="nav-item" role="presentation"><a class="nav-link" id="tabset-2-2-tab" data-bs-toggle="tab" data-bs-target="#tabset-2-2" role="tab" aria-controls="tabset-2-2" aria-selected="false">Golf</a></li><li class="nav-item" role="presentation"><a class="nav-link" id="tabset-2-3-tab" data-bs-toggle="tab" data-bs-target="#tabset-2-3" role="tab" aria-controls="tabset-2-3" aria-selected="false">Cycling</a></li><li class="nav-item" role="presentation"><a class="nav-link" id="tabset-2-4-tab" data-bs-toggle="tab" data-bs-target="#tabset-2-4" role="tab" aria-controls="tabset-2-4" aria-selected="false">Swimming</a></li><li class="nav-item" role="presentation"><a class="nav-link" id="tabset-2-5-tab" data-bs-toggle="tab" data-bs-target="#tabset-2-5" role="tab" aria-controls="tabset-2-5" aria-selected="false">Flight Training</a></li></ul>
 <div class="tab-content">
 <div id="tabset-2-1" class="tab-pane active" role="tabpanel" aria-labelledby="tabset-2-1-tab">
 <section id="current-focus" class="level3">
@@ -1538,6 +1538,147 @@ Xs+10s
 <li>Record the same metrics by club once I begin practicing irons, wedges, and putting.</li>
 </ul>
 </section>
+<section id="impact-and-ball-flight-fundamentals" class="level3">
+<h3 class="anchored" data-anchor-id="impact-and-ball-flight-fundamentals">Impact and Ball Flight Fundamentals</h3>
+<p>These notes are my working reference for understanding launch-monitor data. I want to connect every simulator number to one of two questions: <strong>Did I create enough energy?</strong> and <strong>Did I deliver the club in a way that sent the ball where I intended?</strong></p>
+<div class="golf-fundamentals-note">
+<p><strong>Core model:</strong> distance comes first from ball speed, then gets shaped by launch angle, spin rate, descent angle, and ground conditions. Direction starts mostly from where the face is pointed at impact, while curve comes from the face-to-path relationship, centeredness of strike, spin axis, and gear effect.</p>
+</div>
+<div class="golf-fundamentals-grid">
+<div class="golf-fundamental-card">
+<p><strong>1. Distance</strong><br>
+<strong>MAXIMIZING DISTANCE</strong></p>
+<p>Distance is not just swing speed. It is the final result of ball speed, smash factor, launch angle, spin rate, carry, descent angle, and bounce/roll. For driver practice, I should first raise the floor: more solid contacts above 150 yd carry, then push ball speed and optimize launch/spin.</p>
+</div>
+<div class="golf-fundamental-card">
+<p><strong>2. Smash Factor</strong><br>
+<strong>SMASH FACTOR FUNDAMENTAL</strong></p>
+<p>Smash factor is <code>ball speed / club speed</code>. It measures energy transfer at impact. My May 22 clean-driver average was about <code>122.0 / 86.3 = 1.41</code>, while my GolfTech best shots reached <code>1.47</code> and <code>1.50</code>. A low smash number usually points to off-center contact, poor face control, or too much spin loft.</p>
+</div>
+<div class="golf-fundamental-card">
+<p><strong>3. Spin Rate</strong><br>
+<strong>SPIN RATE FUNDAMENTAL</strong></p>
+<p>Spin rate is the total backspin that helps the ball stay in the air but can also cost distance if it is too high. My Royal Golf Zone full-contact average was about <code>2,740 rpm</code>, while one GolfTech best shot showed <code>3,661 rpm</code>, which likely explains why that 207 yd shot had good speed but a lower, spinny flight.</p>
+</div>
+<div class="golf-fundamental-card">
+<p><strong>4. Launch Angle</strong><br>
+<strong>LAUNCH ANGLE FUNDAMENTAL</strong></p>
+<p>Launch angle is the vertical angle the ball leaves the clubface. My Royal Golf Zone clean-driver average was about <code>14.2 deg</code>, which is a useful window. The GolfTech 207 yd shot launched at <code>9 deg</code>, probably too low for maximizing carry; the 206 yd shot launched at <code>16 deg</code>, which produced better carry but still needs dispersion control.</p>
+</div>
+<div class="golf-fundamental-card">
+<p><strong>5. Launch Direction</strong><br>
+<strong>LAUNCH DIRECTION FUNDAMENTAL</strong></p>
+<p>Launch direction is the horizontal start line. For my data, the side angle is the practical proxy: negative values started left, positive values started right. My full-contact average side angle was about <code>-2.2 deg</code>, so my current driver pattern trends slightly left. A useful near-term goal is keeping start line inside <code>+/-5 deg</code>.</p>
+</div>
+<div class="golf-fundamental-card">
+<p><strong>6. Club Path</strong><br>
+<strong>SWING DIRECTION - CALCULATOR</strong></p>
+<p>Club path is where the clubhead is moving horizontally through impact. Negative values in my simulator data suggest out-to-in / leftward delivery. A rough swing-direction checkpoint is: if launch direction and club path are both left, I need to check alignment and path; if launch starts left but curves right, face-to-path is probably open.</p>
+</div>
+<div class="golf-fundamental-card">
+<p><strong>7. Spin Axis 1</strong><br>
+<strong>SPIN AXIS 1 CALCULATOR</strong></p>
+<p>A useful approximation is <code>spin-axis proxy = atan(side spin / backspin)</code>. Example: shot 52 had <code>1389 rpm</code> side spin and <code>2816 rpm</code> backspin, which gives about <code>26 deg</code> of axis tilt - a big curve signal. Shot 62 had <code>0</code> side spin, so the proxy is near <code>0 deg</code>.</p>
+</div>
+<div class="golf-fundamental-card">
+<p><strong>8. Spin Axis 2</strong><br>
+<strong>GEAR EFFECT</strong></p>
+<p>Gear effect comes from off-center driver impact. Toe strikes can tilt spin toward draw/hook; heel strikes can tilt spin toward fade/slice. This means a shot can show a surprising spin axis even when path and face look reasonable. Next step: use foot spray or impact tape to connect strike location to curvature.</p>
+</div>
+<div class="golf-fundamental-card">
+<p><strong>9. Straight Shot</strong><br>
+<strong>STRAIGHT SHOT W/ DUFNER</strong></p>
+<p>For a straight-shot baseline, I want three things at once: centered strike, face near target, and face-to-path near zero. The “Dufner” checkpoint for me is boring on purpose: balanced finish, stable face, neutral path, and a start line that does not require rescue curve.</p>
+</div>
+<div class="golf-fundamental-card">
+<p><strong>10. Bounce &amp; Roll</strong><br>
+<strong>BOUNCE &amp; ROLL - CALCULATOR</strong></p>
+<p>Total distance equals carry plus rollout. Rollout depends on landing angle, spin, ball speed, turf firmness, and slope. In simulator practice, I should track both carry and total distance because a long total can hide a low-launch shot that would be less reliable outdoors.</p>
+</div>
+</div>
+<section id="practice-calculators-and-checkpoints" class="level4">
+<h4 class="anchored" data-anchor-id="practice-calculators-and-checkpoints">Practice Calculators and Checkpoints</h4>
+<div class="golf-table-wrap">
+<table class="table">
+<colgroup>
+<col style="width: 33%">
+<col style="width: 33%">
+<col style="width: 33%">
+</colgroup>
+<thead>
+<tr class="header">
+<th>Topic</th>
+<th>Quick formula or checkpoint</th>
+<th>What I should watch in my data</th>
+</tr>
+</thead>
+<tbody>
+<tr class="odd">
+<td>Distance</td>
+<td><code>Total = carry + bounce/roll</code></td>
+<td>Do not chase total distance only; carry is the more transferable baseline.</td>
+</tr>
+<tr class="even">
+<td>Smash factor</td>
+<td><code>Ball speed / club speed</code></td>
+<td>Current clean-driver average is about <code>1.41</code>; best GolfTech smash reached <code>1.50</code>.</td>
+</tr>
+<tr class="odd">
+<td>Spin rate</td>
+<td>Backspin in rpm</td>
+<td>Royal clean average is about <code>2,740 rpm</code>; GolfTech 3,661 rpm shot likely spun too much.</td>
+</tr>
+<tr class="even">
+<td>Launch angle</td>
+<td>Vertical launch in degrees</td>
+<td>Keep driver launch in a usable window; compare 9 deg low launch vs 16 deg better carry.</td>
+</tr>
+<tr class="odd">
+<td>Launch direction</td>
+<td>Horizontal start line / side angle</td>
+<td>Current pattern trends left; target should be inside <code>+/-5 deg</code>.</td>
+</tr>
+<tr class="even">
+<td>Club path</td>
+<td>Horizontal clubhead direction at impact</td>
+<td>Several strong shots had negative path; reduce extreme leftward delivery.</td>
+</tr>
+<tr class="odd">
+<td>Face-to-path</td>
+<td><code>Face angle - club path</code> when face data is available</td>
+<td>This is the main curve diagnosis; near zero is the straight-shot baseline.</td>
+</tr>
+<tr class="even">
+<td>Spin-axis proxy</td>
+<td><code>atan(side spin / backspin)</code></td>
+<td>Shot 52 proxy is about 26 deg, showing why side spin matters.</td>
+</tr>
+<tr class="odd">
+<td>Gear effect</td>
+<td>Compare strike location with curve</td>
+<td>Add impact spray/tape to explain toe/heel misses.</td>
+</tr>
+<tr class="even">
+<td>Rollout</td>
+<td><code>Total distance - carry distance</code></td>
+<td>Track whether distance is coming from reliable carry or risky low-launch roll.</td>
+</tr>
+</tbody>
+</table>
+</div>
+</section>
+<section id="how-this-connects-to-my-current-driver-work" class="level4">
+<h4 class="anchored" data-anchor-id="how-this-connects-to-my-current-driver-work">How This Connects to My Current Driver Work</h4>
+<ul>
+<li><strong>Distance:</strong> My best visible Royal Golf Zone total was 230 yd, but the stronger long-term KPI is raising average carry from about 192 yd while reducing mishits.</li>
+<li><strong>Energy transfer:</strong> My GolfTech best smash factor of 1.50 shows I can create efficient driver impact; the next step is making that contact repeatable.</li>
+<li><strong>Launch and spin:</strong> The 207 yd GolfTech shot had strong speed but low launch and high spin. The 206 yd shot had better carry and smash, but dispersion was wider.</li>
+<li><strong>Direction:</strong> The Royal clean-shot set leaned left by side angle. Before chasing speed, I should make start line and path tighter.</li>
+<li><strong>Curvature:</strong> Side spin and spin-axis proxy show why path alone is not enough. Impact location and gear effect may explain some big misses.</li>
+</ul>
+<p>Sources and useful references: <a href="https://www.trackman.com/de/blog/golf/face-to-path">TrackMan on face-to-path</a>, <a href="https://www.titleist.ca/learning-lab/performance/golf-club-path">Titleist Learning Lab on club path and launch direction</a>, <a href="https://www.trackman.com/blog/golf/trackman-talks-master-the-smash-index-and-spin-index">TrackMan on smash/spin concepts</a>, and <a href="https://www.skytrakgolf.com/blogs/articles/understanding-golf-ball-data-what-every-metric-actually-means-for-your-game">SkyTrak on launch-monitor ball data</a>.</p>
+</section>
+</section>
 <section id="golf-ball-science-golftech-best-shots-and-bag-fitting" class="level3">
 <h3 class="anchored" data-anchor-id="golf-ball-science-golftech-best-shots-and-bag-fitting">Golf Ball Science, GolfTech Best Shots, and Bag Fitting</h3>
 <section id="why-golf-balls-are-this-size-and-why-they-have-dimples" class="level4">
@@ -2076,6 +2217,435 @@ Xs+10s
 </section>
 </div>
 <div id="tabset-2-4" class="tab-pane" role="tabpanel" aria-labelledby="tabset-2-4-tab">
+<section id="pool-swim-tracker" class="level3">
+<h3 class="anchored" data-anchor-id="pool-swim-tracker">Pool Swim Tracker</h3>
+<p>This section tracks my pool swimming practice, Apple Watch workout summaries, stroke mix, heart-rate response, SWOLF/efficiency signals, and future swim-training progress. The first logged session was at the <a href="https://www.smu.edu/studentaffairs/campus-recreation/facilities/pool">SMU Campus Recreation pool</a>. SMU describes the Dedman Center indoor pool as a 5-lane, 25-yard pool, which matches the <code>25 yd</code> pool length recorded by my Apple Watch.</p>
+<div class="swimming-training-note">
+<p><strong>Data note:</strong> this first swim log is transcribed from Apple Watch screenshots, not from a raw Apple Health export. The screenshots are useful for workout summary, auto sets, heart-rate zones, and stroke totals. For deeper analysis later, I should export Apple Health workout data so I can analyze lap-by-lap timing, heart-rate samples, and pace trends more precisely.</p>
+</div>
+</section>
+<section id="june-1-2026-smu-pool-swim" class="level3">
+<h3 class="anchored" data-anchor-id="june-1-2026-smu-pool-swim">June 1, 2026 SMU Pool Swim</h3>
+<p><a href="data/swimming_workout_log.csv" class="btn btn-primary">Download swim workout CSV</a> <a href="data/swimming_auto_sets_2026-06-01.csv" class="btn btn-secondary">Download auto sets CSV</a> <a href="data/swimming_stroke_breakdown_2026-06-01.csv" class="btn btn-secondary">Download stroke breakdown CSV</a></p>
+<div class="sports-metric-grid">
+<div class="sports-metric-card">
+<p><strong>Distance</strong></p>
+<p>550 yd</p>
+</div>
+<div class="sports-metric-card">
+<p><strong>Laps</strong></p>
+<p>22</p>
+</div>
+<div class="sports-metric-card">
+<p><strong>Pool length</strong></p>
+<p>25 yd</p>
+</div>
+<div class="sports-metric-card">
+<p><strong>Workout time</strong></p>
+<p>51:41</p>
+</div>
+<div class="sports-metric-card">
+<p><strong>Avg pace</strong></p>
+<p>9:36 /100 yd</p>
+</div>
+<div class="sports-metric-card">
+<p><strong>Avg HR</strong></p>
+<p>106 bpm</p>
+</div>
+<div class="sports-metric-card">
+<p><strong>Active calories</strong></p>
+<p>186</p>
+</div>
+<div class="sports-metric-card">
+<p><strong>Effort</strong></p>
+<p>6 Moderate</p>
+</div>
+</div>
+<table class="table">
+<thead>
+<tr class="header">
+<th>Field</th>
+<th>Session record</th>
+</tr>
+</thead>
+<tbody>
+<tr class="odd">
+<td>Date</td>
+<td>2026-06-01</td>
+</tr>
+<tr class="even">
+<td>Time</td>
+<td>5:46 PM to 6:38 PM</td>
+</tr>
+<tr class="odd">
+<td>Location</td>
+<td>University Park, Texas</td>
+</tr>
+<tr class="even">
+<td>Venue</td>
+<td><a href="https://www.smu.edu/studentaffairs/campus-recreation/facilities/pool">SMU Campus Recreation Pool</a></td>
+</tr>
+<tr class="odd">
+<td>Workout type</td>
+<td>Pool Swim</td>
+</tr>
+<tr class="even">
+<td>Distance</td>
+<td>550 yd</td>
+</tr>
+<tr class="odd">
+<td>Pool length</td>
+<td>25 yd</td>
+</tr>
+<tr class="even">
+<td>Laps</td>
+<td>22</td>
+</tr>
+<tr class="odd">
+<td>Workout time</td>
+<td>0:51:41</td>
+</tr>
+<tr class="even">
+<td>Average pace</td>
+<td>9:36 / 100 yd</td>
+</tr>
+<tr class="odd">
+<td>Average heart rate</td>
+<td>106 bpm</td>
+</tr>
+<tr class="even">
+<td>Active / total calories</td>
+<td>186 / 270 cal</td>
+</tr>
+<tr class="odd">
+<td>Effort</td>
+<td>6 - Moderate</td>
+</tr>
+</tbody>
+</table>
+</section>
+<section id="stroke-mix" class="level3">
+<h3 class="anchored" data-anchor-id="stroke-mix">Stroke Mix</h3>
+<p>The Apple Watch stroke summary shows that this session was mainly breaststroke, with smaller amounts of freestyle, kickboard work, backstroke, and mixed stroke work.</p>
+<div class="swimming-visual-grid">
+<div class="quarto-figure quarto-figure-center">
+<figure class="figure">
+<p><img src="images/sports/swimming-2026-06-01-stroke-breakdown.svg" class="img-fluid figure-img"></p>
+<figcaption class="figure-caption">Stroke distance breakdown for the June 1, 2026 pool swim</figcaption>
+</figure>
+</div>
+</div>
+<table class="table">
+<thead>
+<tr class="header">
+<th>Stroke</th>
+<th style="text-align: right;">Distance</th>
+<th style="text-align: right;">Laps</th>
+<th style="text-align: right;">Share of distance</th>
+</tr>
+</thead>
+<tbody>
+<tr class="odd">
+<td>Breaststroke</td>
+<td style="text-align: right;">350 yd</td>
+<td style="text-align: right;">14</td>
+<td style="text-align: right;">63.6%</td>
+</tr>
+<tr class="even">
+<td>Freestyle</td>
+<td style="text-align: right;">100 yd</td>
+<td style="text-align: right;">4</td>
+<td style="text-align: right;">18.2%</td>
+</tr>
+<tr class="odd">
+<td>Kickboard</td>
+<td style="text-align: right;">50 yd</td>
+<td style="text-align: right;">2</td>
+<td style="text-align: right;">9.1%</td>
+</tr>
+<tr class="even">
+<td>Backstroke</td>
+<td style="text-align: right;">25 yd</td>
+<td style="text-align: right;">1</td>
+<td style="text-align: right;">4.5%</td>
+</tr>
+<tr class="odd">
+<td>Mixed</td>
+<td style="text-align: right;">25 yd</td>
+<td style="text-align: right;">1</td>
+<td style="text-align: right;">4.5%</td>
+</tr>
+</tbody>
+</table>
+</section>
+<section id="heart-rate-and-intensity-read" class="level3">
+<h3 class="anchored" data-anchor-id="heart-rate-and-intensity-read">Heart-Rate and Intensity Read</h3>
+<table class="table">
+<thead>
+<tr class="header">
+<th>Heart-rate zone</th>
+<th style="text-align: right;">Time</th>
+<th>Range</th>
+<th>Training read</th>
+</tr>
+</thead>
+<tbody>
+<tr class="odd">
+<td>Zone 1</td>
+<td style="text-align: right;">48:58</td>
+<td>&lt;133 bpm</td>
+<td>Easy aerobic / technique work</td>
+</tr>
+<tr class="even">
+<td>Zone 2</td>
+<td style="text-align: right;">0:37</td>
+<td>134-146 bpm</td>
+<td>Brief moderate effort</td>
+</tr>
+<tr class="odd">
+<td>Zone 3</td>
+<td style="text-align: right;">0:00</td>
+<td>147-160 bpm</td>
+<td>None</td>
+</tr>
+<tr class="even">
+<td>Zone 4</td>
+<td style="text-align: right;">0:00</td>
+<td>161-173 bpm</td>
+<td>None</td>
+</tr>
+<tr class="odd">
+<td>Zone 5</td>
+<td style="text-align: right;">0:00</td>
+<td>174+ bpm</td>
+<td>None</td>
+</tr>
+</tbody>
+</table>
+<p>Early read:</p>
+<ul>
+<li>This was mostly a low-intensity aerobic and technique session: average heart rate was 106 bpm, and almost all recorded zone time was in Zone 1.</li>
+<li>The session distance was 550 yd, which matches 22 lengths in a 25 yd pool.</li>
+<li>Breaststroke was the dominant stroke at 350 yd, or 63.6% of total distance.</li>
+<li>The post-workout heart-rate values declined from 108 bpm at finish to 105 bpm at 1 minute and 102 bpm at 2 minutes. Because the workout was mostly Zone 1, a small recovery drop is not surprising.</li>
+<li>The first auto set appears unusually long for a 25 yd freestyle length, and set 12 appears unusually fast for a 25 yd breaststroke length. I should treat those as possible Apple Watch auto-set detection artifacts until more swim sessions confirm the pattern.</li>
+</ul>
+</section>
+<section id="auto-sets" class="level3">
+<h3 class="anchored" data-anchor-id="auto-sets">Auto Sets</h3>
+<p>The table below records the visible Apple Watch auto-set data. SWOLF is a rough efficiency indicator combining swim time and stroke count for a pool length, so lower can be better when distance and stroke type are comparable. It should not be compared too aggressively across different strokes or across sets with possible detection artifacts.</p>
+<div class="swimming-table-wrap">
+<table class="table">
+<colgroup>
+<col style="width: 13%">
+<col style="width: 10%">
+<col style="width: 13%">
+<col style="width: 13%">
+<col style="width: 13%">
+<col style="width: 13%">
+<col style="width: 13%">
+<col style="width: 10%">
+</colgroup>
+<thead>
+<tr class="header">
+<th style="text-align: right;">Set</th>
+<th>Stroke</th>
+<th style="text-align: right;">Distance</th>
+<th style="text-align: right;">Swim</th>
+<th style="text-align: right;">Rest</th>
+<th style="text-align: right;">Visible stroke count</th>
+<th style="text-align: right;">Avg SWOLF</th>
+<th>Note</th>
+</tr>
+</thead>
+<tbody>
+<tr class="odd">
+<td style="text-align: right;">1</td>
+<td>Freestyle</td>
+<td style="text-align: right;">25 yd</td>
+<td style="text-align: right;">10:47</td>
+<td style="text-align: right;">0:58</td>
+<td style="text-align: right;">14</td>
+<td style="text-align: right;">46</td>
+<td>Warm-up or Apple auto-set artifact</td>
+</tr>
+<tr class="even">
+<td style="text-align: right;">2</td>
+<td>Freestyle</td>
+<td style="text-align: right;">25 yd</td>
+<td style="text-align: right;">0:33</td>
+<td style="text-align: right;">4:24</td>
+<td style="text-align: right;">15</td>
+<td style="text-align: right;">48</td>
+<td></td>
+</tr>
+<tr class="odd">
+<td style="text-align: right;">3</td>
+<td>Breaststroke</td>
+<td style="text-align: right;">25 yd</td>
+<td style="text-align: right;">0:45</td>
+<td style="text-align: right;">0:21</td>
+<td style="text-align: right;">15</td>
+<td style="text-align: right;">60</td>
+<td></td>
+</tr>
+<tr class="even">
+<td style="text-align: right;">4</td>
+<td>Breaststroke</td>
+<td style="text-align: right;">25 yd</td>
+<td style="text-align: right;">0:42</td>
+<td style="text-align: right;">1:07</td>
+<td style="text-align: right;">13</td>
+<td style="text-align: right;">55</td>
+<td></td>
+</tr>
+<tr class="odd">
+<td style="text-align: right;">5</td>
+<td>Backstroke</td>
+<td style="text-align: right;">25 yd</td>
+<td style="text-align: right;">0:39</td>
+<td style="text-align: right;">1:45</td>
+<td style="text-align: right;">12</td>
+<td style="text-align: right;">51</td>
+<td></td>
+</tr>
+<tr class="even">
+<td style="text-align: right;">6</td>
+<td>Breaststroke</td>
+<td style="text-align: right;">25 yd</td>
+<td style="text-align: right;">0:37</td>
+<td style="text-align: right;">1:03</td>
+<td style="text-align: right;">11</td>
+<td style="text-align: right;">48</td>
+<td></td>
+</tr>
+<tr class="odd">
+<td style="text-align: right;">7</td>
+<td>Breaststroke</td>
+<td style="text-align: right;">25 yd</td>
+<td style="text-align: right;">0:39</td>
+<td style="text-align: right;">0:52</td>
+<td style="text-align: right;">11</td>
+<td style="text-align: right;">50</td>
+<td></td>
+</tr>
+<tr class="even">
+<td style="text-align: right;">8</td>
+<td>Mixed</td>
+<td style="text-align: right;">25 yd</td>
+<td style="text-align: right;">0:34</td>
+<td style="text-align: right;">2:23</td>
+<td style="text-align: right;">14</td>
+<td style="text-align: right;"></td>
+<td></td>
+</tr>
+<tr class="odd">
+<td style="text-align: right;">9</td>
+<td>Kickboard</td>
+<td style="text-align: right;">50 yd</td>
+<td style="text-align: right;">0:50</td>
+<td style="text-align: right;">0:32</td>
+<td style="text-align: right;">0</td>
+<td style="text-align: right;"></td>
+<td>Kickboard set</td>
+</tr>
+<tr class="even">
+<td style="text-align: right;">10</td>
+<td>Freestyle</td>
+<td style="text-align: right;">25 yd</td>
+<td style="text-align: right;">0:33</td>
+<td style="text-align: right;">0:47</td>
+<td style="text-align: right;">11</td>
+<td style="text-align: right;">44</td>
+<td></td>
+</tr>
+<tr class="odd">
+<td style="text-align: right;">11</td>
+<td>Breaststroke</td>
+<td style="text-align: right;">75 yd</td>
+<td style="text-align: right;">3:38</td>
+<td style="text-align: right;">1:39</td>
+<td style="text-align: right;">14</td>
+<td style="text-align: right;">86</td>
+<td>Long breaststroke set</td>
+</tr>
+<tr class="even">
+<td style="text-align: right;">12</td>
+<td>Breaststroke</td>
+<td style="text-align: right;">25 yd</td>
+<td style="text-align: right;">0:19</td>
+<td style="text-align: right;">2:53</td>
+<td style="text-align: right;">7</td>
+<td style="text-align: right;">26</td>
+<td>Very fast detected set; verify later</td>
+</tr>
+<tr class="odd">
+<td style="text-align: right;">13</td>
+<td>Breaststroke</td>
+<td style="text-align: right;">50 yd</td>
+<td style="text-align: right;">1:48</td>
+<td style="text-align: right;">1:09</td>
+<td style="text-align: right;">12</td>
+<td style="text-align: right;">66</td>
+<td></td>
+</tr>
+<tr class="even">
+<td style="text-align: right;">14</td>
+<td>Breaststroke</td>
+<td style="text-align: right;">50 yd</td>
+<td style="text-align: right;">1:29</td>
+<td style="text-align: right;">1:07</td>
+<td style="text-align: right;">13</td>
+<td style="text-align: right;">58</td>
+<td></td>
+</tr>
+<tr class="odd">
+<td style="text-align: right;">15</td>
+<td>Breaststroke</td>
+<td style="text-align: right;">75 yd</td>
+<td style="text-align: right;">1:43</td>
+<td style="text-align: right;">0:00</td>
+<td style="text-align: right;">11</td>
+<td style="text-align: right;">45</td>
+<td>Strong closing breaststroke set</td>
+</tr>
+</tbody>
+</table>
+</div>
+<div class="swimming-visual-grid">
+<div class="quarto-figure quarto-figure-center">
+<figure class="figure">
+<p><img src="images/sports/swimming-2026-06-01-auto-sets-1-7.png" class="img-fluid figure-img"></p>
+<figcaption class="figure-caption">Apple Watch auto sets 1 through 7 for the June 1, 2026 swim</figcaption>
+</figure>
+</div>
+<div class="quarto-figure quarto-figure-center">
+<figure class="figure">
+<p><img src="images/sports/swimming-2026-06-01-auto-sets-7-13.png" class="img-fluid figure-img"></p>
+<figcaption class="figure-caption">Apple Watch auto sets 7 through 13 for the June 1, 2026 swim</figcaption>
+</figure>
+</div>
+<div class="quarto-figure quarto-figure-center">
+<figure class="figure">
+<p><img src="images/sports/swimming-2026-06-01-auto-sets-10-15.png" class="img-fluid figure-img"></p>
+<figcaption class="figure-caption">Apple Watch auto sets 10 through 15 for the June 1, 2026 swim</figcaption>
+</figure>
+</div>
+</div>
+</section>
+<section id="future-swimming-data-fields" class="level3">
+<h3 class="anchored" data-anchor-id="future-swimming-data-fields">Future Swimming Data Fields</h3>
+<p>For each future swim, I should record:</p>
+<ul>
+<li>Date, pool, pool length, workout duration, distance, laps, stroke mix, and perceived effort.</li>
+<li>Average pace, best set pace, active calories, total calories, average heart rate, max heart rate, and heart-rate zone time.</li>
+<li>Auto-set table with stroke, distance, swim time, rest time, stroke count, and SWOLF.</li>
+<li>Notes about technique: breathing, kick rhythm, body position, turn quality, fatigue, and shoulder comfort.</li>
+<li>A specific next-session goal, such as reaching 750 yd total, reducing long rests, improving freestyle volume, or keeping breaststroke SWOLF more stable.</li>
+</ul>
+</section>
+</div>
+<div id="tabset-2-5" class="tab-pane" role="tabpanel" aria-labelledby="tabset-2-5-tab">
 <p>This section tracks my Private Pilot License training flights, ForeFlight debriefs, route history, and flight-performance patterns over time. The goal is to make each lesson reviewable: where I flew, how the altitude and speed profile looked, what ForeFlight scored well, and what I should focus on in the next flight.</p>
 <div class="flight-training-note">
 <p><strong>Training review only:</strong> these plots and logs are for personal learning and post-flight analysis. They are not for navigation, dispatch, or operational flight planning.</p>
