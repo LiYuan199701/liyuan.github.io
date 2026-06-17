@@ -27,8 +27,22 @@ website:
         text: Education
       - href: dating.qmd
         text: Dating
-      - href: sports.qmd
-        text: Sports
+      - text: Sports
+        menu:
+          - href: sports.qmd
+            text: Sports Overview
+          - href: sports.qmd#archery
+            text: Archery
+          - href: sports.qmd#golf
+            text: Golf
+          - href: sports.qmd#cycling
+            text: Cycling
+          - href: sports.qmd#swimming
+            text: Swimming
+          - href: sports.qmd#climbing
+            text: Climbing
+          - href: sports.qmd#flight-training
+            text: Flight Training
     right:
       - icon: github
         href: https://github.com/LiYuan199701

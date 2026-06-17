@@ -4,7 +4,32 @@ title: "Sports Analytics"
 
 This page tracks my sports practice data, equipment, and performance analytics over time. The goal is to turn practice into usable feedback: what I shot, what changed, what patterns appeared, and what I should focus on next.
 
-::: {.panel-tabset}
+<nav class="sports-subtab-nav" aria-label="Sports quick access">
+  <a class="sports-subtab-card" href="#archery">
+    <span class="sports-subtab-title">Archery</span>
+    <span class="sports-subtab-desc">Recurve setup, sight marks, scorecards, and grouping patterns</span>
+  </a>
+  <a class="sports-subtab-card" href="#golf">
+    <span class="sports-subtab-title">Golf</span>
+    <span class="sports-subtab-desc">Simulator data, driver metrics, bag fitting, and ball-flight fundamentals</span>
+  </a>
+  <a class="sports-subtab-card" href="#cycling">
+    <span class="sports-subtab-title">Cycling</span>
+    <span class="sports-subtab-desc">Garmin Edge rides, route maps, cadence, speed, and endurance trends</span>
+  </a>
+  <a class="sports-subtab-card" href="#swimming">
+    <span class="sports-subtab-title">Swimming</span>
+    <span class="sports-subtab-desc">Pool workouts, Apple Watch sets, stroke mix, pace, and heart rate</span>
+  </a>
+  <a class="sports-subtab-card" href="#climbing">
+    <span class="sports-subtab-title">Climbing</span>
+    <span class="sports-subtab-desc">Biomechanics videos, COG movement, keyframes, and technique notes</span>
+  </a>
+  <a class="sports-subtab-card" href="#flight-training">
+    <span class="sports-subtab-title">Flight Training</span>
+    <span class="sports-subtab-desc">PPL route logs, ForeFlight debriefs, altitude profiles, and lesson notes</span>
+  </a>
+</nav>
 
 ## Archery
 
@@ -898,6 +923,137 @@ For each future swim, I should record:
 - Notes about technique: breathing, kick rhythm, body position, turn quality, fatigue, and shoulder comfort.
 - A specific next-session goal, such as reaching 750 yd total, reducing long rests, improving freestyle volume, or keeping breaststroke SWOLF more stable.
 
+## Climbing
+
+### Wall-Climbing Biomechanics Tracker
+
+This section tracks my climbing attempts using slow-motion video, pose overlays, keyframes, and pose-derived biomechanics. The first logged analysis focuses on a right-hand reach sequence where balance begins to break down as my center of gravity moves away from the feet and the climb turns into a barn-door swing.
+
+::: {.climbing-training-note}
+**Data note:** these measurements are video-derived coaching signals, not laboratory-grade biomechanics. The most useful way to use them is for repeated self-comparison: where my COG sits relative to my feet, when my hips drift away from the wall, how much I rely on the arms, and whether I keep foot tension during the reach.
+:::
+
+### Embedded Video Review
+
+[Download annotated slow-motion video](files/sports/climbing/climbing-2026-06-08-v1-annotated-slowmo.mp4){.btn .btn-primary}
+[Download pose-overlay video](files/sports/climbing/climbing-2026-06-05-pose-overlay.mp4){.btn .btn-secondary}
+
+<div class="climbing-video-grid" aria-label="Side-by-side climbing video comparison">
+  <article class="climbing-video-card">
+    <h4>June 8 annotated slow motion - V1 reach attempt</h4>
+    <video controls preload="metadata" playsinline>
+      <source src="files/sports/climbing/climbing-2026-06-08-v1-annotated-slowmo.mp4" type="video/mp4">
+      Your browser does not support the video tag.
+    </video>
+  </article>
+  <article class="climbing-video-card">
+    <h4>June 5 pose-overlay biomechanics clip</h4>
+    <video controls preload="metadata" playsinline>
+      <source src="files/sports/climbing/climbing-2026-06-05-pose-overlay.mp4" type="video/mp4">
+      Your browser does not support the video tag.
+    </video>
+  </article>
+</div>
+
+### Movement Snapshot
+
+::: {.sports-metric-grid}
+
+::: {.sports-metric-card}
+**Problem move**
+
+Right-hand reach
+:::
+
+::: {.sports-metric-card}
+**Breakdown window**
+
+about 19-22 s
+:::
+
+::: {.sports-metric-card}
+**Failure pattern**
+
+Feet cut / barn door
+:::
+
+::: {.sports-metric-card}
+**Peak instability**
+
+COG swings outward
+:::
+
+::: {.sports-metric-card}
+**Measured speed spike**
+
+about 1050 px/s
+:::
+
+::: {.sports-metric-card}
+**Main correction**
+
+Keep weight on feet
+:::
+
+:::
+
+### Biomechanics Figures
+
+::: {.climbing-visual-grid}
+
+![Biomechanics keyframes showing bunched setup, full reach, feet cut, and fall](images/sports/climbing-2026-06-05-keyframes.jpg)
+
+![Pose-derived biomechanics plots showing knee and hip angles, COG speed, and COG path](images/sports/climbing-2026-06-05-biomech-plots.png)
+
+![Zoomed right-hand reach analysis showing COG offset and arm angle](images/sports/climbing-2026-06-08-reach-breakdown.png)
+
+:::
+
+### Attempt Breakdown
+
+::: {.climbing-table-wrap}
+
+| Phase | Time / cue | What the body is doing | Training interpretation |
+|---|---|---|---|
+| Bunched set-up | Early position | Knees are bent, body is compressed, and hips are already beginning to drift away from the wall. | The move starts with too much load in the hands and not enough stable pressure through the feet. |
+| Full reach | Around 17.5-18.0 s in the June 5 overlay | The right arm extends high while the body lengthens. Right knee and hip extension increase, but only one foot appears to carry much of the support. | The reach is possible, but the base of support is narrow. This makes the body vulnerable to rotation. |
+| Reach-out-right breakdown | About 19-22 s in the June 8 reach figure | COG offset moves from near the feet to roughly 25-32 cm outward during the reach. | Once the COG moves outside the feet, body weight transfers onto the arms and the next hand contact becomes harder to control. |
+| Feet cut / barn door | Failure moment | The body rotates open, feet leave the wall, and COG speed spikes. | This is the main failure signature: loss of lower-body tension, followed by a swing that the arms cannot absorb. |
+| Fall | After the feet cut | Hip angle collapses and the COG drops toward the mat. | The attempt is over once the feet detach and the body cannot re-stack under the handholds. |
+
+:::
+
+### Why the Failed Attempt Failed
+
+- The center of gravity moved too far away from the feet during the right-hand reach, so the move became arm-dominant instead of foot-driven.
+- The hips drifted outward instead of staying close to the wall. That increased the lever arm between my body mass and the handholds, making the swing larger.
+- Foot pressure was not maintained through the reach. Once the supporting foot lost tension, the body rotated open in a barn-door pattern.
+- The catch happened near peak instability, so the hand could touch or catch the hold, but the body was not quiet enough to keep the position.
+- The speed spike in the COG plot shows that control was lost suddenly rather than gradually, which usually means the lower body released before the upper body was ready.
+
+### Why the Move Works When It Succeeds
+
+The same move succeeds when I keep the reach connected to the feet. The key is not just touching the next hold; it is arriving with the hips still controlled and the COG still supported by the lower body. A cleaner success pattern should look like: set the foot first, load the leg, bring the hip under the reaching hand, keep one foot actively pressing, then reach with a quieter torso. If the foot stays weighted through the catch, the handhold becomes a continuation of the movement rather than a rescue point.
+
+### Technique Cues for the Next Session
+
+- Before the right-hand reach, pause long enough to feel real pressure through the active foot.
+- Move the hip inward and slightly under the target hand before committing to the reach.
+- Use the legs to start the movement, then let the arm finish it. Avoid pulling first with the shoulder.
+- Add a counterbalance: flag, drop-knee, or twist the hip so the body does not open like a door.
+- Catch with quiet shoulders, then immediately re-place or re-weight the feet before the swing grows.
+- Review future videos for three numbers: COG offset from feet, COG speed spike, and whether the feet stay on through the catch.
+
+### Future Climbing Data Fields
+
+For each future climbing session, I should record:
+
+- Date, gym, route grade, wall angle, hold color/type, and whether the attempt was a send, partial send, or fall.
+- Attempt count, rest time, perceived effort, and the exact move where failure or success happened.
+- Keyframes for set-up, load, reach, catch, and stabilization.
+- COG offset, COG speed, hip angle, knee angle, arm angle, and whether either foot cuts.
+- Technique notes: foot placement, hip position, breathing, shoulder tension, fear/commitment, and one correction for the next attempt.
+
 ## Flight Training
 
 This section tracks my Private Pilot License training flights, ForeFlight debriefs, route history, and flight-performance patterns over time. The goal is to make each lesson reviewable: where I flew, how the altitude and speed profile looked, what ForeFlight scored well, and what I should focus on in the next flight.
@@ -1012,7 +1168,5 @@ For future PPL training flights, this page should track both the official logboo
 | Data files | ForeFlight CSV, KML, navlog PDF, screenshots, notes, weather context |
 
 As more flights are added, I can turn this into a real flight-training dashboard with monthly hours, airports visited, landing counts, maneuver history, route maps, and milestone progress toward the Private Pilot License.
-
-:::
 
 :::

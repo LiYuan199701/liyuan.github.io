@@ -281,6 +281,52 @@ img {
   box-shadow: 0 8px 24px rgba(0, 0, 0, 0.12);
 }
 
+.sports-subtab-nav {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(210px, 1fr));
+  gap: 0.9rem;
+  margin: 1.25rem 0 2rem;
+}
+
+.sports-subtab-card {
+  display: block;
+  min-height: 118px;
+  padding: 1rem 1.05rem;
+  color: var(--bs-body-color);
+  text-decoration: none;
+  border: 1px solid rgba(64, 74, 22, 0.16);
+  border-radius: 18px;
+  background:
+    linear-gradient(145deg, rgba(138, 158, 38, 0.14), rgba(47, 125, 71, 0.08)),
+    radial-gradient(circle at top left, rgba(138, 158, 38, 0.18), transparent 45%);
+  box-shadow: 0 10px 26px rgba(52, 60, 26, 0.1);
+  transition: transform 140ms ease, border-color 140ms ease, box-shadow 140ms ease;
+}
+
+.sports-subtab-card:hover,
+.sports-subtab-card:focus {
+  color: inherit;
+  text-decoration: none;
+  transform: translateY(-2px);
+  border-color: rgba(108, 125, 22, 0.42);
+  box-shadow: 0 14px 32px rgba(52, 60, 26, 0.16);
+}
+
+.sports-subtab-title {
+  display: block;
+  font-size: 1.08rem;
+  font-weight: 800;
+  letter-spacing: 0.01em;
+}
+
+.sports-subtab-desc {
+  display: block;
+  margin-top: 0.35rem;
+  color: rgba(var(--bs-body-color-rgb), 0.76);
+  font-size: 0.92rem;
+  line-height: 1.35;
+}
+
 .golf-science-note {
   margin: 1rem 0 1.2rem;
   padding: 1rem 1.15rem;
@@ -447,6 +493,84 @@ img {
 
 .swimming-table-wrap table {
   min-width: 980px;
+}
+
+.climbing-training-note {
+  margin: 1rem 0 1.25rem;
+  padding: 1rem 1.15rem;
+  border-left: 5px solid #6d4f9f;
+  border-radius: 14px;
+  background: linear-gradient(135deg, rgba(243, 239, 255, 0.96), rgba(238, 245, 236, 0.9));
+  box-shadow: 0 8px 22px rgba(67, 51, 102, 0.08);
+}
+
+.climbing-training-note p {
+  margin-bottom: 0;
+}
+
+.climbing-video-grid {
+  display: grid;
+  grid-template-columns: repeat(2, minmax(0, 1fr));
+  gap: 1rem;
+  margin: 1rem 0 1.5rem;
+  align-items: start;
+}
+
+.climbing-video-card {
+  padding: 1rem;
+  border: 1px solid rgba(67, 51, 102, 0.14);
+  border-radius: 16px;
+  background: linear-gradient(145deg, rgba(250, 248, 255, 0.98), rgba(241, 246, 238, 0.92));
+  box-shadow: 0 10px 28px rgba(42, 33, 64, 0.12);
+}
+
+.climbing-video-card h4 {
+  margin: 0 0 0.75rem;
+  font-size: 1rem;
+  font-weight: 800;
+}
+
+.climbing-video-card video {
+  display: block;
+  width: 100%;
+  max-height: 640px;
+  object-fit: contain;
+  border-radius: 14px;
+  background: #111;
+}
+
+@media (max-width: 820px) {
+  .climbing-video-grid {
+    grid-template-columns: 1fr;
+  }
+}
+
+.climbing-visual-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(320px, 1fr));
+  gap: 1rem;
+  margin: 1rem 0 1.5rem;
+  align-items: start;
+}
+
+.climbing-visual-grid img {
+  width: 100%;
+  max-height: 760px;
+  object-fit: contain;
+  background: #fbf8ff;
+  border: 1px solid rgba(67, 51, 102, 0.14);
+  border-radius: 14px;
+  box-shadow: 0 10px 28px rgba(42, 33, 64, 0.14);
+}
+
+.climbing-table-wrap {
+  width: 100%;
+  overflow-x: auto;
+  margin: 1rem 0 1.4rem;
+}
+
+.climbing-table-wrap table {
+  min-width: 960px;
 }
 
 /* Make CV/research lists easier to read */
