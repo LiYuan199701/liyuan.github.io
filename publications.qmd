@@ -1,13 +1,22 @@
 ---
 title: "Publications and Working Papers"
+body-classes: publications-page
 ---
+
+:::: {.publications-layout}
+
+<div class="publications-portrait" role="complementary" aria-label="Author portrait">
+<img src="images/headshots/Headshots/Leon%202.jpeg" alt="Professional portrait of Li Yuan (Leon)">
+</div>
+
+::: {.publications-manuscripts}
 
 # Manuscripts under review
 
 ## 1. BAMIC: Interpretable Sentiment Classification with Bayesian Uncertainty and Word-Level Contributions
 
 **Journal/Status:** Manuscript under review at [*Information Processing & Management*](https://www.sciencedirect.com/journal/information-processing-and-management).  
-**Authors:** **Li Yuan** (first author) and [Jing Cao, Ph.D.](https://people.smu.edu/jingcao/).  
+**Authors:** **Li Yuan** (first author), [Jing Cao, Ph.D.](https://people.smu.edu/jingcao/), and [Raanju R. Sundararajan, Ph.D.](https://www.smu.edu/dedman/academics/departments/statistics/people/faculty/sundarajan).  
 **Role:** First author; model development, Bayesian uncertainty framework, experiments, interpretation, and manuscript writing.
 
 <details class="publication-abstract">
@@ -28,7 +37,7 @@ We compare BAMIC with five classical, neural, and transformer baselines on four 
 ## 2. BPAR: Interpretable Bayesian Bernstein Autoregression for Nonlinear Time Series Forecasting
 
 **Journal/Status:** Manuscript under review at [*Knowledge-Based Systems*](https://www.sciencedirect.com/journal/knowledge-based-systems).  
-**Authors:** **Li Yuan** (first author) and [Raanju R. Sundararajan](https://www.smu.edu/dedman/academics/departments/statistics/people/faculty/sundarajan).  
+**Authors:** **Li Yuan** (first author) and [Raanju R. Sundararajan, Ph.D.](https://www.smu.edu/dedman/academics/departments/statistics/people/faculty/sundarajan).  
 **Role:** First author; Bayesian model formulation, posterior inference, forecasting experiments, interpretability analysis, and manuscript writing.
 
 <details class="publication-abstract">
@@ -50,7 +59,7 @@ The resulting architecture uses a single structured layer and remains substantia
 
 ## 1. Novel Point-of-Care Diagnostic Risk Model and Clinical Calculator for Biliary Atresia
 
-**Journal/Status:** Manuscript in preparation.  
+**Journal/Status:** Manuscript in preparation for planned submission to [*Hepatology Communications*](https://journals.lww.com/hepcomm/pages/default.aspx), a peer-reviewed, open-access journal.  
 **Authors:** Sandra Rios-Melendez, **Li Yuan**, Song Zhang, Reena Mourya, Pranavkumar Shivakumar, Estella Alonso, Stephen Guthery, Sanjiv Harpavat, Simon Horslen, Binita Kamath, Saul Karpen, Rohit Kohli, Kathleen Loomes, John Magee, Alexander Miethke, Benjamin Shneider, Ron Sokol, Pamela L. Valentino, Jorge Bezerra, Sindhu Pandurangi, and Childhood Liver Disease Research Network (ChiLDReN).
 
 **Summary:**
@@ -63,7 +72,7 @@ The resulting architecture uses a single structured layer and remains substantia
 
 ## 1. Critical Illness Outcomes of Hospitalized Pregnant Women Following a Texas Abortion Ban
 
-**Journal:** *American Journal of Respiratory and Critical Care Medicine*.  
+**Journal:** [*American Journal of Respiratory and Critical Care Medicine*](https://academic.oup.com/ajrccm).  
 **Authors:** Catherine Chen, Deepshikha C. Ashana, Kevin Callison, Courtney Baker, R. Nicholas Burns, Jing Cao, **Li Yuan**, and Hayley B. Gershengorn.  
 [View paper](https://academic.oup.com/ajrccm/advance-article/doi/10.1093/ajrccm/aamag207/8679094?searchresult=1)
 
@@ -75,7 +84,7 @@ The resulting architecture uses a single structured layer and remains substantia
 
 ## 2. Rate-Perturbing Single Amino Acid Mutation for Hydrolases: A Statistical Profiling
 
-**Journal:** *The Journal of Physical Chemistry B*.  
+**Journal:** [*The Journal of Physical Chemistry B*](https://pubs.acs.org/journal/jpcbfk).  
 **Authors:** Bailu Yan, Xinchun Ran, Yaoyukun Jiang, Sarah K. Torrence, **Li Yuan**, Qianzhen Shao, and Zhongyue J. Yang.  
 [View paper](https://pubs.acs.org/doi/10.1021/acs.jpcb.1c05901)
 
@@ -84,3 +93,7 @@ The resulting architecture uses a single structured layer and remains substantia
 - This paper introduced IntEnzyDB, an integrated structure-kinetics database for hydrolases containing thousands of curated kinetic measurements and protein structures for statistical analysis and machine learning.
 - The analysis found that only about 10% of single amino acid substitutions were rate-enhancing, and mutations to bulky nonpolar residues such as Val, Ile, Phe, and Leu were significantly more likely to improve hydrolase turnover or catalytic efficiency.
 - Structure-kinetics profiling showed that mutation effects depend on distance from the active site: nearby and midrange mutations can strongly change catalytic performance, while distal mutations are more likely to be efficiency-neutral and less likely to be deleterious.
+
+:::
+
+::::

@@ -125,6 +125,47 @@ img {
   border-radius: 16px;
 }
 
+.publications-page .page-columns .content {
+  max-width: 1200px;
+}
+
+.publications-layout {
+  display: grid;
+  grid-template-columns: minmax(160px, 220px) minmax(0, 1fr);
+  gap: clamp(1.5rem, 3vw, 3rem);
+  align-items: start;
+}
+
+.publications-portrait {
+  position: sticky;
+  top: 6rem;
+}
+
+.publications-portrait img {
+  display: block;
+  width: 100%;
+  height: auto;
+  max-height: calc(100vh - 8rem);
+  object-fit: contain;
+  border-radius: 16px;
+  box-shadow: 0 8px 22px rgba(28, 44, 58, 0.12);
+}
+
+.publications-manuscripts {
+  min-width: 0;
+}
+
+@media (max-width: 820px) {
+  .publications-layout {
+    grid-template-columns: minmax(0, 1fr);
+  }
+
+  .publications-portrait {
+    position: static;
+    width: min(220px, 65vw);
+  }
+}
+
 .publication-abstract {
   margin: 0.9rem 0 1.1rem;
   padding: 0.9rem 1rem;
