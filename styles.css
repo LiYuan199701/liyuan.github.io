@@ -125,6 +125,25 @@ img {
   border-radius: 16px;
 }
 
+.publication-abstract {
+  margin: 0.9rem 0 1.1rem;
+  padding: 0.9rem 1rem;
+  border: 1px solid rgba(44, 62, 80, 0.16);
+  border-radius: 14px;
+  background: linear-gradient(145deg, rgba(245, 250, 248, 0.96), rgba(239, 246, 252, 0.9));
+  box-shadow: 0 8px 22px rgba(28, 44, 58, 0.08);
+}
+
+.publication-abstract summary {
+  cursor: pointer;
+  font-weight: 800;
+  color: var(--bs-primary);
+}
+
+.publication-abstract p:last-child {
+  margin-bottom: 0;
+}
+
 /* Sports analytics cards and practice image gallery */
 .bow-setup-hero {
   margin: 1.1rem 0 1.5rem;

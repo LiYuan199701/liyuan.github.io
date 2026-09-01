@@ -4,19 +4,47 @@ title: "Publications and Working Papers"
 
 # Manuscripts under review
 
-## 1. Nonlinear Time Series Modeling Using Bernstein Polynomials and Bayesian Inference
+## 1. BAMIC: Interpretable Sentiment Classification with Bayesian Uncertainty and Word-Level Contributions
 
-**Journal/Status:** Submitted to *Transactions on Machine Learning Research (TMLR)*.  
-**Authors:** **Li Yuan** and [Raanju R. Sundararajan](https://www.smu.edu/dedman/academics/departments/statistics/people/faculty/sundarajan).  
-**Current advisor:** [Raanju R. Sundararajan](https://www.smu.edu/dedman/academics/departments/statistics/people/faculty/sundarajan).
+**Journal/Status:** Manuscript under review at [*Information Processing & Management*](https://www.sciencedirect.com/journal/information-processing-and-management).  
+**Authors:** **Li Yuan** (first author) and [Jing Cao, Ph.D.](https://people.smu.edu/jingcao/).  
+**Role:** First author; model development, Bayesian uncertainty framework, experiments, interpretation, and manuscript writing.
 
-[View OpenReview submission](https://openreview.net/forum?id=PPEHt53UJh&noteId=PPEHt53UJh)
+<details class="publication-abstract">
+<summary>Show abstract</summary>
+
+We introduce BAMIC, a partially Bayesian multiple instance classification model that produces document sentiment predictions, exact word contributions, and posterior uncertainty using only document labels. Two deterministic self-attention branches construct contextual token representations for gating and sentiment, while two Bayesian scalar heads produce soft gate and signed sentiment scores. Gate mass normalization ensures that the token contributions sum exactly to the document logit. Restricting Bayesian inference to two small heads whose combined coefficient count is approximately 0.0005% of the trainable parameter count of the transformer baselines allows uncertainty to propagate to word contributions and document probabilities while controlling computational cost.
+
+We compare BAMIC with five classical, neural, and transformer baselines on four datasets containing 194,221 training, validation, and test examples: Wine (38,000), SST-2 (68,221), IMDB (50,000), and Yelp Review Polarity (38,000). BAMIC achieves accuracies of 0.8749, 0.8039, 0.8635, and 0.8944 on these datasets, respectively, while using approximately 1% as many trainable parameters as the transformer baselines. On Wine, its accuracy is within 1.3 percentage points of BERT. Across ten Wine fits, accuracy averages 0.875 with a standard deviation of 0.002. BAMIC also obtains the lowest expected calibration error among the evaluated models on IMDB (0.0072) and Yelp (0.0163). In the Wine application, a 95% credible interval rule automatically classifies 96.7% of 10,000 test reviews at an accuracy of 0.8875. The deferred 3.3% contain 13% of BAMIC's errors, demonstrating how posterior uncertainty can support selective human review.
+
+</details>
 
 **Summary:**
 
-- This paper introduces Bernstein Polynomial Autoregressive (BPAR) models and an AR-BPAR extension to capture smooth nonlinear temporal dependence while preserving lag-level interpretability.
-- The framework uses Bayesian inference, including exact and variational approaches, to provide uncertainty quantification for model parameters and forecasts; shrinkage priors and credible intervals support model pruning.
-- Empirical studies across simulated nonlinear systems, chaotic benchmarks, and real time series show strong forecasting performance, especially for chaotic and highly nonlinear data, compared with classical statistical models and neural network baselines.
+- BAMIC predicts document sentiment while also producing exact word-level contributions and posterior uncertainty from document-level labels only.
+- The model keeps computation efficient by applying Bayesian inference only to two small scalar heads, while deterministic self-attention branches build the contextual token representations.
+- Across Wine, SST-2, IMDB, and Yelp Review Polarity, BAMIC balances accuracy, calibration, interpretability, and selective human-review capability with far fewer trainable parameters than transformer baselines.
+
+## 2. BPAR: Interpretable Bayesian Bernstein Autoregression for Nonlinear Time Series Forecasting
+
+**Journal/Status:** Manuscript under review at [*Knowledge-Based Systems*](https://www.sciencedirect.com/journal/knowledge-based-systems).  
+**Authors:** **Li Yuan** (first author) and [Raanju R. Sundararajan](https://www.smu.edu/dedman/academics/departments/statistics/people/faculty/sundarajan).  
+**Role:** First author; Bayesian model formulation, posterior inference, forecasting experiments, interpretability analysis, and manuscript writing.
+
+<details class="publication-abstract">
+<summary>Show abstract</summary>
+
+Forecasting nonlinear and chaotic time series requires models that can represent complex temporal dependence while remaining interpretable and providing reliable predictive uncertainty. This article introduces the Bayesian Bernstein Polynomial Autoregressive model (BPAR) and an additive extension, AR-BPAR, that combines a linear autoregressive component with nonlinear Bernstein polynomial lag effects. Each lag is represented through a smooth Bernstein basis expansion, allowing posterior summaries of lag-specific response functions without relying on learned hidden representations.
+
+The resulting architecture uses a single structured layer and remains substantially more parsimonious than common neural forecasting models. Structured shrinkage priors regularize the lag-specific coefficient blocks, while posterior credible intervals quantify parameter uncertainty and identify coefficients whose intervals exclude zero. Under conjugate Gaussian and inverse-gamma priors, the model admits closed-form posterior inference and an analytical Student-t posterior predictive distribution. The proposed methods are evaluated against statistical and neural forecasting approaches using 19 benchmark series, comprising 16 measured real-world series and three synthetic chaotic systems. AR-BPAR attains the lowest mean test-RMSE rank across these benchmarks while using fewer than 0.1% of the parameters of the largest deep learning configurations evaluated. Its nominal 90% predictive intervals achieve a median empirical coverage of 0.92, and its probabilistic forecasts remain competitive with DeepAR in terms of CRPS. The results demonstrate that Bayesian Bernstein autoregression offers a useful balance among forecasting accuracy, interpretability, parsimony, and uncertainty quantification.
+
+</details>
+
+**Summary:**
+
+- BPAR and AR-BPAR use Bernstein polynomial lag effects to model nonlinear temporal dependence while keeping each lag interpretable through posterior response functions.
+- The Bayesian formulation provides closed-form posterior inference, Student-t posterior predictive intervals, structured shrinkage, and coefficient-level uncertainty summaries.
+- Across 19 benchmark series, AR-BPAR achieves strong forecasting accuracy, competitive probabilistic forecasts, and reliable predictive intervals while using far fewer parameters than large neural forecasting models.
 
 # Manuscripts in progress
 
@@ -30,21 +58,6 @@ title: "Publications and Working Papers"
 - This study develops a multivariable logistic risk prediction model for biliary atresia using clinical and biomarker data from cholestatic infants in the ChiLDReN cohort and an external validation cohort from Children's Medical Center Dallas.
 - The final model combines age, stool color, MMP-7, and GGT, achieving excellent discrimination for biliary atresia and improving risk classification compared with MMP-7 alone.
 - The model is translated into a web-based clinical calculator that provides individualized, real-time risk estimates to support earlier referral and diagnostic evaluation for infants with neonatal cholestasis.
-
-## 2. AMIC Uncertainty: Bayesian Variational Inference for Sentiment Analysis
-
-**Journal/Status:** Manuscript in preparation.  
-**Authors:** **Li Yuan**.  
-**Advisor:** [Jing Cao, Ph.D.](https://people.smu.edu/jingcao/).
-
-**Summary:**
-
-- This ongoing research extends the Attention-Based Multiple Instance Classification (AMIC) model from point-estimate sentiment prediction toward uncertainty-aware Bayesian prediction.
-- The proposed Bayesian AMIC framework adds a Bayesian variational layer to pooled document-level embeddings produced by AMIC's attention and sentiment blocks.
-- The method uses variational posterior distributions over neural-network weights, KL regularization against Gaussian priors, binary cross-entropy, and AMIC sparsity and peakness penalties in a unified training loss.
-- Posterior predictive sampling is used to estimate predictive means, credible intervals, variance, entropy, and class-probability uncertainty for document-level sentiment predictions.
-- The framework also proposes a way to derive word-level sentiment contributions from the Bayesian head, supporting interpretable positive and negative word scoring.
-- Experiments are being developed across benchmark sentiment datasets including wine reviews, Twitter sentiment, Amazon reviews, and IMDB movie reviews.
 
 # Publications
 
