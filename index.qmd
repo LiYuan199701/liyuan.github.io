@@ -2,7 +2,7 @@
 title: "Li Yuan (Leon King)"
 about:
   template: trestles
-  image: images/headshot.png
+  image: images/headshots/Headshots/Leon.jpeg
   image-shape: rounded
   links:
     - icon: envelope

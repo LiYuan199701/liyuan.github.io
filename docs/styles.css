@@ -109,6 +109,22 @@ img {
   white-space: nowrap;
 }
 
+.dating-headshot-card {
+  width: min(260px, 70vw);
+  margin: 1rem 0 1.75rem;
+  padding: 0.75rem;
+  border-radius: 18px;
+  background: linear-gradient(145deg, rgba(255, 246, 238, 0.95), rgba(239, 247, 244, 0.9));
+  border: 1px solid rgba(106, 76, 52, 0.12);
+  box-shadow: 0 10px 26px rgba(54, 42, 32, 0.1);
+}
+
+.dating-headshot-card img {
+  display: block;
+  width: 100%;
+  border-radius: 16px;
+}
+
 /* Sports analytics cards and practice image gallery */
 .bow-setup-hero {
   margin: 1.1rem 0 1.5rem;

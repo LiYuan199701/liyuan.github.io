@@ -4,6 +4,12 @@ title: "Dating Level-Up"
 
 This page is a private-style space for reflecting on dating, building confidence, and improving communication, presence, and connection over time.
 
+::: {.dating-headshot-card}
+
+![Personal dating reflection headshot](images/headshots/Headshots/headshot.png)
+
+:::
+
 ::: {.panel-tabset}
 
 ## Self-Knowledge
