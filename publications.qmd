@@ -45,8 +45,6 @@ This interactive seminar presents the ideas, methods, evidence, and practical co
 **Authors:** **Li Yuan** (first author), [Jing Cao, Ph.D.](https://people.smu.edu/jingcao/), and [Raanju R. Sundararajan, Ph.D.](https://www.smu.edu/dedman/academics/departments/statistics/people/faculty/sundarajan).  
 **Role:** First author; model development, Bayesian uncertainty framework, experiments, interpretation, and manuscript writing.
 
-[Permanent link for applications](https://liyuan199701.github.io/liyuan.github.io/publications.html#bamic){.publication-permalink}
-
 <details class="publication-abstract">
 <summary>Show abstract</summary>
 
