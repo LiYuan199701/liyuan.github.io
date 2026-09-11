@@ -11,6 +11,20 @@ body-classes: publications-page
 
 ::: {.publications-manuscripts}
 
+::: {.seminar-feature}
+
+## Research Seminar
+
+### Interpretable and Uncertainty-Aware Bayesian Modeling
+
+This interactive seminar presents the ideas, methods, evidence, and practical contributions behind my two manuscripts under review: **BAMIC** for interpretable sentiment classification and **BPAR** for nonlinear time-series forecasting. It is designed to give faculty search committees a concise overview of my current research program in interpretable Bayesian modeling.
+
+[View interactive seminar slides](seminar/manuscripts-under-review/){.btn .btn-primary target="_blank" rel="noopener"}
+
+<span class="seminar-hint">Use the arrow keys, on-screen controls, or swipe gestures to move through the presentation.</span>
+
+:::
+
 # Manuscripts under review
 
 ## 1. BAMIC: Interpretable Sentiment Classification with Bayesian Uncertainty and Word-Level Contributions
