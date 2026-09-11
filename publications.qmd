@@ -11,9 +11,19 @@ body-classes: publications-page
 
 ::: {.publications-manuscripts}
 
+<nav class="publication-jumpbar" aria-label="Publications table of contents">
+  <span class="publication-jumpbar-label">Jump to</span>
+  <a href="#research-seminar">Research seminar</a>
+  <a href="#bamic">BAMIC</a>
+  <a href="#bpar">BPAR</a>
+  <a href="#biliary-atresia">Biliary atresia</a>
+  <a href="#texas-abortion-ban">Texas abortion ban</a>
+  <a href="#hydrolase-mutation">Hydrolase mutation</a>
+</nav>
+
 ::: {.seminar-feature}
 
-## Research Seminar
+## Research Seminar {#research-seminar}
 
 ### Interpretable and Uncertainty-Aware Bayesian Modeling
 
@@ -21,17 +31,21 @@ This interactive seminar presents the ideas, methods, evidence, and practical co
 
 [View interactive seminar slides](seminar/manuscripts-under-review/){.btn .btn-primary target="_blank" rel="noopener"}
 
+[Permanent link for applications](https://liyuan199701.github.io/liyuan.github.io/publications.html#research-seminar){.publication-permalink}
+
 <span class="seminar-hint">Use the arrow keys, on-screen controls, or swipe gestures to move through the presentation.</span>
 
 :::
 
 # Manuscripts under review
 
-## 1. BAMIC: Interpretable Sentiment Classification with Bayesian Uncertainty and Word-Level Contributions
+## 1. BAMIC: Interpretable Sentiment Classification with Bayesian Uncertainty and Word-Level Contributions {#bamic}
 
 **Journal/Status:** Manuscript under review at [*Information Processing & Management*](https://www.sciencedirect.com/journal/information-processing-and-management).  
 **Authors:** **Li Yuan** (first author), [Jing Cao, Ph.D.](https://people.smu.edu/jingcao/), and [Raanju R. Sundararajan, Ph.D.](https://www.smu.edu/dedman/academics/departments/statistics/people/faculty/sundarajan).  
 **Role:** First author; model development, Bayesian uncertainty framework, experiments, interpretation, and manuscript writing.
+
+[Permanent link for applications](https://liyuan199701.github.io/liyuan.github.io/publications.html#bamic){.publication-permalink}
 
 <details class="publication-abstract">
 <summary>Show abstract</summary>
@@ -48,11 +62,13 @@ We compare BAMIC with five classical, neural, and transformer baselines on four 
 - The model keeps computation efficient by applying Bayesian inference only to two small scalar heads, while deterministic self-attention branches build the contextual token representations.
 - Across Wine, SST-2, IMDB, and Yelp Review Polarity, BAMIC balances accuracy, calibration, interpretability, and selective human-review capability with far fewer trainable parameters than transformer baselines.
 
-## 2. BPAR: Interpretable Bayesian Bernstein Autoregression for Nonlinear Time Series Forecasting
+## 2. BPAR: Interpretable Bayesian Bernstein Autoregression for Nonlinear Time Series Forecasting {#bpar}
 
 **Journal/Status:** Manuscript under review at [*Knowledge-Based Systems*](https://www.sciencedirect.com/journal/knowledge-based-systems).  
 **Authors:** **Li Yuan** (first author) and [Raanju R. Sundararajan, Ph.D.](https://www.smu.edu/dedman/academics/departments/statistics/people/faculty/sundarajan).  
 **Role:** First author; Bayesian model formulation, posterior inference, forecasting experiments, interpretability analysis, and manuscript writing.
+
+[Permanent link for applications](https://liyuan199701.github.io/liyuan.github.io/publications.html#bpar){.publication-permalink}
 
 <details class="publication-abstract">
 <summary>Show abstract</summary>
@@ -71,10 +87,12 @@ The resulting architecture uses a single structured layer and remains substantia
 
 # Manuscripts in progress
 
-## 1. Novel Point-of-Care Diagnostic Risk Model and Clinical Calculator for Biliary Atresia
+## 1. Novel Point-of-Care Diagnostic Risk Model and Clinical Calculator for Biliary Atresia {#biliary-atresia}
 
 **Journal/Status:** Manuscript in preparation for planned submission to [*Hepatology Communications*](https://journals.lww.com/hepcomm/pages/default.aspx), a peer-reviewed, open-access journal.  
 **Authors:** Sandra Rios-Melendez, **Li Yuan**, Song Zhang, Reena Mourya, Pranavkumar Shivakumar, Estella Alonso, Stephen Guthery, Sanjiv Harpavat, Simon Horslen, Binita Kamath, Saul Karpen, Rohit Kohli, Kathleen Loomes, John Magee, Alexander Miethke, Benjamin Shneider, Ron Sokol, Pamela L. Valentino, Jorge Bezerra, Sindhu Pandurangi, and Childhood Liver Disease Research Network (ChiLDReN).
+
+[Permanent link for applications](https://liyuan199701.github.io/liyuan.github.io/publications.html#biliary-atresia){.publication-permalink}
 
 **Summary:**
 
@@ -84,11 +102,13 @@ The resulting architecture uses a single structured layer and remains substantia
 
 # Publications
 
-## 1. Critical Illness Outcomes of Hospitalized Pregnant Women Following a Texas Abortion Ban
+## 1. Critical Illness Outcomes of Hospitalized Pregnant Women Following a Texas Abortion Ban {#texas-abortion-ban}
 
 **Journal:** [*American Journal of Respiratory and Critical Care Medicine*](https://academic.oup.com/ajrccm).  
 **Authors:** Catherine Chen, Deepshikha C. Ashana, Kevin Callison, Courtney Baker, R. Nicholas Burns, Jing Cao, **Li Yuan**, and Hayley B. Gershengorn.  
 [View paper](https://academic.oup.com/ajrccm/advance-article/doi/10.1093/ajrccm/aamag207/8679094?searchresult=1)
+
+[Permanent link for applications](https://liyuan199701.github.io/liyuan.github.io/publications.html#texas-abortion-ban){.publication-permalink}
 
 **Summary:**
 
@@ -96,11 +116,13 @@ The resulting architecture uses a single structured layer and remains substantia
 - In the full cohort, Texas SB8 was not associated with adjusted rates of critical illness, sepsis, mechanical ventilation, or infection; however, the proportion of hospitalized pregnant patients with high-risk features increased after SB8.
 - Among high-risk patients, SB8 was associated with sustained increases in critical illness, sepsis, and infection, highlighting potential implications for infection prevention and critical care planning in abortion-restrictive states.
 
-## 2. Rate-Perturbing Single Amino Acid Mutation for Hydrolases: A Statistical Profiling
+## 2. Rate-Perturbing Single Amino Acid Mutation for Hydrolases: A Statistical Profiling {#hydrolase-mutation}
 
 **Journal:** [*The Journal of Physical Chemistry B*](https://pubs.acs.org/journal/jpcbfk).  
 **Authors:** Bailu Yan, Xinchun Ran, Yaoyukun Jiang, Sarah K. Torrence, **Li Yuan**, Qianzhen Shao, and Zhongyue J. Yang.  
 [View paper](https://pubs.acs.org/doi/10.1021/acs.jpcb.1c05901)
+
+[Permanent link for applications](https://liyuan199701.github.io/liyuan.github.io/publications.html#hydrolase-mutation){.publication-permalink}
 
 **Summary:**
 

@@ -205,6 +205,89 @@ img {
   min-width: 0;
 }
 
+.publication-jumpbar {
+  position: sticky;
+  top: 4.6rem;
+  z-index: 20;
+  display: flex;
+  gap: 0.55rem;
+  align-items: center;
+  width: 100%;
+  margin: 0 0 1.4rem;
+  padding: 0.75rem;
+  overflow-x: auto;
+  border: 1px solid rgba(30, 108, 118, 0.2);
+  border-radius: 14px;
+  background: rgba(248, 252, 250, 0.94);
+  box-shadow: 0 8px 24px rgba(28, 44, 58, 0.1);
+  backdrop-filter: blur(12px);
+  scrollbar-width: thin;
+}
+
+.publication-jumpbar-label {
+  flex: 0 0 auto;
+  padding: 0 0.35rem;
+  color: #52666a;
+  font-size: 0.78rem;
+  font-weight: 800;
+  letter-spacing: 0.08em;
+  text-transform: uppercase;
+}
+
+.publication-jumpbar a {
+  flex: 0 0 auto;
+  padding: 0.38rem 0.72rem;
+  border: 1px solid rgba(23, 107, 115, 0.18);
+  border-radius: 999px;
+  color: #176b73;
+  background: rgba(229, 244, 242, 0.86);
+  font-size: 0.84rem;
+  font-weight: 700;
+  white-space: nowrap;
+}
+
+.publication-jumpbar a:hover,
+.publication-jumpbar a:focus-visible {
+  color: #ffffff;
+  background: #176b73;
+}
+
+.publication-permalink {
+  display: inline-flex;
+  align-items: center;
+  margin: 0.15rem 0 0.65rem;
+  color: #176b73;
+  font-size: 0.86rem;
+  font-weight: 700;
+}
+
+.publication-permalink::before {
+  content: "#";
+  margin-right: 0.35rem;
+  font-family: ui-monospace, monospace;
+}
+
+body.quarto-dark .publication-jumpbar {
+  border-color: rgba(79, 195, 232, 0.25);
+  background: rgba(18, 24, 38, 0.94);
+}
+
+body.quarto-dark .publication-jumpbar a {
+  color: #8dd9ec;
+  border-color: rgba(79, 195, 232, 0.25);
+  background: rgba(79, 195, 232, 0.12);
+}
+
+body.quarto-dark .publication-jumpbar a:hover,
+body.quarto-dark .publication-jumpbar a:focus-visible {
+  color: #0b0e14;
+  background: #8dd9ec;
+}
+
+body.quarto-dark .publication-permalink {
+  color: #8dd9ec;
+}
+
 @media (max-width: 820px) {
   .publications-layout {
     grid-template-columns: minmax(0, 1fr);
@@ -213,6 +296,10 @@ img {
   .publications-portrait {
     position: static;
     width: min(220px, 65vw);
+  }
+
+  .publication-jumpbar {
+    top: 4rem;
   }
 }
 
