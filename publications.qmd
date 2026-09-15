@@ -31,8 +31,6 @@ This interactive seminar presents the ideas, methods, evidence, and practical co
 
 [View interactive seminar slides](seminar/manuscripts-under-review/){.btn .btn-primary target="_blank" rel="noopener"}
 
-[Permanent link for applications](https://liyuan199701.github.io/liyuan.github.io/publications.html#research-seminar){.publication-permalink}
-
 <span class="seminar-hint">Use the arrow keys, on-screen controls, or swipe gestures to move through the presentation.</span>
 
 :::
@@ -66,8 +64,6 @@ We compare BAMIC with five classical, neural, and transformer baselines on four 
 **Authors:** **Li Yuan** (first author) and [Raanju R. Sundararajan, Ph.D.](https://www.smu.edu/dedman/academics/departments/statistics/people/faculty/sundarajan).  
 **Role:** First author; Bayesian model formulation, posterior inference, forecasting experiments, interpretability analysis, and manuscript writing.
 
-[Permanent link for applications](https://liyuan199701.github.io/liyuan.github.io/publications.html#bpar){.publication-permalink}
-
 <details class="publication-abstract">
 <summary>Show abstract</summary>
 
@@ -90,8 +86,6 @@ The resulting architecture uses a single structured layer and remains substantia
 **Journal/Status:** Manuscript in preparation for planned submission to [*Hepatology Communications*](https://journals.lww.com/hepcomm/pages/default.aspx), a peer-reviewed, open-access journal.  
 **Authors:** Sandra Rios-Melendez, **Li Yuan**, Song Zhang, Reena Mourya, Pranavkumar Shivakumar, Estella Alonso, Stephen Guthery, Sanjiv Harpavat, Simon Horslen, Binita Kamath, Saul Karpen, Rohit Kohli, Kathleen Loomes, John Magee, Alexander Miethke, Benjamin Shneider, Ron Sokol, Pamela L. Valentino, Jorge Bezerra, Sindhu Pandurangi, and Childhood Liver Disease Research Network (ChiLDReN).
 
-[Permanent link for applications](https://liyuan199701.github.io/liyuan.github.io/publications.html#biliary-atresia){.publication-permalink}
-
 **Summary:**
 
 - This study develops a multivariable logistic risk prediction model for biliary atresia using clinical and biomarker data from cholestatic infants in the ChiLDReN cohort and an external validation cohort from Children's Medical Center Dallas.
@@ -106,8 +100,6 @@ The resulting architecture uses a single structured layer and remains substantia
 **Authors:** Catherine Chen, Deepshikha C. Ashana, Kevin Callison, Courtney Baker, R. Nicholas Burns, Jing Cao, **Li Yuan**, and Hayley B. Gershengorn.  
 [View paper](https://academic.oup.com/ajrccm/advance-article/doi/10.1093/ajrccm/aamag207/8679094?searchresult=1)
 
-[Permanent link for applications](https://liyuan199701.github.io/liyuan.github.io/publications.html#texas-abortion-ban){.publication-permalink}
-
 **Summary:**
 
 - This study used an interrupted time series design to examine 2,344,135 hospitalized pregnant women in Texas from January 2018 through March 2024.
@@ -119,8 +111,6 @@ The resulting architecture uses a single structured layer and remains substantia
 **Journal:** [*The Journal of Physical Chemistry B*](https://pubs.acs.org/journal/jpcbfk).  
 **Authors:** Bailu Yan, Xinchun Ran, Yaoyukun Jiang, Sarah K. Torrence, **Li Yuan**, Qianzhen Shao, and Zhongyue J. Yang.  
 [View paper](https://pubs.acs.org/doi/10.1021/acs.jpcb.1c05901)
-
-[Permanent link for applications](https://liyuan199701.github.io/liyuan.github.io/publications.html#hydrolase-mutation){.publication-permalink}
 
 **Summary:**
 

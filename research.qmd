@@ -1,6 +1,15 @@
 ---
 title: "Research"
+body-classes: research-page
 ---
+
+:::: {.research-layout}
+
+<div class="research-portrait" role="complementary" aria-label="Author portrait">
+<img src="images/headshots/Headshots/research-headshot.jpeg" alt="Professional portrait of Li Yuan (Leon)">
+</div>
+
+::: {.research-content}
 
 This page summarizes my research projects, publications, and selected research projects. It includes manuscripts under review, manuscripts in progress, and published papers across machine learning, data science, and biomedical applications. Each project includes a brief summary and links to papers or code where available.
 
@@ -341,3 +350,7 @@ This paper was completed for the Ph.D. Qualifying Exam, which assesses a student
 - Reviewed statistical approaches for using text as data in social science and applied research.
 - Discussed attention-based neural network methods for interpretable sentiment analysis.
 - Reproduced computational results from the attention-based multiple-instance classification model.
+
+:::
+
+::::
