@@ -1,0 +1,31 @@
+session_date,session_time,venue,venue_url,club,shot_no,ball_speed_mph,club_speed_mph,backspin_rpm,side_spin_rpm,carry_yd,distance_yd,side_angle_deg,height_deg,club_path_deg,full_contact,source_image,notes
+2026-05-22,18:00,Royal Golf Zone,https://www.royalgolfzone.com/,Driver,7,7.6,5.3,204,0,0.5,2.4,-69.7,0.0,0.0,false,images/sports/golf-2026-05-22-driver-analysis-shots-7-8.png,Obvious non-contact or simulator misread
+2026-05-22,18:00,Royal Golf Zone,https://www.royalgolfzone.com/,Driver,8,127.2,90.0,2855,422,204,217,-6.0,12.5,-12.1,true,images/sports/golf-2026-05-22-driver-analysis-shots-7-8.png,
+2026-05-22,18:00,Royal Golf Zone,https://www.royalgolfzone.com/,Driver,22,111.0,78.5,2502,42,151,171,-15.9,10.7,-2.1,true,images/sports/golf-2026-05-22-driver-list-shots-22-31.png,
+2026-05-22,18:00,Royal Golf Zone,https://www.royalgolfzone.com/,Driver,23,123.6,87.4,2784,1266,197,208,-1.7,16.5,-19.8,true,images/sports/golf-2026-05-22-driver-list-shots-22-31.png,
+2026-05-22,18:00,Royal Golf Zone,https://www.royalgolfzone.com/,Driver,24,118.5,83.8,2674,0,27.9,116,3.0,0.0,0.0,false,images/sports/golf-2026-05-22-driver-list-shots-22-31.png,Low-carry outlier
+2026-05-22,18:00,Royal Golf Zone,https://www.royalgolfzone.com/,Driver,25,115.9,81.9,2619,0,185,199,2.7,16.0,0.0,true,images/sports/golf-2026-05-22-driver-list-shots-22-31.png,
+2026-05-22,18:00,Royal Golf Zone,https://www.royalgolfzone.com/,Driver,26,128.2,90.6,2857,916,204,216,-6.0,12.8,-19.1,true,images/sports/golf-2026-05-22-driver-list-shots-22-31.png,
+2026-05-22,18:00,Royal Golf Zone,https://www.royalgolfzone.com/,Driver,27,37.0,26.2,1000,0,41.9,52.6,-4.6,40.5,0.0,false,images/sports/golf-2026-05-22-driver-list-shots-22-31.png,Obvious mishit or simulator misread
+2026-05-22,18:00,Royal Golf Zone,https://www.royalgolfzone.com/,Driver,28,121.5,85.9,2739,236,170,189,3.4,8.1,0.0,true,images/sports/golf-2026-05-22-driver-list-shots-22-31.png,
+2026-05-22,18:00,Royal Golf Zone,https://www.royalgolfzone.com/,Driver,29,103.9,73.5,2292,0,139,157,12.8,13.9,0.0,false,images/sports/golf-2026-05-22-driver-list-shots-22-31.png,Weak-contact outlier below full-contact threshold
+2026-05-22,18:00,Royal Golf Zone,https://www.royalgolfzone.com/,Driver,30,119.9,84.8,2704,179,190,205,-1.6,13.9,-4.0,true,images/sports/golf-2026-05-22-driver-list-shots-22-31.png,
+2026-05-22,18:00,Royal Golf Zone,https://www.royalgolfzone.com/,Driver,31,133.2,94.2,2866,136,217,230,-4.9,13.4,-6.9,true,images/sports/golf-2026-05-22-driver-list-shots-22-31.png,Best visible carry and total distance
+2026-05-22,18:00,Royal Golf Zone,https://www.royalgolfzone.com/,Driver,38,129.6,91.7,2861,93,213,226,-2.4,15.0,-2.1,true,images/sports/golf-2026-05-22-driver-analysis-shots-38-39.png,
+2026-05-22,18:00,Royal Golf Zone,https://www.royalgolfzone.com/,Driver,39,126.9,89.7,2854,-4,210,222,-0.1,17.0,0.0,true,images/sports/golf-2026-05-22-driver-analysis-shots-38-39.png,
+2026-05-22,18:00,Royal Golf Zone,https://www.royalgolfzone.com/,Driver,47,121.9,86.2,2748,36,195,209,-3.5,14.1,-4.0,true,images/sports/golf-2026-05-22-driver-list-shots-47-56.png,
+2026-05-22,18:00,Royal Golf Zone,https://www.royalgolfzone.com/,Driver,48,125.7,88.9,2830,953,198,211,-8.3,12.4,-22.0,true,images/sports/golf-2026-05-22-driver-list-shots-47-56.png,
+2026-05-22,18:00,Royal Golf Zone,https://www.royalgolfzone.com/,Driver,49,126.0,89.1,2837,-269,205,218,-3.9,14.5,0.0,true,images/sports/golf-2026-05-22-driver-list-shots-47-56.png,
+2026-05-22,18:00,Royal Golf Zone,https://www.royalgolfzone.com/,Driver,50,112.0,79.2,2531,1369,175,188,4.5,18.7,-21.2,true,images/sports/golf-2026-05-22-driver-list-shots-47-56.png,
+2026-05-22,18:00,Royal Golf Zone,https://www.royalgolfzone.com/,Driver,51,120.8,85.4,2723,0,33.6,114,-28.7,0.0,0.0,false,images/sports/golf-2026-05-22-driver-analysis-shots-51-52.png,Low-carry outlier
+2026-05-22,18:00,Royal Golf Zone,https://www.royalgolfzone.com/,Driver,52,125.0,88.4,2816,1389,196,207,-3.9,14.1,-25.8,true,images/sports/golf-2026-05-22-driver-analysis-shots-51-52.png,
+2026-05-22,18:00,Royal Golf Zone,https://www.royalgolfzone.com/,Driver,53,121.7,86.0,2743,340,199,212,2.1,16.5,-2.7,true,images/sports/golf-2026-05-22-driver-list-shots-53-62.png,
+2026-05-22,18:00,Royal Golf Zone,https://www.royalgolfzone.com/,Driver,54,119.5,84.5,2695,247,193,207,3.5,16.1,0.0,true,images/sports/golf-2026-05-22-driver-list-shots-53-62.png,
+2026-05-22,18:00,Royal Golf Zone,https://www.royalgolfzone.com/,Driver,55,126.2,89.2,2841,287,201,215,-9.8,12.3,-2.7,true,images/sports/golf-2026-05-22-driver-list-shots-53-62.png,
+2026-05-22,18:00,Royal Golf Zone,https://www.royalgolfzone.com/,Driver,56,122.5,86.6,2761,276,189,205,0.4,11.5,-3.4,true,images/sports/golf-2026-05-22-driver-analysis-shots-55-56.png,
+2026-05-22,18:00,Royal Golf Zone,https://www.royalgolfzone.com/,Driver,57,116.8,82.6,2637,-396,186,200,-5.7,15.5,0.0,true,images/sports/golf-2026-05-22-driver-list-shots-53-62.png,
+2026-05-22,18:00,Royal Golf Zone,https://www.royalgolfzone.com/,Driver,58,112.0,79.2,2532,1369,164,179,5.0,13.2,-18.6,true,images/sports/golf-2026-05-22-driver-list-shots-53-62.png,
+2026-05-22,18:00,Royal Golf Zone,https://www.royalgolfzone.com/,Driver,59,121.5,85.9,2739,0,68.9,157,-15.1,0.7,0.0,false,images/sports/golf-2026-05-22-driver-list-shots-53-62.png,Low-carry outlier
+2026-05-22,18:00,Royal Golf Zone,https://www.royalgolfzone.com/,Driver,60,117.2,82.9,2646,50,177,194,-1.3,12.0,-2.1,true,images/sports/golf-2026-05-22-driver-list-shots-53-62.png,
+2026-05-22,18:00,Royal Golf Zone,https://www.royalgolfzone.com/,Driver,61,113.3,80.1,2563,0,19.1,116,-9.2,0.0,0.0,false,images/sports/golf-2026-05-22-driver-analysis-shots-61-62.png,Low-carry outlier
+2026-05-22,18:00,Royal Golf Zone,https://www.royalgolfzone.com/,Driver,62,122.2,86.4,2754,0,202,215,2.1,19.3,0.0,true,images/sports/golf-2026-05-22-driver-analysis-shots-61-62.png,

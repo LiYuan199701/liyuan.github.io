@@ -1,0 +1,17 @@
+Set,Stroke,Distance (yd),Swim Time,Rest Time,Visible Stroke Count,Avg SWOLF,Notes
+1,Freestyle,25,10:47,0:58,14,46,"Warm-up or Apple auto-set artifact; swim time is unusually long relative to SWOLF."
+2,Freestyle,25,0:33,4:24,15,48,
+3,Breaststroke,25,0:45,0:21,15,60,
+4,Breaststroke,25,0:42,1:07,13,55,
+5,Backstroke,25,0:39,1:45,12,51,
+6,Breaststroke,25,0:37,1:03,11,48,
+7,Breaststroke,25,0:39,0:52,11,50,
+8,Mixed,25,0:34,2:23,14,,
+9,Kickboard,50,0:50,0:32,0,,
+10,Freestyle,25,0:33,0:47,11,44,
+11,Breaststroke,75,3:38,1:39,14,86,
+12,Breaststroke,25,0:19,2:53,7,26,"Very fast detected set; verify in future sessions."
+13,Breaststroke,50,1:48,1:09,12,66,
+14,Breaststroke,50,1:29,1:07,13,58,
+15,Breaststroke,75,1:43,0:00,11,45,
+Total,All strokes,550,25:36,21:00,,,Visible Apple Watch auto-set total from screenshots.
