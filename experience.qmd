@@ -103,6 +103,8 @@ I conducted comprehensive data analysis on skin hyperpigmentation treatment effe
 
 I worked as a Data Scientist Intern on the Amazon Alexa team. I built a time-series model for detecting abnormalities in user experience, applying statistical modeling and data science methods to real-world product data.
 
+[View Amazon internship presentation](files/amazon_data_scientist_internship_presentation.pptx){.btn .btn-primary}
+
 ## Additional Training and Professional Development
 
 ### Student Pilot  
