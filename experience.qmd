@@ -1,6 +1,15 @@
 ---
 title: "Research and Academic Experience"
+body-classes: profile-page
 ---
+
+:::: {.publications-layout}
+
+<div class="publications-portrait" role="complementary" aria-label="Author portrait">
+<img src="images/headshots/Headshots/experience-headshot.jpg" alt="Professional portrait of Li Yuan (Leon) in a navy suit">
+</div>
+
+::: {.publications-manuscripts}
 
 ### Graduate Research Assistant  
 **Department of Statistics and Data Science, Southern Methodist University**  
@@ -141,3 +150,7 @@ I completed academic training related to Python programming and multivariate cal
 **Berkeley, California, United States**
 
 I completed graduate-level academic preparation and training in quantitative and computational subjects.
+
+:::
+
+::::

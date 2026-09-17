@@ -204,7 +204,7 @@ ul.task-list li input[type="checkbox"] {
 
 </header>
 
-<div class="publications-layout">
+<div class="research-layout">
 <div class="publications-portrait" role="complementary" aria-label="Author portrait">
 <p><img src="images/headshots/Headshots/research-headshot.jpeg" alt="Professional portrait of Li Yuan (Leon)"></p>
 </div>
@@ -504,7 +504,40 @@ Ph.D.&nbsp;Qualifying Exam research paper, Southern Methodist University.</p>
 </section>
 </section>
 </div>
+<div class="research-toc" role="complementary" aria-label="Research table of contents">
+<div class="research-toc-title">
+On this page
 </div>
+<nav id="research-item-toc">
+</nav>
+</div>
+</div>
+<script>
+document.addEventListener("DOMContentLoaded", function () {
+  const toc = document.getElementById("research-item-toc");
+  const content = document.querySelector(".research-layout .publications-manuscripts");
+  if (!toc || !content) return;
+
+  const list = document.createElement("ul");
+  content.querySelectorAll("section[id] > h2, section[id] > h3").forEach(function (heading) {
+    const section = heading.parentElement;
+    const item = document.createElement("li");
+    const link = document.createElement("a");
+    link.href = "#" + section.id;
+    link.textContent = heading.textContent.replace("Anchor", "").trim();
+    item.className = heading.tagName === "H2" ? "research-toc-section" : "research-toc-item";
+    link.addEventListener("click", function () {
+      toc.querySelectorAll("a").forEach(function (tocLink) {
+        tocLink.classList.remove("active");
+      });
+      link.classList.add("active");
+    });
+    item.appendChild(link);
+    list.appendChild(item);
+  });
+  toc.appendChild(list);
+});
+</script>
 
 
 

@@ -1,6 +1,15 @@
 ---
 title: "Education"
+body-classes: profile-page
 ---
+
+:::: {.publications-layout}
+
+<div class="publications-portrait" role="complementary" aria-label="Author portrait">
+<img src="images/headshots/Headshots/education-headshot.jpg" alt="Professional studio portrait of Li Yuan (Leon)">
+</div>
+
+::: {.publications-manuscripts}
 
 You can download my CV here:
 
@@ -46,3 +55,7 @@ You can download my CV here:
 - Tools: Git, GitHub, VS Code, Quarto, LaTeX, Jupyter Notebook, RStudio, PyCharm, Tableau, Microsoft Office
 - Data analysis: Data cleaning, exploratory data analysis, statistical inference, visualization
 - Natural language processing: Text preprocessing, sentiment analysis, text classification, topic modeling
+
+:::
+
+::::

@@ -1,6 +1,15 @@
 ---
 title: "Teaching"
+body-classes: profile-page
 ---
+
+:::: {.publications-layout}
+
+<div class="publications-portrait" role="complementary" aria-label="Author portrait">
+<img src="images/headshots/Headshots/teaching-headshot.jpg" alt="Professional portrait of Li Yuan (Leon) by the ocean">
+</div>
+
+::: {.publications-manuscripts}
 
 I am interested in teaching statistics, probability, data science, and statistical computing. My goal as an instructor is to help students develop statistical thinking, computational skills, and the ability to connect quantitative methods with real-world problems.
 
@@ -54,3 +63,7 @@ In the classroom, I aim to:
 - Help students interpret statistical results in practical contexts.
 
 I want students to leave my courses not only knowing how to calculate statistical quantities, but also understanding what those quantities mean, when to use them, and how to communicate their conclusions responsibly.
+
+:::
+
+::::
