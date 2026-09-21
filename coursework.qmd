@@ -1,0 +1,359 @@
+---
+title: "Coursework"
+body-classes: coursework-page
+toc-title: "Schools"
+toc-depth: 2
+---
+
+:::: {.publications-layout}
+
+<div class="publications-portrait" role="complementary" aria-label="Author portrait">
+<img src="images/headshots/Headshots/coursework-headshot.jpeg" alt="Professional portrait of Li Yuan (Leon) in front of a brick wall">
+</div>
+
+::: {.publications-manuscripts}
+
+<div class="coursework-intro">
+<p class="coursework-kicker">Academic record</p>
+<p>This page presents the courses listed in my post-secondary transcripts, organized by institution and academic term. Course titles and codes are included where the issuing transcript provides them; grades and other performance information are intentionally omitted.</p>
+</div>
+
+<nav class="coursework-jumpbar" aria-label="Jump to a school">
+<span>Jump to</span>
+<a href="#sichuan-university">Sichuan</a>
+<a href="#shanghai-zizhu-college">CIS</a>
+<a href="#uc-berkeley-extension">Berkeley Extension</a>
+<a href="#yale-university">Yale</a>
+<a href="#uc-berkeley">UC Berkeley</a>
+<a href="#vanderbilt-university">Vanderbilt</a>
+<a href="#duke-university">Duke</a>
+<a href="#southern-methodist-university">SMU</a>
+</nav>
+
+::: {.coursework-school}
+## Sichuan University {#sichuan-university}
+
+**Bachelor of Science in Statistics | College of Mathematics | 2015-2019**
+
+::: {.coursework-term}
+### 2015-2016 - Fall
+
+- College English (Comprehensive) I
+- College English (Oral English) I
+- Ideological and Moral Cultivation and Legal Basis
+- Mathematical Analysis I
+- Advanced Algebra I
+- Analytic Geometry
+- Freshman Seminars
+- Physical Education I
+- Military Theory
+- Basis of Computer Technology
+- Mental Health Education
+- Situation and Policy I
+:::
+
+::: {.coursework-term}
+### 2015-2016 - Spring
+
+- College English (Reading and Translation) II
+- College English (Oral English) II
+- The Outline of Chinese Modern History
+- Elementary Number Theory
+- Basics of Modern Algebra
+- Mathematical Analysis II
+- The Spirit and Method of Science
+- Physical Education II
+- Military Training
+- Situation and Policy II
+:::
+
+::: {.coursework-term}
+### 2016-2017 - Fall
+
+- College English (Creative Reading) III
+- The Basic Principles of Marxism
+- Ordinary Differential Equations
+- Functions of Complex Variables
+- Mathematical Analysis III
+- General Topology
+- Probability Theory
+- Physical Education III
+- Situation and Policy III
+:::
+
+::: {.coursework-term}
+### 2016-2017 - Spring
+
+- College English (Creative Reading) IV
+- Mao Zedong Thought and Theoretical System of Socialism with Chinese Characteristics
+- Real Variable Function
+- Mathematical Statistics
+- Mathematical Model and Experiment
+- Advanced Algebra II
+- Approximation Theory / Numerical Analysis
+- The Conservation of the Modena World Heritage UNESCO Site (Italy)
+- University Physics (III) I
+- Physical Education IV
+- Situation and Policy IV
+- Chinese Culture (Literature)
+:::
+
+::: {.coursework-term}
+### 2017-2018 - Fall
+
+- Situation and Policy V
+- Multivariable Statistical Analysis
+- Functional Analysis
+- Mini-Projects
+- Stochastic Process
+- Talks on Mathematics
+- Linear Models
+:::
+
+::: {.coursework-term}
+### 2017-2018 - Spring
+
+- Situation and Policy VI
+- Survival Analysis
+- Time Series Analysis
+- Statistical Computational Methods
+- Seminar on Mathematics
+- Selected Topics on Computational Methods in Modern Sciences
+- Monte Carlo Statistical Methods
+- Modern Statistical Methods
+- Mathematical Statistics
+- Statistical Analysis with Noisy Data and Introduction to Survival Analysis
+- MATLAB Programming and Application
+:::
+
+::: {.coursework-term}
+### 2018-2019 - Fall
+
+- Situation and Policy VII
+- Mathematical Analysis I
+- Advanced Algebra I
+- Probability Theory
+- Database Technology
+- Basis of Computer Software Technology I
+- Programming Basics
+- JavaScript Programming
+- Education and Training of Innovation and Entrepreneurship
+:::
+
+::: {.coursework-term}
+### 2018-2019 - Spring
+
+- Situation and Policy VIII
+- Mathematical Analysis II
+- Graduation Thesis and Practice
+- Algorithmic Design
+- Principles of Machine Learning
+- C++ Language Programming
+- R for Beginners
+:::
+:::
+
+::: {.coursework-school}
+## Shanghai Zizhu College - CIS Program {#shanghai-zizhu-college}
+
+**Academic Summer Session**
+
+::: {.coursework-term}
+### Summer 2019
+
+- Probability and Bayesian Statistics
+:::
+:::
+
+::: {.coursework-school}
+## University of California, Berkeley Extension {#uc-berkeley-extension}
+
+**Berkeley Global Access and Extension coursework**
+
+::: {.coursework-term}
+### Fall 2019
+
+- STAT XB154 - Modern Statistical Prediction and Machine Learning
+- STAT XB33B - Introduction to Advanced Programming in R
+- COLWRIT X407 - Idiomatic English and Oral Communication Skills for ESL
+- COMPSCI X452 - Linux Command Line: An Introduction
+- COLWRIT X414 - GRE Test Preparation
+- COLWRIT X415 - TOEFL Test Preparation
+- COLWRIT X402 - Advanced Grammar Skills in ESL
+- COMPSCI X407.1 - Data Mining Using SQL
+:::
+
+::: {.coursework-term}
+### Spring 2020
+
+- COMPSCI XB61A - The Structure and Interpretation of Computer Programs
+- MATH XB126 - Introduction to Partial Differential Equations
+- MATH XB170 - Mathematical Methods for Optimization
+:::
+:::
+
+::: {.coursework-school}
+## Yale University {#yale-university}
+
+**Summer Programs**
+
+::: {.coursework-term}
+### Summer 2020
+
+- CPSC S100 - Introduction to Computing and Programming
+- ENAS S151 - Multivariable Calculus
+:::
+:::
+
+::: {.coursework-school}
+## University of California, Berkeley {#uc-berkeley}
+
+**Summer Session Visitor**
+
+::: {.coursework-term}
+### Summer 2020
+
+- LINGUIS 188 - Linguistic Data
+- MATH 128A - Numerical Analysis
+:::
+:::
+
+::: {.coursework-school}
+## Vanderbilt University {#vanderbilt-university}
+
+**Master of Science in Data Science | 2020-2022**
+
+::: {.coursework-term}
+### Fall 2020
+
+- DS 5220 - Programming and Simulation
+- DS 5320 - Survey of Data Science Applications
+- DS 5610 - Exploratory Data Analysis
+- DS 5620 - Probability and Statistical Inference
+:::
+
+::: {.coursework-term}
+### Spring 2021
+
+- DS 5340 - Data Science Rights and Responsibility
+- DS 5380 - Data Science in Teams I
+- DS 5420 - Data Management Systems
+- DS 5640 - Modeling and Machine Learning I
+:::
+
+::: {.coursework-term}
+### Fall 2021
+
+- DS 5360 - Case Studies in Data Science
+- DS 5440 - Data Science Algorithms
+- DS 5660 - Modeling and Machine Learning II
+- DS 5800 - Data Science Practicum
+:::
+
+::: {.coursework-term}
+### Spring 2022
+
+- DS 5460 - Big Data Scaling
+- DS 5720 - Social Network Analysis
+- DS 5899 - Special Topics in Data Science
+- DS 5999 - Capstone Development
+:::
+:::
+
+::: {.coursework-school}
+## Duke University {#duke-university}
+
+**Graduate Summer Visitor**
+
+::: {.coursework-term}
+### Summer 2021 - Term 1
+
+- STA 602L - Bayesian Statistical Modeling
+:::
+:::
+
+::: {.coursework-school}
+## Southern Methodist University {#southern-methodist-university}
+
+**Graduate study in Statistical Science | 2022-present**
+
+::: {.coursework-term}
+### Fall 2022
+
+- ESL 6001 - Seminar for International Teaching Assistants
+- STAT 6324 - Computational Statistics
+- STAT 6327 - Mathematical Statistics I
+- STAT 6336 - Statistical Analysis I
+:::
+
+::: {.coursework-term}
+### Spring 2023
+
+- STAT 6328 - Mathematical Statistics II
+- STAT 6337 - Statistical Analysis II
+- STAT 6345 - Linear Regression
+:::
+
+::: {.coursework-term}
+### Summer 2023
+
+- STAT 7110 - Supervised Internship
+:::
+
+::: {.coursework-term}
+### Fall 2023
+
+- STAT 6341 - Sports Analytics
+- STAT 6366 - Statistical Consulting
+- STAT 7331 - Longitudinal Data
+:::
+
+::: {.coursework-term}
+### Spring 2024
+
+- CS 7322 - Introduction to Natural Language Processing
+- STAT 6350 - Analysis of Lifetime Data
+- STAT 6363 - Time Series Analysis
+:::
+
+::: {.coursework-term}
+### Fall 2024
+
+- OREM 8370 - Stochastic Models
+- STAT 6390 - Bayesian Statistics
+- STAT 8398 - Dissertation
+:::
+
+::: {.coursework-term}
+### Spring 2025
+
+- STAT 6383 - Statistical Shape Analysis
+- STAT 7327 - Advanced Statistical Inference
+- STAT 8698 - Dissertation
+:::
+
+::: {.coursework-term}
+### Fall 2025
+
+- STAT 8398 - Dissertation
+- STAT 8698 - Dissertation
+:::
+
+::: {.coursework-term}
+### Spring 2026
+
+- STAT 8398 - Dissertation
+- STAT 8698 - Dissertation
+:::
+
+::: {.coursework-term}
+### Fall 2026
+
+- STAT 8049 - Graduate Full-Time Status
+- STAT 8198 - Dissertation
+:::
+:::
+
+:::
+
+::::

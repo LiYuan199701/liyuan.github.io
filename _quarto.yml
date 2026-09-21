@@ -26,6 +26,8 @@ website:
         text: Experience
       - href: education.qmd
         text: Education
+      - href: coursework.qmd
+        text: Coursework
       - href: dating.qmd
         text: Dating
       - text: Sports
