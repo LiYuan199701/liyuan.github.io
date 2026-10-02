@@ -50,6 +50,35 @@ As a graduate student in statistics, I enjoy helping students build confidence i
 
 I am especially interested in helping students learn how to use statistical software such as R and Python to explore data, fit models, interpret results, and communicate findings clearly.
 
+::: {.mentorship-program}
+### Undergraduate Mentorship - SMU Data Analytics Club
+
+**Spring 2026 | Individual meetings by Zoom or in person**
+
+Through the SMU Data Analytics Club Mentorship Program, I mentor three undergraduate students in individual sessions. We use a flexible meeting schedule to discuss career development and schoolwork connected with each student's major, interests, and goals.
+
+Our mentorship conversations may include:
+
+- Career and internship exploration, recruiting strategy, interview preparation, networking, resume review, and professional development.
+- Major exploration, technical skill development, strategies for succeeding in classes, and broader academic guidance.
+- Research, student organizations, and other opportunities at SMU, along with general guidance for navigating college life.
+
+<div class="mentee-grid" role="list" aria-label="Undergraduate mentees">
+<div class="mentee-card" role="listitem">
+<strong>Bloom Wu</strong>
+<a href="mailto:bloomw@smu.edu">bloomw@smu.edu</a>
+</div>
+<div class="mentee-card" role="listitem">
+<strong>Vj Singh</strong>
+<a href="mailto:viraajs@smu.edu">viraajs@smu.edu</a>
+</div>
+<div class="mentee-card" role="listitem">
+<strong>Marshall Minor</strong>
+<a href="mailto:mminor@smu.edu">mminor@smu.edu</a>
+</div>
+</div>
+:::
+
 ## Teaching Philosophy
 
 My teaching goal is to help students understand statistical thinking, not only memorize formulas. I believe effective statistics teaching should combine mathematical foundations, computational practice, and real-world interpretation.
